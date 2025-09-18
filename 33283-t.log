@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.18)  18 SEP 2025 10:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.18)  18 SEP 2025 11:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1902,13 +1902,13 @@ Package pdftex.def Info: ./images/235a.pdf  used on input line 8897.
 [231]
 
 [232]
-Overfull \hbox (11.78485pt too wide) in paragraph at lines 9122--9124
+Overfull \hbox (11.78485pt too wide) in paragraph at lines 9118--9120
 []\OT1/cmr/m/n/12 Sumando es-tas dos ^^Sultimas ecua-ciones, nos de-shace-mos d
 e $[] []$,
  []
 
 
-Overfull \hbox (96.62633pt too wide) detected at line 9162
+Overfull \hbox (96.62633pt too wide) detected at line 9158
 []
  []
 
@@ -1933,7 +1933,7 @@ Overfull \hbox (96.62633pt too wide) detected at line 9162
 
 
 
-Overfull \hbox (10.67892pt too wide) in paragraph at lines 9291--9292
+Overfull \hbox (10.67892pt too wide) in paragraph at lines 9287--9288
 []\OT1/cmr/m/n/12 Encuentra $[] [] []([][] \OML/cmm/m/it/12 x\OT1/cmr/m/n/12 ) 
 \OML/cmm/m/it/12 dx$\OT1/cmr/m/n/12 . 
  []
@@ -1953,7 +1953,7 @@ Overfull \hbox (10.67892pt too wide) in paragraph at lines 9291--9292
 
 
 [237]
-Overfull \hbox (2.45898pt too wide) in paragraph at lines 9299--9300
+Overfull \hbox (2.45898pt too wide) in paragraph at lines 9295--9296
 []\OT1/cmr/m/n/12 Encuentra $[] [] \OML/cmm/m/it/12 dx$\OT1/cmr/m/n/12 . 
  []
 
@@ -1995,21 +1995,21 @@ Overfull \hbox (2.45898pt too wide) in paragraph at lines 9299--9300
 [244]
 
 [245]
-Overfull \hbox (1.284pt too wide) detected at line 9596
+Overfull \hbox (1.284pt too wide) detected at line 9592
 []
  []
 
 
 
 [246]
-Overfull \hbox (91.84723pt too wide) detected at line 9642
+Overfull \hbox (91.84723pt too wide) detected at line 9638
 []
  []
 
 
 
 [247]
-Overfull \hbox (86.17531pt too wide) detected at line 9689
+Overfull \hbox (86.17531pt too wide) detected at line 9685
 []
  []
 
@@ -2036,7 +2036,7 @@ Overfull \hbox (86.17531pt too wide) detected at line 9689
 ]
 
 [256]
-Overfull \hbox (13.55359pt too wide) in paragraph at lines 9959--9982
+Overfull \hbox (13.55359pt too wide) in paragraph at lines 9955--9978
  [] 
  []
 
@@ -2123,7 +2123,7 @@ Overfull \hbox (13.55359pt too wide) in paragraph at lines 9959--9982
 
 
 
-Overfull \hbox (2.47119pt too wide) in paragraph at lines 10154--10156
+Overfull \hbox (2.47119pt too wide) in paragraph at lines 10150--10152
 []$\OML/cmm/m/it/12 R[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 a \OT1/cmr/m/n/12 + 2\
 OML/cmm/m/it/12 bt\OT1/cmr/m/n/12 )$, $\OML/cmm/m/it/12 R[] []$\OT1/cmr/m/n/12 
 , $\OMS/cmsy/m/n/12 ^^@[]$ \OT1/cmr/m/n/12 or $[]$. 
@@ -2408,7 +2408,7 @@ OML/cmm/m/it/12 bt\OT1/cmr/m/n/12 )$, $\OML/cmm/m/it/12 R[] []$\OT1/cmr/m/n/12
 [275]
 
 [276]
-Underfull \hbox (badness 1975) in paragraph at lines 10807--10808
+Underfull \hbox (badness 1975) in paragraph at lines 10803--10804
 \OT1/cmr/m/n/17.28 Differential and In-te-gral Cal-cu-lus for Tech-ni-cal
  []
 
@@ -2613,7 +2613,7 @@ Package rerunfilecheck Info: File `33283-t.out' has not changed.
 Here is how much of TeX's memory you used:
  13729 strings out of 468133
  210612 string characters out of 5430228
- 651376 words of memory out of 5000000
+ 651377 words of memory out of 5000000
  41240 multiletter control sequences out of 15000+600000
  644251 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2650,7 +2650,7 @@ son/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:
 /Users/Jerson/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt
 9.pfb><C:/Users/Jerson/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/symbols/msam10.pfb>
-Output written on 33283-t.pdf (301 pages, 1921519 bytes).
+Output written on 33283-t.pdf (301 pages, 1921435 bytes).
 PDF statistics:
  3534 PDF objects out of 3580 (max. 8388607)
  937 named destinations out of 1000 (max. 500000)
