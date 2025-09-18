@@ -7948,45 +7948,45 @@ dy &= ax^{12} · dx,\\
 y &= a × \tfrac{1}{13} x^{13} + C.
 \end{align*}
 
-So that is done. How easy!
+Así que eso está hecho. ¡Qué fácil!
 \DPPageSep{208.png}{196}%
 
-We begin to realize now that integrating is a
-process of \emph{finding our way back}, as compared with
-differentiating. If ever, during differentiating, we
-have found any particular expression---in this example
-$ax^{12}$---we can find our way back to the~$y$ from which
-it was derived. The contrast between the two
-processes may be illustrated by the following remark
-due to a well-known teacher. If a stranger were set
-down in Trafalgar Square, and told to find his way to
-Euston Station, he might find the task hopeless. But
-if he had previously been personally conducted from
-Euston Station to Trafalgar Square, it would be
-comparatively easy to him to find his way back to
+Empezamos a darnos cuenta ahora que integrar es un
+proceso de \emph{encontrar nuestro camino de regreso}, comparado con
+diferenciar. Si alguna vez, durante la diferenciación, hemos
+encontrado cualquier expresión particular---en este ejemplo
+$ax^{12}$---podemos encontrar nuestro camino de regreso a la~$y$ de la cual
+fue derivada. El contraste entre los dos
+procesos puede ser ilustrado por la siguiente observación
+debida a un maestro bien conocido. Si un extraño fuera puesto
+en Trafalgar Square, y se le dijera que encontrara su camino a
+Euston Station, podría encontrar la tarea imposible. Pero
+si previamente hubiera sido conducido personalmente desde
+Euston Station a Trafalgar Square, sería
+comparativamente fácil para él encontrar su camino de regreso a
 Euston Station.
 
-\Section{Integration of the Sum or Difference of two
-Functions.}
+\Section{Integración de la Suma o Diferencia de dos
+Funciones.}
 
 \begin{DPalign*}
-\lintertext{\indent Let}
+\lintertext{\indent Sea}
 \frac{dy}{dx} &= x^2 + x^3, \\
-\lintertext{then}
+\lintertext{entonces}
 dy &= x^2\, dx + x^3\, dx.
 \end{DPalign*}
 
-There is no reason why we should not integrate
-each term separately: for, as may be seen on \Pageref{sumdiffer},
-we found that when we differentiated the sum of two
-separate functions, the differential coefficient was
-simply the sum of the two separate differentiations.
-So, when we work backwards, integrating, the integration
-will be simply the sum of the two separate
-integrations.
+No hay razón por la cual no debiéramos integrar
+cada término por separado: pues, como puede verse en \Pageref{sumdiffer},
+encontramos que cuando diferenciamos la suma de dos
+funciones separadas, el coeficiente diferencial fue
+simplemente la suma de las dos diferenciaciones separadas.
+Así, cuando trabajamos hacia atrás, integrando, la integración
+será simplemente la suma de las dos integraciones
+separadas.
 \DPPageSep{209.png}{197}%
 
-Our instructions will then be:
+Nuestras instrucciones serán entonces:
 \begin{align*}
 \int dy
   &= \int (x^2 + x^3)\, dx \\
@@ -7994,166 +7994,166 @@ Our instructions will then be:
 y &= \tfrac{1}{3} x^3 + \tfrac{1}{4} x^4 + C.
 \end{align*}
 
-If either of the terms had been a negative quantity,
-the corresponding term in the integral would have
-also been negative. So that differences are as readily
-dealt with as sums.
+Si cualquiera de los términos hubiera sido una cantidad negativa,
+el término correspondiente en la integral habría
+sido también negativo. Así que las diferencias se tratan tan fácilmente
+como las sumas.
 
-\Section{How to deal with Constant Terms.}
+\Section{Cómo tratar con Términos Constantes.}
 
-Suppose there is in the expression to be integrated
-a constant term---such as this:
+Supongamos que hay en la expresión a ser integrada
+un término constante---como este:
 \[
 \frac{dy}{dx} = x^n + b.
 \]
 
-This is laughably easy. For you have only to
-remember that when you differentiated the expression
-$y = ax$, the result was $\dfrac{dy}{dx} = a$. Hence, when you work
-the other way and integrate, the constant reappears
-multiplied by~$x$. So we get
+Esto es ridículamente fácil. Pues solo tienes que
+recordar que cuando diferenciaste la expresión
+$y = ax$, el resultado fue $\dfrac{dy}{dx} = a$. Por tanto, cuando trabajas
+en el otro sentido e integras, la constante reaparece
+multiplicada por~$x$. Así obtenemos
 \begin{align*}
 dy &= x^n\, dx + b · dx,  \\
 \int dy &= \int x^n\, dx + \int b\, dx, \\
 y &= \frac{1}{n+1} x^{n+1} + bx + C.
 \end{align*}
 
-Here are a lot of examples on which to try your
-newly acquired powers.
+Aquí hay muchos ejemplos en los cuales probar tus
+poderes recientemente adquiridos.
 
 \tb
 \DPPageSep{210.png}{198}%
 
 
 \Examples.
-(1) Given $\dfrac{dy}{dx} = 24x^{11}$. Find~$y$.\qquad \textit{Ans}.\ $y = 2x^{12} + C$.
+(1) Dado $\dfrac{dy}{dx} = 24x^{11}$. Encuentra~$y$.\qquad \textit{Resp}.\ $y = 2x^{12} + C$.
 
-(2) Find $\ds\int (a + b)(x + 1)\, dx$.\qquad It is $(a + b) \ds\int (x + 1)\, dx$ \\
-or\quad $(a + b) \left[\ds\int x\, dx + \ds\int dx\right]$\quad or\quad $(a + b) \left(\dfrac{x^2}{2} + x\right) + C$.
+(2) Encuentra $\ds\int (a + b)(x + 1)\, dx$.\qquad Es $(a + b) \ds\int (x + 1)\, dx$ \\
+o\quad $(a + b) \left[\ds\int x\, dx + \ds\int dx\right]$\quad o\quad $(a + b) \left(\dfrac{x^2}{2} + x\right) + C$.
 
-(3) Given $\dfrac{du}{dt} = gt^{\efrac{1}{2}}$. Find~$u$.\qquad \textit{Ans}.\ $u = \frac{2}{3} gt^{\efrac{3}{2}} + C$.
+(3) Dado $\dfrac{du}{dt} = gt^{\efrac{1}{2}}$. Encuentra~$u$.\qquad \textit{Resp}.\ $u = \frac{2}{3} gt^{\efrac{3}{2}} + C$.
 
-(4) $\dfrac{dy}{dx} = x^3 - x^2 + x$. Find~$y$.
+(4) $\dfrac{dy}{dx} = x^3 - x^2 + x$. Encuentra~$y$.
 \BindMath{\begin{align*}
-dy &= (x^3 - x^2 + x)\, dx\quad\text{or} \\
+dy &= (x^3 - x^2 + x)\, dx\quad\text{o} \\
 dy &= x^3\, dx - x^2\, dx + x\, dx;\quad
 y = \int x^3\, dx - \int x^2\, dx + \int x\, dx;
 \end{align*}
 \begin{DPalign*}
-\lintertext{and}
+\lintertext{y}
 y &= \tfrac{1}{4} x^4 - \tfrac{1}{3} x^3 + \tfrac{1}{2} x^2 + C.
 \end{DPalign*}}%
 
-(5) Integrate $9.75x^{2.25}\, dx$.\qquad \textit{Ans}.\ $y = 3x^{3.25} + C$.
+(5) Integra $9.75x^{2.25}\, dx$.\qquad \textit{Resp}.\ $y = 3x^{3.25} + C$.
 
 \tb
 
-All these are easy enough. Let us try another case.%
-\SetOddHead{Easiest Integrations}%
+Todos estos son bastante fáciles. Intentemos otro caso.%
+\SetOddHead{Integraciones Más Fáciles}%
 
 \begin{DPalign*}
-\lintertext{Let}
+\lintertext{Sea}
 \dfrac{dy}{dx} &= ax^{-1}.
 \end{DPalign*}
 
-Proceeding as before, we will write
+Procediendo como antes, escribiremos
 \[
 dy = a x^{-1} · dx,\quad \int dy = a \int x^{-1}\, dx.
 \]
 
-Well, but what is the integral of $x^{-1}\, dx$?
+Bien, pero ¿cuál es la integral de $x^{-1}\, dx$?
 
-If you look back amongst the results of differentiating
-$x^2$ and~$x^3$ and $x^n$,~etc., you will find we never
-got~$x^{-1}$ from any one of them as the value of~$\dfrac{dy}{dx}$.
-We got~$3x^2$ from~$x^3$; we got~$2x$ from~$x^2$; we got~$1$
-from~$x^1$ (that is, from $x$~itself); but we did not get
-$x^{-1}$ from~$x^0$, for two very good reasons. \emph{First}, $x^0$~is
-simply~$= 1$, and is a constant, and could not have
+Si miras hacia atrás entre los resultados de diferenciar
+$x^2$ y~$x^3$ y $x^n$,~etc., encontrarás que nunca
+obtuvimos~$x^{-1}$ de ninguno de ellos como el valor de~$\dfrac{dy}{dx}$.
+Obtuvimos~$3x^2$ de~$x^3$; obtuvimos~$2x$ de~$x^2$; obtuvimos~$1$
+de~$x^1$ (esto es, de $x$~mismo); pero no obtuvimos
+$x^{-1}$ de~$x^0$, por dos muy buenas razones. \emph{Primero}, $x^0$~es
+simplemente~$= 1$, y es una constante, y no podría tener
 \DPPageSep{211.png}{199}%
-a differential coefficient. \emph{Secondly}, even if it could
-be differentiated, its differential coefficient (got by
-slavishly following the usual rule) would be $0 × x^{-1}$,
-and that multiplication by zero gives it zero value!
-Therefore when we now come to try to integrate
-$x^{-1}\, dx$, we see that it does not come in anywhere
-in the powers of~$x$ that are given by the rule:
+un coeficiente diferencial. \emph{Segundo}, aun si pudiera
+ser diferenciado, su coeficiente diferencial (obtenido
+siguiendo servilmente la regla usual) sería $0 × x^{-1}$,
+¡y esa multiplicación por cero le da valor cero!
+Por tanto cuando ahora venimos a tratar de integrar
+$x^{-1}\, dx$, vemos que no entra en ninguna parte
+en las potencias de~$x$ que están dadas por la regla:
 \[
 \int x^n\, dx = \dfrac{1}{n+1} x^{n+1}.
 \]
-It is an exceptional case.
+Es un caso excepcional.
 
-Well; but try again. Look through all the various
-differentials obtained from various functions of~$x$, and
-try to find amongst them~$x^{-1}$. A sufficient search
-will show that we actually did get $\dfrac{dy}{dx} = x^{-1}$ as the
-result of differentiating\Pagelabel{intex1} the function $y = \log_\epsilon x$ (see
+Bien; pero intenta de nuevo. Busca entre todas las varias
+diferenciales obtenidas de varias funciones de~$x$, y
+trata de encontrar entre ellas~$x^{-1}$. Una búsqueda suficiente
+mostrará que realmente obtuvimos $\dfrac{dy}{dx} = x^{-1}$ como el
+resultado de diferenciar\Pagelabel{intex1} la función $y = \log_\epsilon x$ (ver
 \Pageref{differlog}). %[ ** Page]
 
-Then, of course, since we know that differentiating
-$\log_\epsilon x$ gives us~$x^{-1}$, we know that, by reversing the
-process, integrating $dy = x^{-1}\, dx$ will give us $y = \log_\epsilon x$.
-But we must not forget the constant factor~$a$ that
-was given, nor must we omit to add the undetermined
-constant of integration. This then gives us as the
-solution to the present problem,
+Entonces, por supuesto, ya que sabemos que diferenciar
+$\log_\epsilon x$ nos da~$x^{-1}$, sabemos que, al invertir el
+proceso, integrar $dy = x^{-1}\, dx$ nos dará $y = \log_\epsilon x$.
+Pero no debemos olvidar el factor constante~$a$ que
+fue dado, ni debemos omitir añadir la constante
+indeterminada de integración. Esto entonces nos da como la
+solución al problema presente,
 \[
 y = a \log_\epsilon x + C.
 \]
 
-\NB---Here note this very remarkable fact, that we
-could not have integrated in the above case if we had
-not happened to know the corresponding differentiation.
-If no one had found out that differentiating
-$\log_\epsilon x$ gave~$x^{-1}$, we should have been utterly stuck by
+\NB---Aquí nota este hecho muy notable, que no
+pudimos haber integrado en el caso anterior si no hubiéramos
+conocido casualmente la diferenciación correspondiente.
+Si nadie hubiera descubierto que diferenciar
+$\log_\epsilon x$ daba~$x^{-1}$, habríamos estado completamente atascados con
 \DPPageSep{212.png}{200}%
-the problem how to integrate~$x^{-1}\, dx$. Indeed it should
-be frankly admitted that this is one of the curious
-features of the integral calculus:---that you can't
-integrate anything before the reverse process of differentiating
-something else has yielded that expression
-which you want to integrate. No one, even to-day,
-is able to find the general integral of the expression,
+el problema de cómo integrar~$x^{-1}\, dx$. En efecto debería
+ser francamente admitido que esta es una de las características
+curiosas del cálculo integral:---que no puedes
+integrar nada antes de que el proceso inverso de diferenciar
+algo más haya producido esa expresión
+que quieres integrar. Nadie, aun hoy día,
+es capaz de encontrar la integral general de la expresión,
 \[
 \frac{dy}{dx} = a^{-x^2},
 \]
-because $a^{-x^2}$ has never yet been found to result from
-differentiating anything else.
+porque $a^{-x^2}$ nunca ha sido encontrado que resulte de
+diferenciar algo más.
 
 
-\Subsection{Another simple case.}
-Find $\ds\int (x + 1)(x + 2)\, dx$.
+\Subsection{Otro caso simple.}
+Encuentra $\ds\int (x + 1)(x + 2)\, dx$.
 
-On looking at the function to be integrated, you
-remark that it is the product of two different functions
-of~$x$. You could, you think, integrate $(x + 1)\, dx$ by
-itself, or $(x + 2)\, dx$ by itself. Of course you could.
-But what to do with a product? None of the differentiations
-you have learned have yielded you for the
-differential coefficient a product like this. Failing
-such, the simplest thing is to multiply up the two
-functions, and then integrate. This gives us
+Al mirar la función a ser integrada, observas
+que es el producto de dos funciones diferentes
+de~$x$. Podrías, piensas, integrar $(x + 1)\, dx$ por
+sí mismo, o $(x + 2)\, dx$ por sí mismo. Por supuesto que podrías.
+Pero ¿qué hacer con un producto? Ninguna de las diferenciaciones
+que has aprendido te ha producido para el
+coeficiente diferencial un producto como este. Faltando
+tal, lo más simple es multiplicar las dos
+funciones, y luego integrar. Esto nos da
 \[
 \int (x^2 + 3x + 2)\, dx.
 \]
-And this is the same as
+Y esto es lo mismo que
 \[
 \int x^2\, dx + \int 3x\, dx + \int 2\, dx.
 \]
-And performing the integrations, we get
+Y realizando las integraciones, obtenemos
 \[
 \tfrac{1}{3} x^3 + \tfrac{3}{2} x^2 + 2x + C.
 \]
 \DPPageSep{213.png}{201}%
 
 
-\Section[Some Other Integrals]{Some other Integrals.}
+\Section[Algunas Otras Integrales]{Algunas otras Integrales.}
 
-Now that we know that integration is the reverse
-of differentiation, we may at once look up the differential
-coefficients we already know, and see from
-what functions they were derived. This gives us the
-following integrals ready made:\Pagelabel{intex2}\Pagelabel{differ3}\Pagelabel{cosax}%
+Ahora que sabemos que la integración es el reverso
+de la diferenciación, podemos de una vez buscar los coeficientes
+diferenciales que ya conocemos, y ver de
+qué funciones fueron derivados. Esto nos da las
+siguientes integrales ya hechas:\Pagelabel{intex2}\Pagelabel{differ3}\Pagelabel{cosax}%
 \begin{alignat*}{4}
 &x^{-1} &&\text{(\Pageref{differlog});}\qquad &&
   \int x^{-1}\, dx      &&= \log_\epsilon x + C. \\
@@ -8168,7 +8168,7 @@ following integrals ready made:\Pagelabel{intex2}\Pagelabel{differ3}\Pagelabel{c
 &\epsilon^{-x} &&&&
   \int \epsilon^{-x}\, dx &&= -\epsilon^{-x} + C \\
 %
-\intertext{(for if $y = - \dfrac{1}{\epsilon^x}$,\quad $\dfrac{dy}{dx} = -\dfrac{\epsilon^x × 0 - 1 × \epsilon^x}{\epsilon^{2x}} = \epsilon^{-x}$).}
+\intertext{(pues si $y = - \dfrac{1}{\epsilon^x}$,\quad $\dfrac{dy}{dx} = -\dfrac{\epsilon^x × 0 - 1 × \epsilon^x}{\epsilon^{2x}} = \epsilon^{-x}$).}
 %
 &\sin x && \text{(\Pageref{differcos});} &&
   \int \sin x\, dx        &&= -\cos x + C. \\
@@ -8176,12 +8176,12 @@ following integrals ready made:\Pagelabel{intex2}\Pagelabel{differ3}\Pagelabel{c
 &\cos x && \text{(\Pageref{differsin});} &&
   \int \cos x\, dx        &&= \sin x + C. \\
 %
-\intertext{\indent Also we may deduce the following:}
+\intertext{\indent También podemos deducir lo siguiente:}
 %
 &\log_\epsilon x; &&&&
   \int\log_\epsilon x\, dx &&= x(\log_\epsilon x - 1) + C \\
 %
-\intertext{(for if $y = x \log_\epsilon x - x$,\quad $\dfrac{dy}{dx} = \dfrac{x}{x} + \log_\epsilon x - 1 = \log_\epsilon x$).}
+\intertext{(pues si $y = x \log_\epsilon x - x$,\quad $\dfrac{dy}{dx} = \dfrac{x}{x} + \log_\epsilon x - 1 = \log_\epsilon x$).}
 \DPPageSep{214.png}{202}%
 %
 &\log_{10} x;   &&&&
@@ -8192,308 +8192,308 @@ following integrals ready made:\Pagelabel{intex2}\Pagelabel{differ3}\Pagelabel{c
 %
 % \label{cosax}
 &\cos ax; &&&& \int\cos ax\, dx     &&= \frac{1}{a} \sin ax + C \\
-\intertext{(for if $y = \sin ax$, $\dfrac{dy}{dx} = a \cos ax$; hence to get $\cos ax$
-one must differentiate $y = \dfrac{1}{a} \sin ax$).}
+\intertext{(pues si $y = \sin ax$, $\dfrac{dy}{dx} = a \cos ax$; por tanto para obtener $\cos ax$
+uno debe diferenciar $y = \dfrac{1}{a} \sin ax$).}
 %
 &\sin ax; &&&& \int\sin ax\, dx     &&= -\frac{1}{a} \cos ax + C. \\
 \end{alignat*}
 
-Try also $\cos^2\theta$; a little dodge will simplify matters:
+Intenta también $\cos^2\theta$; un pequeño truco simplificará las cosas:
 \begin{DPgather*}
 \cos 2\theta = \cos^2\theta - \sin^2\theta
              = \DPtypo{2\cos 2\theta - 1}{2\cos^2 \theta - 1}; \\
-\lintertext{hence}
+\lintertext{por tanto}
 \cos^2\theta = \tfrac{1}{2}(\DPtypo{\cos^2 \theta + 1}{\cos 2\theta + 1}),
 \end{DPgather*}
 \begin{DPalign*}
-\lintertext{and}
+\lintertext{y}
 \int\cos^2 \theta\, d\theta
   &= \tfrac{1}{2} \int (\cos 2\theta + 1)\, d\theta \\
   &= \tfrac{1}{2} \int \cos 2 \theta\, d\theta + \tfrac{1}{2} \int d\theta. \\
-  &= \frac{\sin 2\theta}{4} + \frac{\theta}{2} + C.\text{ (See also \Pageref{moreexamples}).} %[ ** Page]
+  &= \frac{\sin 2\theta}{4} + \frac{\theta}{2} + C.\text{ (Ver también \Pageref{moreexamples}).} %[ ** Page]
 \end{DPalign*}
 
 
-See also the Tabla de Formas Estándar on \Pagerange{stdforms1}{stdforms2}.
-You should make such a table for yourself, putting
-in it only the general functions which you have
-successfully differentiated and integrated. See to it
-that it grows steadily!
+Ver también la Tabla de Formas Estándar en \Pagerange{stdforms1}{stdforms2}.
+Deberías hacer tal tabla para ti mismo, poniendo
+en ella solo las funciones generales que hayas
+diferenciado e integrado exitosamente. ¡Asegúrate de
+que crezca constantemente!
 \DPPageSep{215.png}{203}%
 
 
-\Section[Double Integrals]{On Double and Triple Integrals.}
+\Section[Integrales Dobles]{Sobre Integrales Dobles y Triples.}
 
-In many cases it is necessary to integrate some
-expression for two or more variables contained in it;
-and in that case the sign of integration appears more
-than once. Thus,
+En muchos casos es necesario integrar alguna
+expresión para dos o más variables contenidas en ella;
+y en ese caso el signo de integración aparece más
+de una vez. Así,
 \[
 \iint f(x,y,)\, dx\, dy
 \]
-means that some function of the variables $x$~and~$y$
-has to be integrated for each. It does not matter in
-which order they are done. Thus, take the function
-$x^2 + y^2$. Integrating it with respect to~$x$ gives us:
+significa que alguna función de las variables $x$~y~$y$
+tiene que ser integrada para cada una. No importa en
+qué orden se hagan. Así, toma la función
+$x^2 + y^2$. Integrándola con respecto a~$x$ nos da:
 \[
 \int (x^2+y^2)\, dx = \tfrac{1}{3} x^3 + xy^2.
 \]
 
-Now, integrate this with respect to~$y$:
+Ahora, integra esto con respecto a~$y$:
 \[
 \int (\tfrac{1}{3} x^3 + xy^2)\, dy = \tfrac{1}{3} x^3y + \tfrac{1}{3} xy^3,
 \]
-to which of course a constant is to be added. If we
-had reversed the order of the operations, the result
-would have been the same.
+a lo cual por supuesto se debe añadir una constante. Si hubiéramos
+invertido el orden de las operaciones, el resultado
+habría sido el mismo.
 
-In dealing with areas of surfaces and of solids, we
-have often to integrate both for length and breadth,
-and thus have integrals of the form
+Al tratar con áreas de superficies y de sólidos, a menudo
+tenemos que integrar tanto para longitud como anchura,
+y así tenemos integrales de la forma
 \[
 \iint u · dx\, dy,
 \]
-where $u$ is some property that depends, at each point,
-on~$x$ and on~$y$. This would then be called a \emph{surface-integral}.
-It indicates that the value of all such
+donde $u$ es alguna propiedad que depende, en cada punto,
+de~$x$ y de~$y$. Esto entonces se llamaría una \emph{integral de superficie}.
+Indica que el valor de todos tales
 \DPPageSep{216.png}{204}%
-elements as $u · dx · dy$ (that is to say, of the value of~$u$
-over a little rectangle $dx$~long and $dy$~broad) has to be
-summed up over the whole length and whole breadth.
+elementos como $u · dx · dy$ (esto es, del valor de~$u$
+sobre un pequeño rectángulo $dx$~de largo y $dy$~de ancho) tiene que ser
+sumado sobre toda la longitud y toda la anchura.
 
-Similarly in the case of solids, where we deal with
-three dimensions. Consider any element of volume,
-the small cube whose dimensions are $dx$~$dy$~$dz$. If
-the figure of the solid be expressed by the function
-$f(x, y, z)$, then the whole solid will have the \emph{volume-integral},
+Similarmente en el caso de sólidos, donde tratamos con
+tres dimensiones. Considera cualquier elemento de volumen,
+el pequeño cubo cuyas dimensiones son $dx$~$dy$~$dz$. Si
+la figura del sólido se expresa por la función
+$f(x, y, z)$, entonces todo el sólido tendrá la \emph{integral de volumen},
 \[
-\text{volume} = \iiint f(x,y,z) · dx · dy · dz.
+\text{volumen} = \iiint f(x,y,z) · dx · dy · dz.
 \]
-Naturally, such integrations have to be taken between
-appropriate limits\footnote
-  {See \Pageref{limits} for integration between limits.}
-in each dimension; and the
-integration cannot be performed unless one knows in
-what way the boundaries of the surface depend on
-$x$,~$y$, and~$z$. If the limits for~$x$ are from $x_1$ to~$x_2$,
-those for~$y$ from $y_1$ to~$y_2$, and those for~$z$ from $z_1$
-to~$z_2$, then clearly we have
+Naturalmente, tales integraciones tienen que ser tomadas entre
+límites apropiados\footnote
+  {Ver \Pageref{limits} para integración entre límites.}
+en cada dimensión; y la
+integración no puede ser realizada a menos que uno sepa de
+qué manera las fronteras de la superficie dependen de
+$x$,~$y$, y~$z$. Si los límites para~$x$ van de $x_1$ a~$x_2$,
+los para~$y$ de $y_1$ a~$y_2$, y los para~$z$ de $z_1$
+a~$z_2$, entonces claramente tenemos
 \[
-\text{volume} = \int_{z1}^{z2} \int_{y1}^{y2} \int_{x1}^{x2} f(x,y,z) · dx · dy · dz.
+\text{volumen} = \int_{z1}^{z2} \int_{y1}^{y2} \int_{x1}^{x2} f(x,y,z) · dx · dy · dz.
 \]
 
-There are of course plenty of complicated and
-difficult cases; but, in general, it is quite easy to
-see the significance of the symbols where they are
-intended to indicate that a certain integration has to
-be performed over a given surface, or throughout a
-given solid space.
+Hay por supuesto muchos casos complicados y
+difíciles; pero, en general, es bastante fácil
+ver el significado de los símbolos donde están
+destinados a indicar que cierta integración tiene que
+ser realizada sobre una superficie dada, o a través de
+un espacio sólido dado.
 \DPPageSep{217.png}{205}%
 
 
-\Exercises[SIMPLE INTEGRATIONS]{XVII}
-(See \Pageref{AnsEx:XVII} for the Answers.)
+\Exercises[INTEGRACIONES SIMPLES]{XVII}
+(Ver \Pageref{AnsEx:XVII} para las Respuestas.)
 \begin{Problems}
-\Item{(1)} Find  $\ds\int y\, dx$ when  $y^2 = 4 ax$.
+\Item{(1)} Encuentra  $\ds\int y\, dx$ cuando  $y^2 = 4 ax$.
 
 \ResetCols{2}
-\Item{(2)} Find  $\ds\int \frac{3}{x^4}\, dx$.
-\Item{(3)} Find  $\ds\int \frac{1}{a} x^3\, dx$.
+\Item{(2)} Encuentra  $\ds\int \frac{3}{x^4}\, dx$.
+\Item{(3)} Encuentra  $\ds\int \frac{1}{a} x^3\, dx$.
 
 \ResetCols{2}
-\Item{(4)} Find  $\ds\int (x^2 + a)\, dx$.
-\Item{(5)} Integrate $5x^{-\efrac{7}{2}}$.
+\Item{(4)} Encuentra  $\ds\int (x^2 + a)\, dx$.
+\Item{(5)} Integra $5x^{-\efrac{7}{2}}$.
 
 \ResetCols{1}
-\Item{(6)} Find  $\ds\int (4x^3 + 3x^2 + 2x + 1)\, dx$.
+\Item{(6)} Encuentra  $\ds\int (4x^3 + 3x^2 + 2x + 1)\, dx$.
 
-\Item{(7)} If $\dfrac{dy}{dx} = \dfrac{ax}{2} + \dfrac{bx^2}{3} + \dfrac{cx^3}{4}$; find~$y$.
+\Item{(7)} Si $\dfrac{dy}{dx} = \dfrac{ax}{2} + \dfrac{bx^2}{3} + \dfrac{cx^3}{4}$; encuentra~$y$.
 
 \ResetCols{2}
-\Item{(8)} Find $\ds\int \left(\frac{x^2 + a}{x + a}\right) dx$.
-\Item{(9)}  Find $\ds\int (x + 3)^3\, dx$.
+\Item{(8)} Encuentra $\ds\int \left(\frac{x^2 + a}{x + a}\right) dx$.
+\Item{(9)}  Encuentra $\ds\int (x + 3)^3\, dx$.
 
 \ResetCols{1}
-\Item{(10)} Find $\ds\int (x + 2)(x - a)\, dx$.
+\Item{(10)} Encuentra $\ds\int (x + 2)(x - a)\, dx$.
 
-\Item{(11)} Find $\ds\int (\sqrt x + \sqrt[3] x) 3a^2\, dx$.
+\Item{(11)} Encuentra $\ds\int (\sqrt x + \sqrt[3] x) 3a^2\, dx$.
 
-\Item{(12)} Find $\ds\int (\sin \theta - \tfrac{1}{2})\, \frac{d\theta}{3}$.
-
-\ResetCols{2}
-\Item{(13)} Find  $\ds\int \cos^2 a \theta\, d\theta$.
-\Item{(14)} Find  $\ds\int \sin^2 \theta\, d\theta$.
+\Item{(12)} Encuentra $\ds\int (\sin \theta - \tfrac{1}{2})\, \frac{d\theta}{3}$.
 
 \ResetCols{2}
-\Item{(15)} Find  $\ds\int \sin^2 a \theta\, d\theta$.
-\Item{(16)} Find  $\ds\int \epsilon^{3x}\, dx$.
+\Item{(13)} Encuentra  $\ds\int \cos^2 a \theta\, d\theta$.
+\Item{(14)} Encuentra  $\ds\int \sin^2 \theta\, d\theta$.
 
 \ResetCols{2}
-\Item{(17)} Find  $\ds\int \dfrac{dx}{1 + x}$.
-\Item{(18)} Find  $\ds\int \dfrac{dx}{1 - x}$.
+\Item{(15)} Encuentra  $\ds\int \sin^2 a \theta\, d\theta$.
+\Item{(16)} Encuentra  $\ds\int \epsilon^{3x}\, dx$.
+
+\ResetCols{2}
+\Item{(17)} Encuentra  $\ds\int \dfrac{dx}{1 + x}$.
+\Item{(18)} Encuentra  $\ds\int \dfrac{dx}{1 - x}$.
 \end{Problems}
 \DPPageSep{218.png}{206}%
 
 
 \Chapter[ENCONTRANDO ÁREAS POR INTEGRACIÓN]{XIX}{Sobre Encontrar Áreas por Integración}
 
-\First{One} use of the integral calculus is to enable us to
-ascertain the values of areas bounded by curves.
+\First{Un} uso del cálculo integral es permitirnos
+determinar los valores de áreas delimitadas por curvas.
 
-Let us try to get at the subject bit by bit.
+Tratemos de abordar el tema paso a paso.
 
 \Figure[2.5in]{218a}{52}
 
-Let $AB$ (\Fig{52}) be a curve, the equation to which
-is known. That is, $y$~in this curve is some known
-function of~$x$. Think of a piece of the curve from
-the point~$P$ to the point~$Q$.
+Sea $AB$ (\Fig{52}) una curva, cuya ecuación
+es conocida. Es decir, $y$~en esta curva es alguna función
+conocida de~$x$. Piensa en una porción de la curva desde
+el punto~$P$ hasta el punto~$Q$.
 
-Let a perpendicular~$PM$ be dropped from~$P$, and
-another~$QN$ from the point~$Q$. Then call $OM = x_1$
-and $ON = x_2$, and the ordinates $PM = y_1$ and $QN = y_2$.
-We have thus marked out the area~$PQNM$ that lies
+Sea una perpendicular~$PM$ trazada desde~$P$, y
+otra~$QN$ desde el punto~$Q$. Entonces llamemos $OM = x_1$
+y $ON = x_2$, y las ordenadas $PM = y_1$ y $QN = y_2$.
+Así hemos marcado el área~$PQNM$ que se encuentra
 \DPPageSep{219.png}{207}%
-beneath the piece~$PQ$. The problem is, \emph{how can we
-calculate the value of this area}?
+debajo de la porción~$PQ$. El problema es, \emph{¿cómo podemos
+calcular el valor de esta área}?
 
 %[Illustration]
 
-The secret of solving this problem is to conceive
-the area as being divided up into a lot of narrow
-strips, each of them being of the width~$dx$. The
-smaller we take~$dx$, the more of them there will be
-between $x_1$ and~$x_2$. Now, the whole area is clearly
-equal to the sum of the areas of all such strips. Our
-business will then be to discover an expression for
-the area of any one narrow strip, and to integrate it
-so as to add together all the strips. Now think of
-any one of the strips. It
+El secreto para resolver este problema es concebir
+el área como dividida en una gran cantidad de franjas
+estrechas, cada una de ellas con ancho~$dx$. Mientras
+más pequeño tomemos~$dx$, más de ellas habrá
+entre $x_1$ y~$x_2$. Ahora, toda el área es claramente
+igual a la suma de las áreas de todas estas franjas. Nuestro
+trabajo será entonces descubrir una expresión para
+el área de cualquier franja estrecha, e integrarla
+para así sumar todas las franjas. Ahora piensa en
+cualquiera de las franjas. Será
 \begin{wrapfigure}[7]{r}{0.5in}
   \hfill\smash[t]{\raisebox{-1.375in}{\Graphic[0.375in]{219a}}}
 \end{wrapfigure}
-will be like this:
-being bounded between two vertical sides, with
-a flat bottom~$dx$, and with a slightly curved
-sloping top. Suppose we take its \emph{average}
-height as being~$y$; then, as its width is~$dx$, its
-area will be~$y\, dx$. And seeing that we may
-take the width as narrow as we please, if we
-only take it narrow enough its average height will be
-the same as the height at the middle of it. Now
-let us call the unknown value of the whole area~$S$,
-meaning surface. The area of one strip will be
-simply a bit of the whole area, and may therefore
-be called~$dS$. So we may write
+will be como esta:
+delimitada entre dos lados verticales, con
+un fondo plano~$dx$, y con una parte superior
+ligeramente curvada e inclinada. Supongamos que tomamos su altura
+\emph{promedio} como~$y$; entonces, como su ancho es~$dx$, su
+área será~$y\, dx$. Y viendo que podemos
+tomar el ancho tan estrecho como queramos, si
+solo lo tomamos lo suficientemente estrecho su altura promedio será
+la misma que la altura en el medio de ella. Ahora
+llamemos al valor desconocido de toda el área~$S$,
+que significa superficie. El área de una franja será
+simplemente una porción de toda el área, y por lo tanto puede
+ser llamada~$dS$. Así que podemos escribir
 \[
-\text{area of $1$~strip} = dS = y · dx.
+\text{área de $1$~franja} = dS = y · dx.
 \]
-If then we add up all the strips, we get
+Si entonces sumamos todas las franjas, obtenemos
 \[
-\text{total area~$S$} = \int dS = \int y\, dx.
+\text{área total~$S$} = \int dS = \int y\, dx.
 \]
 
-So then our finding $S$ depends on whether we can
+Así que entonces encontrar $S$ depende de si podemos
 \DPPageSep{220.png}{208}%
-integrate $y · dx$ for the particular case, when we know
-what the value of~$y$ is as a function of~$x$.
+integrar $y · dx$ para el caso particular, cuando sabemos
+cuál es el valor de~$y$ como función de~$x$.
 
-For instance, if you were told that for the particular
-curve in question $y = b + ax^2$, no doubt you could put
-that value into the expression and say: then I must
-find $\ds\int (b + ax^2)\, dx$. %[ ** \displaystyle]
+Por ejemplo, si te dijeran que para la curva particular
+en cuestión $y = b + ax^2$, sin duda podrías poner
+ese valor en la expresión y decir: entonces debo
+encontrar $\ds\int (b + ax^2)\, dx$. %[ ** \displaystyle]
 
-That is all very well; but a little thought will show
-you that something more must be done. Because the
-area we are trying to find is not the area under the
-whole length of the curve, but only the area limited
-on the left by~$PM$, and on the right by~$QN$, it follows
-that we must do something to define our area between
-those `\emph{limits}.'\Pagelabel{limits} %[ ** F2: Single quotes, elsewhere double]
+Todo eso está muy bien; pero un poco de reflexión te mostrará
+que algo más debe hacerse. Porque el
+área que estamos tratando de encontrar no es el área bajo toda
+la longitud de la curva, sino solo el área limitada
+a la izquierda por~$PM$, y a la derecha por~$QN$, se sigue
+que debemos hacer algo para definir nuestra área entre
+esos `\emph{límites}.'\Pagelabel{limits} %[ ** F2: Single quotes, elsewhere double]
 
-This introduces us to a new notion, namely that of
-\emph{integrating between limits}. We suppose $x$ to vary,
-and for the present purpose we do not require any
-value of~$x$ below~$x_1$ (that is~$OM$), nor any value of~$x$
-above~$x_2$ (that is~$ON$). When an integral is to be
-thus defined between two limits, we call the lower
-of the two values \emph{the inferior limit}, and the upper
-value \emph{the superior limit}. Any integral so limited
-we designate as a \emph{definite integral}, by way of distinguishing
-it from a \emph{general integral} to which no
-limits are assigned.
+Esto nos introduce a una nueva noción, a saber la de
+\emph{integrar entre límites}. Suponemos que $x$ varía,
+y para el propósito presente no requerimos ningún
+valor de~$x$ debajo de~$x_1$ (es decir~$OM$), ni ningún valor de~$x$
+arriba de~$x_2$ (es decir~$ON$). Cuando una integral debe ser
+así definida entre dos límites, llamamos al menor
+de los dos valores \emph{el límite inferior}, y al valor superior
+\emph{el límite superior}. Cualquier integral así limitada
+la designamos como una \emph{integral definida}, para distinguirla
+de una \emph{integral general} a la cual no se
+asignan límites.
 
-In the symbols which give instructions to integrate,
-the limits are marked by putting them at the top
-and bottom respectively of the sign of integration.
-Thus the instruction
+En los símbolos que dan instrucciones para integrar,
+los límites se marcan poniéndolos en la parte superior
+e inferior respectivamente del signo de integración.
+Así la instrucción
 \[
 \int_{x=x_1}^{x=x_2} y · dx
 \]
 \DPPageSep{221.png}{209}%
-will be read: find the integral of~$y · dx$ between the
-inferior limit~$x_1$ and the superior limit~$x_2$.
+se lee: encuentra la integral de~$y · dx$ entre el
+límite inferior~$x_1$ y el límite superior~$x_2$.
 
-Sometimes the thing is written more simply
+A veces la cosa se escribe más simplemente
 \[
 \int^{x_2}_{x_1} y · dx.
 \]
-Well, but \emph{how} do you find an integral between limits,
-when you have got these instructions?
+Bueno, pero \emph{¿cómo} encuentras una integral entre límites,
+cuando tienes estas instrucciones?
 
-Look again at \Fig{52} (\Pageref{fig:52}). Suppose we could %[ ** Page]
-find the area under the larger piece of curve from
-$A$ to~$Q$, that is from $x = 0$ to~$x = x_2$, naming the area
-$AQNO$. Then, suppose we could find the area under
-the smaller piece from $A$ to~$P$, that is from $x = 0$ to
-$x = x_1$, namely the area $APMO$. If then we were to
-subtract the smaller area from the larger, we should
-have left as a remainder the area $PQNM$, which is
-what we want. Here we have the clue as to what
-to do; the definite integral between the two limits is
-\emph{the difference} between the integral worked out for
-the superior limit and the integral worked out for the
-lower limit.
+Mira otra vez la \Fig{52} (\Pageref{fig:52}). Supón que pudiéramos %[ ** Page]
+encontrar el área bajo la porción más grande de curva desde
+$A$ hasta~$Q$, es decir desde $x = 0$ hasta~$x = x_2$, nombrando el área
+$AQNO$. Entonces, supón que pudiéramos encontrar el área bajo
+la porción más pequeña desde $A$ hasta~$P$, es decir desde $x = 0$ hasta
+$x = x_1$, a saber el área $APMO$. Si entonces fuéramos a
+restar el área más pequeña de la más grande, deberíamos
+tener como resto el área $PQNM$, que es
+lo que queremos. Aquí tenemos la clave de qué
+hacer; la integral definida entre los dos límites es
+\emph{la diferencia} entre la integral calculada para
+el límite superior y la integral calculada para el
+límite inferior.
 
-Let us then go ahead. First, find the general
-integral thus:
+Entonces procedamos. Primero, encuentra la
+integral general así:
 \[
 \int y\, dx,
 \]
-and, as $y = b + ax^2$ is the equation to the curve (\Fig{52}),
+y, como $y = b + ax^2$ es la ecuación de la curva (\Fig{52}),
 \[
 \int (b + ax^2)\, dx
 \]
-is the general integral which we must find.
+es la integral general que debemos encontrar.
 
-Doing the integration in question by the rule
-(\Pageref{section:9}), we get
+Haciendo la integración en cuestión por la regla
+(\Pageref{section:9}), obtenemos
 \[
 bx + \frac{a}{3} x^3 + C;
 \]
 \DPPageSep{222.png}{210}%
-and this will be the whole area from~$0$ up to any
-value of~$x$ that we may assign.
+y esta será toda el área desde~$0$ hasta cualquier
+valor de~$x$ que podamos asignar.
 
-Therefore, the larger area up to the superior limit~$x_2$
-will be
+Por lo tanto, el área más grande hasta el límite superior~$x_2$
+será
 \[
 bx_2 + \frac{a}{3} x_2^3 + C;
 \]
-and the smaller area up to the inferior limit~$x_1$ will be
+y el área más pequeña hasta el límite inferior~$x_1$ será
 \[
 bx_1 + \frac{a}{3} x_1^3 + C.
 \]
 
-Now, subtract the smaller from the larger, and we
-get for the area~$S$ the value,
+Ahora, resta la más pequeña de la más grande, y
+obtenemos para el área~$S$ el valor,
 \[
-\text{area~$S$} = b(x_2 - x_1) + \frac{a}{3}(x_2^3 - x_1^3).
+\text{área~$S$} = b(x_2 - x_1) + \frac{a}{3}(x_2^3 - x_1^3).
 \]
 
-This is the answer we wanted. Let us give some
-numerical values. Suppose $b = 10$, $a = 0.06$, and $x_2 = 8$
-and $x_1 = 6$. Then the area~$S$ is equal to
+Esta es la respuesta que queríamos. Demos algunos
+valores numéricos. Supón $b = 10$, $a = 0.06$, y $x_2 = 8$
+y $x_1 = 6$. Entonces el área~$S$ es igual a
 \begin{gather*}
 10(8 - 6) + \frac{0.06}{3} (8^3 - 6^3) \\
 \begin{aligned}
@@ -8504,66 +8504,64 @@ and $x_1 = 6$. Then the area~$S$ is equal to
 \end{aligned}
 \end{gather*}
 
-Let us here put down a symbolic way of stating
-what we have ascertained about limits:
+Pongamos aquí una forma simbólica de expresar
+lo que hemos determinado sobre límites:
 \[
 \int^{x=x_2}_{x=x_1} y\, dx = y_2 - y_1,
 \]
-where $y_2$ is the integrated value of~$y\, dx$ corresponding
-to~$x_2$, and $y_1$~that corresponding to~$x_1$.
+donde $y_2$ es el valor integrado de~$y\, dx$ correspondiente
+a~$x_2$, y $y_1$~el correspondiente a~$x_1$.
 \DPPageSep{223.png}{211}%
 
-All integration between limits requires the difference
-between two values to be thus found. Also note
-that, in making the subtraction the added constant~$C$
-has disappeared.
+Toda integración entre límites requiere que la diferencia
+entre dos valores sea así encontrada. También nota
+que, al hacer la sustracción la constante agregada~$C$
+ha desaparecido.
 
 
 \Examples.
-(1) To familiarize ourselves with the process, let us
-take a case of which we know the answer beforehand.
-Let us find the area of the triangle (\Fig{53}), which
-has base $x = 12$ and height $y = 4$. We know beforehand,
-from obvious mensuration, that the answer will
-come~$24$.
+(1) Para familiarizarnos con el proceso,
+tomemos un caso del cual conocemos la respuesta de antemano.
+Encontremos el área del triángulo (\Fig{53}), que
+tiene base $x = 12$ y altura $y = 4$. Sabemos de antemano,
+por mensuración obvia, que la respuesta será~$24$.
 
 \Figure{223a}{53}
 
-Now, here we have as the ``curve'' a sloping line
-for which the equation is
+Ahora, aquí tenemos como la ``curva'' una línea inclinada
+para la cual la ecuación es
 \[
 y = \frac{x}{3}.
 \]
 
-The area in question will be
+El área en cuestión será
 \[
 \int^{x=12}_{x=0} y · dx = \int^{x=12}_{x=0} \frac{x}{3} · dx.
 \]
 
-Integrating $\dfrac{x}{3}\, dx$ (\Pageref{diffrule}), and putting down the %[ ** Page]
+Integrando $\dfrac{x}{3}\, dx$ (\Pageref{diffrule}), y poniendo %[ ** Page]
 \DPPageSep{224.png}{212}%
-value of the general integral in square brackets with
-the limits marked above and below, we get
+el valor de la integral general entre corchetes con
+los límites marcados arriba y abajo, obtenemos
 \begin{align*}
-\text{area} %[ ** F2: Nowadays the + C would be inside the brackets]
+\text{área} %[ ** F2: Nowadays the + C would be inside the brackets]
   &= \left[ \frac{1}{3} · \frac{1}{2} x^2 \right]^{x=12}_{x=0} + C \\
   &= \left[ \frac{x^2}{6} \right]^{x=12}_{x=0} + C  \\
   &= \left[ \frac{12^2}{6} \right] - \left[ \frac{0^2}{6} \right] \\
-  &= \frac{144}{6} = 24.\quad \textit{Ans}.
+  &= \frac{144}{6} = 24.\quad \textit{Resp}.
 \end{align*}
 
-Let us satisfy ourselves about this rather surprising
-dodge of calculation, by testing it on a simple
-example. Get some squared paper, preferably some
+Satisfagámonos sobre este truco de cálculo bastante sorprendente,
+probándolo en un ejemplo simple. Consigue papel cuadriculado, preferiblemente alguno
 \Figure[2.75in]{224a}{54}
-that is ruled in little squares of one-eighth inch or
-one-tenth inch each way.  On this squared paper
-plot out the graph of the equation,
+que esté dividido en pequeños cuadrados de un octavo de pulgada o
+un décimo de pulgada en cada dirección. En este papel cuadriculado
+traza la gráfica de la ecuación,
 \[
 y = \frac{x}{3}.
 \]
 
-The values to be plotted will be:
+Los valores a trazar serán:
 \[
 \begin{array} {|c|| *{5}{c|}}
 \hline
@@ -8576,62 +8574,62 @@ The values to be plotted will be:
 \end{array}
 \]
 
-The plot is given in \Fig{54}.
+La gráfica se da en la \Fig{54}.
 \DPPageSep{225.png}{213}%
 
-Now reckon out the area beneath the curve \emph{by
-counting the little squares} below the line, from $x = 0$
-as far as $x = 12$ on the right. There are $18$~whole
-squares and four triangles, each of which has an area
-equal to $1\frac{1}{2}$~squares; or, in total, $24$~squares. Hence
-$24$~is the numerical value of the integral of $\dfrac{x}{3}\, dx$
-between the lower limit of $x = 0$ and the higher limit
-of $x = 12$.
+Ahora calcula el área debajo de la curva \emph{contando
+los pequeños cuadrados} debajo de la línea, desde $x = 0$
+hasta $x = 12$ a la derecha. Hay $18$~cuadrados completos
+y cuatro triángulos, cada uno de los cuales tiene un área
+igual a $1\frac{1}{2}$~cuadrados; o, en total, $24$~cuadrados. Por lo tanto
+$24$~es el valor numérico de la integral de $\dfrac{x}{3}\, dx$
+entre el límite inferior de $x = 0$ y el límite superior
+de $x = 12$.
 
-As a further exercise, show that the value of the
-same integral between the limits of $x = 3$ and $x = 15$
-is~$36$.
+Como ejercicio adicional, muestra que el valor de la
+misma integral entre los límites de $x = 3$ y $x = 15$
+es~$36$.
 
 \Figure[2.75in]{225a}{55}
-(2) Find the area, between limits $x = x_1$ and $x = 0$,
-of the curve $y = \dfrac{b}{x + a}$.
+(2) Encuentra el área, entre límites $x = x_1$ y $x = 0$,
+de la curva $y = \dfrac{b}{x + a}$.
 \begin{align*}
-\text{Area}
+\text{Área}
   &= \int^{x=x_1}_{x=0} y · dx
    = \int^{x=x_1}_{x=0} \frac{b}{x+a}\, dx \displaybreak[1] \\
 \DPPageSep{226.png}{214}%
   &= b \bigl[\log_\epsilon(x + a) \bigr]^{x_1} _{0} + C \displaybreak[1] \\
   &= b \bigl[\log_\epsilon(x_1 + a) - \log_\epsilon(0 + a)\bigr] \displaybreak[1] \\
-  &= b \log_\epsilon \frac{x_1 + a}{a}.\quad \textit{Ans}.
+  &= b \log_\epsilon \frac{x_1 + a}{a}.\quad \textit{Resp}.
 \end{align*}
 
-\NB---Notice that in dealing with definite integrals
-the constant~$C$ always disappears by subtraction.
+\NB---Nota que al tratar con integrales definidas
+la constante~$C$ siempre desaparece por sustracción.
 
-Let it be noted that this process of subtracting one
-part from a larger to find the difference is really a
-common practice. How do you find the area of a
+Sea notado que este proceso de restar una
+parte de una más grande para encontrar la diferencia es realmente una
+práctica común. ¿Cómo encuentras el área de un
 \Figure[1.5in]{226a}{56}
-plane ring (\Fig{56}), the outer radius of which is~$r_2$
-and the inner radius is~$r_1$? You know from mensuration
-that the area of the outer circle is~$\pi r_2^2$; then
-you find the area of the inner circle,~$\pi r_1^2$; then you
-subtract the latter from the former, and find area of
-ring $= \pi(r_2^2 - r_1^2)$; which may be written
+anillo plano (\Fig{56}), cuyo radio exterior es~$r_2$
+y el radio interior es~$r_1$? Sabes por mensuración
+que el área del círculo exterior es~$\pi r_2^2$; entonces
+encuentras el área del círculo interior,~$\pi r_1^2$; entonces
+restas la última de la primera, y encuentras el área del
+anillo $= \pi(r_2^2 - r_1^2)$; que puede escribirse
 \[
 \pi(r_2 + r_1)(r_2 - r_1)
 \]
-$= \text{mean circumference of ring} × \text{width of ring}$.
+$= \text{circunferencia media del anillo} × \text{ancho del anillo}$.
 \DPPageSep{227.png}{215}%
 
-(3) Here's another case---that of the \emph{die-away curve}
-(\Pageref{section:5}). Find the area between $x = 0$ and $x = a$, of
-the curve (\Fig{57}) whose equation is
+(3) Aquí hay otro caso---el de la \emph{curva de decaimiento}
+(\Pageref{section:5}). Encuentra el área entre $x = 0$ y $x = a$, de
+la curva (\Fig{57}) cuya ecuación es
 \begin{align*}
 y &= b\epsilon^{-x}. \\
-\text{Area}
+\text{Área}
   &= b\int^{x=a} _{x=0} \epsilon^{-x} · dx. \displaybreak[1] \\
-\intertext{\indent The integration (\Pageref{differ3}) gives}
+\intertext{\indent La integración (\Pageref{differ3}) da}
   &= b\left[-\epsilon^{-x}\right]^a _0 \\
   &= b\bigl[-\epsilon^{-a} - (-\epsilon^{-0})\bigr] \\
   &= b(1-\epsilon^{-a}).
@@ -8639,19 +8637,19 @@ y &= b\epsilon^{-x}. \\
 
 \Figures{227a}{227b}{57}{58}
 
-(4) Another example is afforded by the adiabatic
-curve of a perfect gas, the equation to which is
-$pv^n = c$, where $p$~stands for pressure, $v$~for volume,
-and $n$~is of the value~$1.42$ (\Fig{58}).
+(4) Otro ejemplo es proporcionado por la curva
+adiabática de un gas perfecto, cuya ecuación es
+$pv^n = c$, donde $p$~representa presión, $v$~volumen,
+y $n$~tiene el valor~$1.42$ (\Fig{58}).
 
-Find the area under the curve (which is proportional
+Encuentra el área bajo la curva (que es proporcional
 \DPPageSep{228.png}{216}%
-to the work done in suddenly compressing the gas)
-from volume~$v_2$ to volume~$v_1$.
+al trabajo realizado al comprimir súbitamente el gas)
+desde volumen~$v_2$ hasta volumen~$v_1$.
 
-Here we have
+Aquí tenemos
 \begin{align*}
-\text{area}
+\text{área}
   &= \int^{v=v_2}_{v=v_1} cv^{-n} · dv \\
   &= c\left[\frac{1}{1-n} v^{1-n} \right]^{v_2} _{v_1} \\
   &= c \frac{1}{1-n} (v_2^{1-n} - v_1^{1-n}) \\
@@ -8659,66 +8657,66 @@ Here we have
 \end{align*}
 
 
-\Subsection{An Exercise.}
-Prove the ordinary mensuration formula, that the
-area~$A$ of a circle whose radius is~$R$, is equal to~$\pi R^2$.
+\Subsection{Un Ejercicio.}
+Demuestra la fórmula ordinaria de mensuración, que el
+área~$A$ de un círculo cuyo radio es~$R$, es igual a~$\pi R^2$.
 
 \Figure{228a}{59}
 
-Consider an elementary zone or annulus of the
-surface (\Fig{59}), of breadth~$dr$, situated at a distance~$r$
-from the centre. We may consider the entire surface
-as consisting of such narrow zones, and the
-whole area~$A$ will simply be the integral of all
+Considera una zona elemental o anillo de la
+superficie (\Fig{59}), de anchura~$dr$, situada a una distancia~$r$
+del centro. Podemos considerar toda la superficie
+como consistente de tales zonas estrechas, y toda
+el área~$A$ será simplemente la integral de todas
 \DPPageSep{229.png}{217}%
-such elementary zones from centre to margin, that is,
-integrated from $r = 0$ to $r = R$.
+estas zonas elementales desde el centro hasta el margen, es decir,
+integrada desde $r = 0$ hasta $r = R$.
 
-We have therefore to find an expression for the
-elementary area~$dA$ of the narrow zone. Think of
-it as a strip of breadth~$dr$, and of a length that is
-the periphery of the circle of radius~$r$, that is, a
-length of~$2 \pi r$. Then we have, as the area of the
-narrow zone,
+Tenemos por lo tanto que encontrar una expresión para el
+área elemental~$dA$ de la zona estrecha. Piensa en
+ella como una franja de anchura~$dr$, y de una longitud que es
+la periferia del círculo de radio~$r$, es decir, una
+longitud de~$2 \pi r$. Entonces tenemos, como el área de la
+zona estrecha,
 \[
 dA = 2 \pi r\, dr.
 \]
 
-Hence the area of the whole circle will be:
+Por lo tanto el área de todo el círculo será:
 \[
 A = \int dA
   = \int^{r=R}_{r=0} 2 \pi r · dr
   = 2 \pi \int^{r=R}_{r=0} r · dr.
 \]
 
-Now, the general integral of $r · dr$ is~$\frac{1}{2} r^2$. Therefore,
+Ahora, la integral general de $r · dr$ es~$\frac{1}{2} r^2$. Por lo tanto,
 \begin{DPalign*}
 A &= 2 \pi \bigl[\tfrac{1}{2} r^2 \bigr]^{r=R}_{r=0}; \\
-\lintertext{or}
+\lintertext{o}
 A &= 2 \pi \bigl[\tfrac{1}{2} R^2 - \tfrac{1}{2}(0)^2\bigr]; \\
-\lintertext{whence}
+\lintertext{de donde}
 A &= \pi R^2.
 \end{DPalign*}
 
 
-\Subsection{Another Exercise.}
-Let us find the mean ordinate of the positive part
-of the curve $y = x - x^2$, which is shown in \Fig{60}.
+\Subsection{Otro Ejercicio.}
+Encontremos la ordenada media de la parte positiva
+de la curva $y = x - x^2$, que se muestra en la \Fig{60}.
 \Figure[3in]{229a}{60}
-To find the mean ordinate, we shall have to find the
-area of the piece~$OMN$, and then divide it by the
+Para encontrar la ordenada media, tendremos que encontrar el
+área de la pieza~$OMN$, y entonces dividirla por la
 \DPPageSep{230.png}{218}%
-length of the base~$ON$. But before we can find
-the area we must ascertain the length of the base,
-so as to know up to what limit we are to integrate.
-At $N$ the ordinate~$y$ has zero value; therefore, we
-must look at the equation and see what value of~$x$
-will make $y = 0$. Now, clearly, if $x$ is~$0$, $y$~will also be~$0$,
-the curve passing through the origin~$O$; but also,
-if $x=1$, $y=0$; so that $x=1$ gives us the position of
-the point~$N$.
+longitud de la base~$ON$. Pero antes de que podamos encontrar
+el área debemos determinar la longitud de la base,
+para saber hasta qué límite debemos integrar.
+En $N$ la ordenada~$y$ tiene valor cero; por lo tanto,
+debemos mirar la ecuación y ver qué valor de~$x$
+hará que $y = 0$. Ahora, claramente, si $x$ es~$0$, $y$~también será~$0$,
+pasando la curva por el origen~$O$; pero también,
+si $x=1$, $y=0$; así que $x=1$ nos da la posición del
+punto~$N$.
 
-Then the area wanted is
+Entonces el área deseada es
 \begin{align*}
   &= \int^{x=1}_{x=0} (x-x^2)\, dx \\
   &= \left[\tfrac{1}{2} x^2 - \tfrac{1}{3} x^3 \right]^{1}_{0} \\
@@ -8726,34 +8724,34 @@ Then the area wanted is
   &= \tfrac{1}{6}.
 \end{align*}
 
-But the base length is~$1$.
+Pero la longitud de la base es~$1$.
 
-Therefore, the average ordinate of the curve $= \frac{1}{6}$.
+Por lo tanto, la ordenada promedio de la curva $= \frac{1}{6}$.
 
-[\NB---It will be a pretty and simple exercise in
-maxima and minima to find by differentiation what
-is the height of the maximum ordinate. It \emph{must} be
-greater than the average.]
+[\NB---Será un ejercicio bonito y simple en
+máximos y mínimos encontrar por diferenciación cuál
+es la altura de la ordenada máxima. \emph{Debe} ser
+mayor que el promedio.]
 
-The mean ordinate of any curve, over a range from
-$x= 0$ to $x = x_1$, is given by the expression,
+La ordenada media de cualquier curva, sobre un rango desde
+$x= 0$ hasta $x = x_1$, está dada por la expresión,
 \[
-\text{mean~$y$} = \frac{1}{x_1} \int^{x=x_1}_{x=0} y · dx.
+\text{$y$ promedio} = \frac{1}{x_1} \int^{x=x_1}_{x=0} y · dx.
 \]
 
-One can also find in the same way the surface area
-of a solid of revolution.
+Uno también puede encontrar de la misma manera el área superficial
+de un sólido de revolución.
 \DPPageSep{231.png}{219}%
 
 %[** TN: Original contains a run-in heading]
-\Example. The curve $y=x^2-5$ is revolving about
-the axis of~$x$. Find the area of the surface generated
-by the curve between $x=0$ and~$x=6$.
+\Example. La curva $y=x^2-5$ está girando alrededor
+del eje de~$x$. Encuentra el área de la superficie generada
+por la curva entre $x=0$ y~$x=6$.
 
-A point on the curve, the ordinate of which is~$y$,
-describes a circumference of length~$2\pi y$, and a narrow
-belt of the surface, of width~$dx$, corresponding to this
-point, has for area~$2\pi y\, dx$. The total area is
+Un punto en la curva, cuya ordenada es~$y$,
+describe una circunferencia de longitud~$2\pi y$, y una banda estrecha
+de la superficie, de ancho~$dx$, correspondiente a este
+punto, tiene por área~$2\pi y\, dx$. El área total es
 \begin{align*}
 2\pi \int^{x=6}_{x=0} y\, dx
   &= 2\pi \int^{x=6}_{x=0} (x^2-5)\, dx
@@ -8762,26 +8760,26 @@ point, has for area~$2\pi y\, dx$. The total area is
 \end{align*}
 
 
-\Section{Areas in Polar Coordinates.}
+\Section{Áreas en Coordenadas Polares.}
 
-When the equation of the boundary of an area is
-given as a function of the distance~$r$ of a point of it
-from a fixed point~$O$ (see \Fig{61}) called the \emph{pole}, and
+Cuando la ecuación del límite de un área es
+dada como función de la distancia~$r$ de un punto de ella
+desde un punto fijo~$O$ (ver \Fig{61}) llamado el \emph{polo}, y
 \Figure[2.5in]{231a}{61}
-of the angle which $r$~makes with the positive horizontal
-direction~$OX$, the process just explained can
-be applied just as easily, with a small modification.
-Instead of a strip of area, we consider a small triangle
-$OAB$, the angle at~$O$ being~$d\theta$, and we find the sum
+del ángulo que $r$~hace con la dirección horizontal
+positiva~$OX$, el proceso recién explicado puede
+aplicarse igual de fácilmente, con una pequeña modificación.
+En lugar de una franja de área, consideramos un pequeño triángulo
+$OAB$, siendo el ángulo en~$O$~$d\theta$, y encontramos la suma
 \DPPageSep{232.png}{220}%
-of all the little triangles making up the required
-area.
+de todos los pequeños triángulos que forman el área
+requerida.
 
 {\loosen%
-The area of such a small triangle is approximately
-$\dfrac{AB}{2}×r$ or $\dfrac{r\, d\theta}{2}×r$;} hence the portion of the area
-included between the curve and two positions of~$r$
-corresponding to the angles $\theta_1$~and~$\theta_2$ is given by
+El área de tal pequeño triángulo es aproximadamente
+$\dfrac{AB}{2}×r$ o $\dfrac{r\, d\theta}{2}×r$;} por lo tanto la porción del área
+incluida entre la curva y dos posiciones de~$r$
+correspondientes a los ángulos $\theta_1$~y~$\theta_2$ está dada por
 \[
 \tfrac{1}{2} \int^{\theta=\theta_2}_{\theta=\theta_1} r^2\, d\theta.
 \]
@@ -8790,22 +8788,22 @@ corresponding to the angles $\theta_1$~and~$\theta_2$ is given by
 
 
 \Examples.
-(1) Find the area of the sector of $1$~radian in a
-circumference of radius $a$~\DPchg{inch}{inches}.
+(1) Encuentra el área del sector de $1$~radián en una
+circunferencia de radio $a$~\DPchg{pulgada}{pulgadas}.
 
-The polar equation of the circumference is evidently
-$r=a$. The area is
+La ecuación polar de la circunferencia es evidentemente
+$r=a$. El área es
 \[
 \tfrac{1}{2} \int^{\theta=\theta_2}_{\theta=\theta_1} a^2\, d\theta
   = \frac{a^2}{2} \int^{\theta=1}_{\theta=0} d\theta
   = \frac{a^2}{2}.
 \]
 
-(2) Find the area of the first quadrant of the curve
-(known as ``Pascal's Snail''), the polar equation of
-which is $r=a(1+\cos \theta)$.
+(2) Encuentra el área del primer cuadrante de la curva
+(conocida como ``Caracola de Pascal''), cuya ecuación polar
+es $r=a(1+\cos \theta)$.
 \begin{align*}
-\text{Area}
+\text{Área}
   &= \tfrac{1}{2}  \int^{\theta=\frac{\pi}{2}}_{\theta=0} a^2(1+\cos \theta)^2\, d\theta  \\
   &= \frac{a^2}{2} \int^{\theta=\frac{\pi}{2}}_{\theta=0} (1+2 \cos \theta + \cos^2 \theta)\, d\theta  \\
   &= \frac{a^2}{2} \left[\theta + 2 \sin \theta + \frac{\theta}{2} + \frac{\sin 2 \theta}{4} \right]^{\efrac{\pi}{2}}_{0} \\
@@ -8813,27 +8811,27 @@ which is $r=a(1+\cos \theta)$.
 \end{align*}
 \DPPageSep{233.png}{221}%
 
-\Section{Volumes by Integration.}
+\Section{Volúmenes por Integración.}
 
-What we have done with the area of a little strip
-of a surface, we can, of course, just as easily do with
-the volume of a little strip of a solid. We can add
-up all the little strips that make up the total solid,
-and find its volume, just as we have added up all the
-small little bits that made up an area to find the final
-area of the figure operated upon.
+Lo que hemos hecho con el área de una pequeña franja
+de una superficie, podemos, por supuesto, hacer igual de fácilmente con
+el volumen de una pequeña franja de un sólido. Podemos sumar
+todas las pequeñas franjas que forman el sólido total,
+y encontrar su volumen, así como hemos sumado todos los
+pequeños pedacitos que formaron un área para encontrar el área final
+de la figura sobre la cual operamos.
 
 \tb
 
 
 \Examples.
-(1) Find the volume of a sphere of radius~$r$.
+(1) Encuentra el volumen de una esfera de radio~$r$.
 
-A thin spherical shell has for volume~$4\pi x^2\, dx$ (see
-\Fig{59}, \Pageref{fig:59}); summing up all the concentric shells %[xref, Page]
-which make up the sphere, we have
+Una cáscara esférica delgada tiene por volumen~$4\pi x^2\, dx$ (ver
+\Fig{59}, \Pageref{fig:59}); sumando todas las cáscaras concéntricas %[xref, Page]
+que forman la esfera, tenemos
 \[
-\text{volume sphere}
+\text{volumen esfera}
   = \int^{x=r}_{x=0} 4\pi x^2\, dx
   = 4\pi \left[\frac{x^3}{3} \right]^r_0
   = \tfrac{4}{3} \pi r^3.
@@ -8841,47 +8839,47 @@ which make up the sphere, we have
 
 \Figure[2in]{233a}{62}
 
-We can also proceed as follows: a slice of the
-sphere, of thickness~$dx$, has for volume~$\pi y^2\, dx$ (see
-\Fig{62}). Also $x$ and~$y$ are related by the expression
+También podemos proceder como sigue: una rebanada de la
+esfera, de grosor~$dx$, tiene por volumen~$\pi y^2\, dx$ (ver
+\Fig{62}). También $x$ y~$y$ están relacionados por la expresión
 \[
 y^2 = r^2 - x^2.
 \]
 \DPPageSep{234.png}{222}%
 \begin{DPalign*}
-\lintertext{\indent Hence}
-\text{volume sphere}
+\lintertext{\indent Por lo tanto}
+\text{volumen esfera}
   &= 2 \int^{x=r}_{x=0} \pi(r^2-x^2)\, dx \\
   &= 2 \pi \left[ \int^{x=r}_{x=0} r^2\, dx - \int^{x=r}_{x=0} x^2\, dx \right] \\
   &= 2 \pi \left[r^2x - \frac{x^3}{3} \right]^r_0 = \frac{4\pi}{3} r^3.
 \end{DPalign*}
 
-(2) Find the volume of the solid generated by the
-revolution of the curve $y^2=6x$ about the axis of~$x$,
-between $x=0$ and $x=4$.
+(2) Encuentra el volumen del sólido generado por la
+revolución de la curva $y^2=6x$ alrededor del eje de~$x$,
+entre $x=0$ y $x=4$.
 
-The volume of a strip of the solid is~$\pi y^2\, dx$.
+El volumen de una franja del sólido es~$\pi y^2\, dx$.
 \begin{DPalign*}
-\lintertext{\indent Hence}
-\text{volume}
+\lintertext{\indent Por lo tanto}
+\text{volumen}
   &= \int^{x=4}_{x=0} \pi y^2\, dx = 6\pi \int^{x=4}_{x=0} x\, dx  \\
   &= 6\pi \left[ \frac{x^2}{2} \right]^4_0 = 48\pi = 150.8.
 \end{DPalign*}
 
-\Section{On Quadratic Means.}
+\Section{Sobre Medias Cuadráticas.}
 
-In certain branches of physics, particularly in the
-study of alternating electric currents, it is necessary
-to be able to calculate the \emph{quadratic mean} of a
-variable quantity. By ``quadratic mean'' is denoted
-the square root of the mean of the squares of all the
-values between the limits considered. Other names
-for the quadratic mean of any quantity are its
-``virtual'' value, or its ``\textsc{r.m.s.}''\ (meaning root-mean-square)
-value. The French term is \textit{valeur efficace}. If~$y$
-is the function under consideration, and the quadratic
-mean is to be taken between the limits of $x=0$
-and $x=l$; then the quadratic mean is expressed as
+En ciertas ramas de la física, particularmente en el
+estudio de corrientes eléctricas alternas, es necesario
+poder calcular la \emph{media cuadrática} de una
+cantidad variable. Por ``media cuadrática'' se denota
+la raíz cuadrada de la media de los cuadrados de todos los
+valores entre los límites considerados. Otros nombres
+para la media cuadrática de cualquier cantidad son su
+valor ``virtual'', o su valor ``\textsc{r.m.s.}''\ (que significa root-mean-square)
+. El término francés es \textit{valeur efficace}. Si~$y$
+es la función bajo consideración, y la media cuadrática
+debe tomarse entre los límites de $x=0$
+y $x=l$; entonces la media cuadrática se expresa como
 \[
 \sqrt[2] {\frac{1}{l} \int^l_0 y^2\, dx}.
 \]
@@ -8889,67 +8887,67 @@ and $x=l$; then the quadratic mean is expressed as
 
 
 \Examples.
-(1) To find the quadratic mean of the function
+(1) Encontrar la media cuadrática de la función
 $y=ax$ (\Fig{63}).
 
-Here the integral is $\ds\int^l_0 a^2 x^2\, dx$,\DPnote{** TN: Omitting line break}
-which is~$\frac{1}{3} a^2 l^3$.
+Aquí la integral es $\ds\int^l_0 a^2 x^2\, dx$,\DPnote{** TN: Omitting line break}
+que es~$\frac{1}{3} a^2 l^3$.
 
 \Figure[2.5in]{235a}{63}
 
-Dividing by~$l$ and taking the square root, we have
+Dividiendo por~$l$ y tomando la raíz cuadrada, tenemos
 \[
-\text{quadratic mean} = \frac{1}{\sqrt 3}\, al.
+\text{media cuadrática} = \frac{1}{\sqrt 3}\, al.
 \]
 
-Here the arithmetical mean is~$\frac{1}{2}al$; and the ratio
-of quadratic to arithmetical mean (this ratio is called
-the \emph{form-factor}) is $\dfrac{2}{\sqrt 3}=1.155$.
+Aquí la media aritmética es~$\frac{1}{2}al$; y la razón
+de la media cuadrática a la media aritmética (esta razón se llama
+el \emph{factor de forma}) es $\dfrac{2}{\sqrt 3}=1.155$.
 
-(2) To find the quadratic mean of the function $y=x^a$.
+(2) Encontrar la media cuadrática de la función $y=x^a$.
 
-The integral is $\ds\int^{x=l}_{x=0} x^{2a}\, dx$, that is $\dfrac{l^{2a+1}}{2a+1}$.
+La integral es $\ds\int^{x=l}_{x=0} x^{2a}\, dx$, es decir $\dfrac{l^{2a+1}}{2a+1}$.
 \begin{DPgather*}
-\lintertext{Hence}
-\text{quadratic mean} = \sqrt[2]{\dfrac{l^{2a}}{2a+1}}.
+\lintertext{Por lo tanto}
+\text{media cuadrática} = \sqrt[2]{\dfrac{l^{2a}}{2a+1}}.
 \end{DPgather*}
 
-(3) To find the quadratic mean of the function $y=a^{\efrac{x}{2}}$.
+(3) Encontrar la media cuadrática de la función $y=a^{\efrac{x}{2}}$.
 
-The integral is $\ds\int^{x=l}_{x=0} (a^{\efrac{x}{2}})^2\, dx$, that is $\ds\int^{x=l}_{x=0} a^x\, dx$,
+La integral es $\ds\int^{x=l}_{x=0} (a^{\efrac{x}{2}})^2\, dx$, es decir $\ds\int^{x=l}_{x=0} a^x\, dx$,
 \DPPageSep{236.png}{224}%
 \begin{DPgather*}
-\lintertext{or}
+\lintertext{o}
 \left[ \frac{a^x}{\log_\epsilon a} \right]^{x=l}_{x=0},
 \end{DPgather*}
-which is $\dfrac{a^l-1}{\log_\epsilon a}$.
+que es $\dfrac{a^l-1}{\log_\epsilon a}$.
 
-Hence the quadratic mean is $\sqrt[2] {\dfrac{a^l - 1}{l \log_\epsilon a}}$.
+Por lo tanto la media cuadrática es $\sqrt[2] {\dfrac{a^l - 1}{l \log_\epsilon a}}$.
 
 
-\Exercises{XVIII} (See \Pageref{AnsEx:XVIII} for Answers.)
+\Exercises{XVIII} (Ver \Pageref{AnsEx:XVIII} para Respuestas.)
 \begin{Problems}
-\Item{(1)} Find the area of the curve $y=x^2+x-5$ between
-$x=0$ and $x=6$, and the mean ordinates between
-these limits.
+\Item{(1)} Encuentra el área de la curva $y=x^2+x-5$ entre
+$x=0$ y $x=6$, y las ordenadas medias entre
+estos límites.
 
-\Item{(2)} Find the area of the parabola $y=2a\sqrt x$ between
-$x=0$ and $x=a$. Show that it is two-thirds of the
-rectangle of the limiting ordinate and of its abscissa.
+\Item{(2)} Encuentra el área de la parábola $y=2a\sqrt x$ entre
+$x=0$ y $x=a$. Muestra que es dos tercios del
+rectángulo de la ordenada límite y de su abscisa.
 
-\Item{(3)} Find the area of the positive portion of a sine
-curve and the mean ordinate.
+\Item{(3)} Encuentra el área de la porción positiva de una curva
+seno y la ordenada media.
 
-\Item{(4)} Find the area of the positive portion of the
-curve $y=\sin^2 x$, and find the mean ordinate.
+\Item{(4)} Encuentra el área de la porción positiva de la
+curva $y=\sin^2 x$, y encuentra la ordenada media.
 
-\Item{(5)} Find the area included between the two branches
-of the curve $y=x^2 ± x^{\efrac{5}{2}}$ from $x=0$ to $x=1$, also the
-area of the positive portion of the lower branch of
-the curve (see \Fig{30}, \Pageref{fig:30}). %[ ** Page, xref]
+\Item{(5)} Encuentra el área incluida entre las dos ramas
+de la curva $y=x^2 ± x^{\efrac{5}{2}}$ desde $x=0$ hasta $x=1$, también el
+área de la porción positiva de la rama inferior de
+la curva (ver \Fig{30}, \Pageref{fig:30}). %[ ** Page, xref]
 
-\Item{(6)} Find the volume of a cone of radius of base~$r$,
-and of height~$h$.
+\Item{(6)} Encuentra el volumen de un cono de radio de base~$r$,
+y de altura~$h$.
 
 \Item{(7)} Find the area of the curve $y=x^3-\log_\epsilon x$ between
 $x=0$ and $x=1$.
@@ -9000,64 +8998,64 @@ $y=±\dfrac{x}{6}\sqrt{x(10-x)}$ rotating about the axis of~$x$.
 
 \Paragraph{Dodges.} A great part of the labour of integrating
 things consists in licking them into some shape that
-can be integrated. The books---and by this is meant
-the serious books---on the Integral Calculus are full
-of plans and methods and dodges and artifices for
-this kind of work. The following are a few of
-them.
+puede ser integrada. Los libros---y con esto se refiere a
+los libros serios---sobre el Cálculo Integral están llenos
+de planes y métodos y trucos y artificios para
+esta clase de trabajo. Los siguientes son algunos de
+ellos.
 
-\Paragraph{Integration by Parts.}\Pagelabel{intparts} This name is given to a
-dodge, the formula for which is
+\Paragraph{Integración por Partes.}\Pagelabel{intparts} Este nombre se da a un
+truco, cuya fórmula es
 \[
 \int u\, dx = ux - \int x\, du + C.
 \]
-It is useful in some cases that you can't tackle
-directly, for it shows that if in any case $\ds\int x\, du$ can
-be found, then $\ds\int u\, dx$ can also be found. The formula
-can be deduced as follows. From \Pageref{differprod}, we have,
+Es útil en algunos casos que no puedes abordar
+directamente, pues muestra que si en cualquier caso $\ds\int x\, du$ puede
+ser encontrada, entonces $\ds\int u\, dx$ también puede ser encontrada. La fórmula
+puede ser deducida como sigue. De \Pageref{differprod}, tenemos,
 \[
 d(ux) = u\, dx + x\, du,
 \]
-which may be written
+que puede escribirse
 \[
 u(dx) = d(ux) - x\, du,
 \]
-which by direct integration gives the above expression.
+que por integración directa da la expresión anterior.
 \DPPageSep{239.png}{227}%
 
 
 \Examples.
-(1) Find $\ds\int w · \sin w\, dw$.
+(1) Encuentra $\ds\int w · \sin w\, dw$.
 
-Write $u = w$, and for $\sin w · dw$ write~$dx$. We shall
-then have $du = dw$, while $\ds\int \sin w · dw = -\cos w = x$.
+Escribe $u = w$, y para $\sin w · dw$ escribe~$dx$. Entonces
+tendremos $du = dw$, mientras que $\ds\int \sin w · dw = -\cos w = x$.
 
-Putting these into the formula, we get
+Poniendo estos en la fórmula, obtenemos
 \begin{align*}
 \int w · \sin w\, dw &= w(-\cos w) - \int -\cos w\, dw  \\
                      &=-w \cos w + \sin w + C.
 \end{align*}
 
-(2) Find $\ds\int x \epsilon^x\, dx$.
+(2) Encuentra $\ds\int x \epsilon^x\, dx$.
 %
 \BindMath{\begin{DPalign*}
-\lintertext{\indent Write}
+\lintertext{\indent Escribe}
  u &=  x, & \epsilon^x\, dx&=dv; \\
-\lintertext{then}
+\lintertext{entonces}
 du &= dx, & v &=\epsilon^x,
 \end{DPalign*}
 \begin{DPgather*}
-\lintertext{and}
+\lintertext{y}
 \int x\epsilon^x\, dx
    = x\epsilon^x - \int \epsilon^x\, dx
-      \quad \text{(by the formula)} \\
+      \quad \text{(por la fórmula)} \\
    = x \epsilon^x - \epsilon^x = \epsilon^x(x-1) + C.
 \end{DPgather*}}%
 
-(3) Try $\ds\int \cos^2 \theta\, d\theta$.\Pagelabel{moreexamples}
+(3) Intenta $\ds\int \cos^2 \theta\, d\theta$.\Pagelabel{moreexamples}
 \begin{DPalign*}
 u &= \cos \theta, &\cos \theta\, d\theta &= dv. \\
-\lintertext{\indent Hence}
+\lintertext{\indent Por lo tanto}
 du&= -\sin \theta\, d\theta, & v &=\sin \theta,
 \end{DPalign*}
 \begin{align*}
@@ -9067,201 +9065,199 @@ du&= -\sin \theta\, d\theta, & v &=\sin \theta,
   &= \frac{\sin 2\theta}{2} + \int d\theta - \int \cos^2 \theta\, d\theta.
 \end{align*}
 \begin{DPalign*}
-\lintertext{\indent Hence}
+\lintertext{\indent Por lo tanto}
 2 \int \cos^2 \theta\, d\theta
   &= \frac{\sin 2\theta}{2} + \theta \\
-\lintertext{and}
+\lintertext{y}
 \int \cos^2 \theta\, d\theta
   &= \frac{\sin 2\theta}{4} + \frac{\theta}{2} + C.
 \end{DPalign*}
 \DPPageSep{240.png}{228}%
 
-(4) Find $\ds\int x^2 \sin x\, dx$.
+(4) Encuentra $\ds\int x^2 \sin x\, dx$.
 %
 \begin{DPalign*}
-\lintertext{\indent Write}
+\lintertext{\indent Escribe}
 x^2  &= u, & \sin x\, dx &= dv; \\
-\lintertext{then}
+\lintertext{entonces}
 du &= 2x\, dx, & v &= -\cos x,
 \end{DPalign*}
 \[
 \int x^2 \sin x\, dx = -x^2 \cos x + 2 \int x \cos x\, dx.
 \]
 
-Now find $\ds\int x \cos x\, dx$, integrating by parts (as in
-Example~1 above):
+Ahora encuentra $\ds\int x \cos x\, dx$, integrando por partes (como en
+el Ejemplo~1 arriba):
 \[
 \int x \cos x\, dx = x \sin x + \cos x+C.
 \]
 
-Hence
+Por lo tanto
 \begin{align*}
 \int x^2 \sin x\, dx
   &= -x^2 \cos x + 2x \sin x + 2 \cos x + C' \\
   &= 2 \left[ x \sin x + \cos x \left(1 - \frac{x^2}{2}\right) \right] +C'.
 \end{align*}
 
-(5) Find $\ds\int \sqrt{1-x^2}\, dx$.
+(5) Encuentra $\ds\int \sqrt{1-x^2}\, dx$.
 \begin{DPalign*}
-\lintertext{Write}
+\lintertext{Escribe}
 u &= \sqrt{1-x^2},\quad dx=dv;  \\
-\lintertext{then}
-du &= -\frac{x\, dx}{\sqrt{1-x^2}}\quad \text{(see Chap.~IX., \Pageref{chap:IX})}
+\lintertext{entonces}
+du &= -\frac{x\, dx}{\sqrt{1-x^2}}\quad \text{(ver Cap.~IX., \Pageref{chap:IX})}
 \end{DPalign*}
-and $x=v$; so that
+y $x=v$; de modo que
 \[
 \int \sqrt{1-x^2}\, dx=x \sqrt{1-x^2} + \int \frac{x^2\, dx}{\sqrt{1-x^2}}.
 \]
 
-Here we may use a little dodge, for we can write
+Aquí podemos usar un pequeño truco, pues podemos escribir
 \[
 \int \sqrt{1-x^2}\, dx
   = \int \frac{(1-x^2)\, dx}{\sqrt{1-x^2}}
   = \int \frac{dx}{\sqrt{1-x^2}} - \int \frac{x^2\, dx}{\sqrt{1-x^2}}.
 \]
 
-Adding these two last equations, we get rid of
-$\ds\int \dfrac{x^2\, dx}{\sqrt{1-x^2}}$, and we have
+Sumando estas dos últimas ecuaciones, nos deshacemos de
+$\ds\int \dfrac{x^2\, dx}{\sqrt{1-x^2}}$, y tenemos
 \[
 2 \int \sqrt{1-x^2}\, dx = x\sqrt{1-x^2} + \int \frac{dx}{\sqrt{1-x^2}}.
 \]
 \DPPageSep{241.png}{229}%
 
-Do you remember meeting $\dfrac {dx}{\sqrt{1-x^2}}$? it is got by
-differentiating $y=\arcsin x$ (see \Pageref{intex3}); hence its integral
-is $\arcsin x$, and so
+¿Recuerdas haber encontrado $\dfrac {dx}{\sqrt{1-x^2}}$? se obtiene
+diferenciando $y=\arcsin x$ (ver \Pageref{intex3}); por lo tanto su integral
+es $\arcsin x$, y así
 \[
 \int \sqrt{1-x^2}\, dx = \frac{x \sqrt{1-x^2}}{2} + \tfrac{1}{2} \arcsin x +C.
 \]
 
-You can try now some exercises by yourself; you
-will find some at the end of this chapter.
+Ahora puedes intentar algunos ejercicios por ti mismo; 
+encontrarás algunos al final de este capítulo.
 
-\Paragraph{Substitution.} This is the same dodge as explained
-in Chap.~IX., \Pageref{chap:IX}. Let us illustrate its application
-to integration by a few examples.
+\Paragraph{Sustitución.} Este es el mismo truco explicado
+en el Cap.~IX., \Pageref{chap:IX}. Ilustremos su aplicación
+a la integración con algunos ejemplos.
 
 (1) $\ds\int \sqrt{3+x}\, dx$.
 \begin{DPalign*}
-\lintertext{\indent Let}
+\lintertext{\indent Sea}
 3+x &= u,\quad dx = du; \\
-\lintertext{replace}
+\lintertext{reemplaza}
 \int u^{\efrac{1}{2}}\, du
   &= \tfrac{2}{3} u^{\efrac{3}{2}} = \tfrac{2}{3}(3+x)^{\efrac{3}{2}}.
 \end{DPalign*}
 
 (2) $\ds\int \dfrac{dx}{\epsilon^x+\epsilon^{-x}}$.
 \begin{DPgather*}
-\lintertext{\indent Let}
-\epsilon^x = u,\quad \frac{du}{dx} = \epsilon^x,\quad\text{and}\quad
+\lintertext{\indent Sea}
+\epsilon^x = u,\quad \frac{du}{dx} = \epsilon^x,\quad\text{y}\quad
 dx = \frac{du}{\epsilon^x}; \\
-\lintertext{so that}
+\lintertext{de modo que}
 \int \frac{dx}{\epsilon^x+\epsilon^{-x}}
   = \int \frac{du}{\epsilon^x(\epsilon^x+\epsilon^{-x})}
   = \int \frac{du}{u\left(u + \dfrac{1}{u}\right)}
   = \int \frac{du}{u^2+1}.
 \end{DPgather*}
 
-$\dfrac{du}{1+u^2}$ is the result of differentiating $\arctan x$.
+$\dfrac{du}{1+u^2}$ es el resultado de diferenciar $\arctan x$.
 
-Hence the integral is $\arctan \epsilon^x$.
+Por lo tanto la integral es $\arctan \epsilon^x$.
 
 (3) $\ds\int \dfrac{dx}{x^2+2x+3} = \ds\int \dfrac{dx}{x^2+2x+1+2} = \ds\int \dfrac{dx}{(x+1)^2+(\sqrt 2)^2}$.
 \DPPageSep{242.png}{230}%
 \begin{DPgather*}
-\lintertext{\indent Let}
+\lintertext{\indent Sea}
 x+1=u,\quad dx=du;
 \end{DPgather*}
-then the integral becomes $\ds\int \dfrac{du}{u^2+(\sqrt2)^2}$; but $\dfrac{du}{u^2+a^2}$ is
-the result of differentiating $u=\dfrac{1}{a} \arctan \dfrac{u}{a}$.
+entonces la integral se convierte en $\ds\int \dfrac{du}{u^2+(\sqrt2)^2}$; pero $\dfrac{du}{u^2+a^2}$ es
+el resultado de diferenciar $u=\dfrac{1}{a} \arctan \dfrac{u}{a}$.
 
-Hence one has finally $\dfrac{1}{\sqrt2} \arctan \dfrac{x+1}{\sqrt 2}$ for the value
-of the given integral.
+Por lo tanto se tiene finalmente $\dfrac{1}{\sqrt2} \arctan \dfrac{x+1}{\sqrt 2}$ para el valor
+de la integral dada.
 
-\emph{Formulæ of Reduction} are special forms applicable
-chiefly to binomial and trigonometrical expressions
-that have to be integrated, and have to be reduced
-into some form of which the integral is known.
+\emph{Fórmulas de Reducción} son formas especiales aplicables
+principalmente a expresiones binomiales y trigonométricas
+que deben ser integradas, y deben ser reducidas
+a alguna forma de la cual la integral es conocida.
 
-\textit{Rationalization}, and \textit{Factorization of Denominator}
-are dodges applicable in special cases, but they do not
-admit of any short or general explanation. Much
-practice is needed to become familiar with these preparatory
-processes.
+\textit{Racionalización}, y \textit{Factorización del Denominador}
+son trucos aplicables en casos especiales, pero no
+admiten explicación corta o general. Se necesita mucha
+práctica para familiarizarse con estos procesos preparatorios.
 
-The following example shows how the process of
-splitting\Pagelabel{partfracs} into partial fractions, which we learned in
-Chap.~XIII., \Pageref{partfracs2}, can be made use of in integration.
+El siguiente ejemplo muestra cómo el proceso de
+división\Pagelabel{partfracs} en fracciones parciales, que aprendimos en
+el Cap.~XIII., \Pageref{partfracs2}, puede usarse en la integración.
 
-Take again $\ds\int \dfrac{dx}{x^2+2x+3}$; if we split $\dfrac{1}{x^2+2x+3}$
-into partial fractions, this becomes (see \Pageref{partfracs3}):
+Toma otra vez $\ds\int \dfrac{dx}{x^2+2x+3}$; si dividimos $\dfrac{1}{x^2+2x+3}$
+en fracciones parciales, esto se convierte (ver \Pageref{partfracs3}):
 \[
 \dfrac{1}{2\sqrt{-2}} \left[\int \dfrac{dx}{x+1-\sqrt{-2}} - \int \dfrac{dx}{x+1+\sqrt{-2}} \right]
 \]
 \[
 =\dfrac{1}{2\sqrt{-2}} \log_\epsilon \dfrac{x+1-\sqrt{-2}}{x+1+\sqrt{-2}}.
 \]
-Notice that the same integral can be expressed
+Nota que la misma integral puede expresarse
 \DPPageSep{243.png}{231}%
-sometimes in more than one way (which are equivalent
-to one another).
+a veces de más de una manera (que son equivalentes
+entre sí).
 
-\Paragraph{Pitfalls.} A beginner is liable to overlook certain
-points that a practised hand would avoid; such as
-the use of factors that are equivalent to either zero or
-infinity, and the occurrence of indeterminate quantities
-such as $\tfrac{0}{0}$. There is no golden rule that will meet
-every possible case. Nothing but practice and intelligent
-care will avail. An example of a pitfall which
-had to be circumvented arose in Chap.~XVIII., \Pageref{chap:XVIII},
-when we came to the problem of integrating $x^{-1}\, dx$.
+\Paragraph{Trampas.} Un principiante es propenso a pasar por alto ciertos
+puntos que una mano práctica evitaría; tales como
+el uso de factores que son equivalentes a cero o
+infinito, y la ocurrencia de cantidades indeterminadas
+como $\tfrac{0}{0}$. No hay regla de oro que cubra
+todos los casos posibles. Nada más que práctica y cuidado
+inteligente servirán. Un ejemplo de una trampa que
+tuvo que ser sorteada surgió en el Cap.~XVIII., \Pageref{chap:XVIII},
+cuando llegamos al problema de integrar $x^{-1}\, dx$.
 
-\Paragraph{Triumphs.} By triumphs must be understood the
-successes with which the calculus has been applied to
-the solution of problems otherwise intractable. Often
-in the consideration of physical relations one is able
-to build up an expression for the law governing the
-interaction of the parts or of the forces that govern
-them, such expression being naturally in the form of
-a \emph{differential equation}, that is an equation containing
-differential coefficients with or without other algebraic
-quantities. And when such a differential equation
-has been found, one can get no further until it has
-been integrated. Generally it is much easier to state
-the appropriate differential equation than to solve it:---the
-real trouble begins then only when one wants to
-integrate, unless indeed the equation is seen to possess
-some standard form of which the integral is known,
-and then the triumph is easy. The equation which
-results from integrating a differential equation is
+\Paragraph{Triunfos.} Por triunfos se debe entender los
+éxitos con los cuales el cálculo ha sido aplicado a
+la solución de problemas de otro modo intratables. A menudo
+en la consideración de relaciones físicas uno es capaz
+de construir una expresión para la ley que gobierna la
+interacción de las partes o de las fuerzas que las gobiernan,
+siendo tal expresión naturalmente en la forma de
+una \emph{ecuación diferencial}, es decir una ecuación que contiene
+coeficientes diferenciales con o sin otras cantidades
+algebraicas. Y cuando tal ecuación diferencial
+ha sido encontrada, uno no puede ir más lejos hasta que haya
+sido integrada. Generalmente es mucho más fácil establecer
+la ecuación diferencial apropiada que resolverla:---el
+verdadero problema comienza entonces solo cuando uno quiere
+integrar, a menos que la ecuación sea vista como poseedora
+de alguna forma estándar de la cual la integral es conocida,
+y entonces el triunfo es fácil. La ecuación que
+resulta de integrar una ecuación diferencial es
 \DPPageSep{244.png}{232}%
-called\footnote
-{This means that the actual result of solving it is called its
-``solution.'' But many mathematicians would say, with Professor
-Forsyth, ``every differential equation \emph{is considered as solved} when
-the value of the dependent variable is expressed as a function of
-the independent variable by means either of known functions, or of
-integrals, whether the integrations in the latter can or cannot be
-expressed in terms of functions already known.''}
- its ``solution''; and it is quite astonishing
-how in many cases the solution looks as if it had no
-relation to the differential equation of which it is
-the integrated form. The solution often seems as
-different from the original expression as a butterfly
-does from the caterpillar that it was. Who would
-have supposed that such an innocent thing as
+llamada\footnote
+{Esto significa que el resultado real de resolverla es llamado su
+``solución.'' Pero muchos matemáticos dirían, con el Profesor
+Forsyth, ``toda ecuación diferencial \emph{se considera resuelta} cuando
+el valor de la variable dependiente se expresa como función de
+la variable independiente por medio ya sea de funciones conocidas, o de
+integrales, ya sea que las integraciones en esta última puedan o no
+expresarse en términos de funciones ya conocidas.''}
+ su ``solución''; y es bastante asombroso
+cómo en muchos casos la solución parece como si no tuviera
+relación con la ecuación diferencial de la cual es
+la forma integrada. La solución a menudo parece tan
+diferente de la expresión original como una mariposa
+de la oruga que era. ¿Quién habría supuesto que algo tan inocente como
 \[
 \dfrac{dy}{dx} = \dfrac{1}{a^2-x^2}
 \]
-could blossom out into
+podría florecer en
 \[
 y = \dfrac{1}{2a} \log_\epsilon \dfrac{a+x}{a-x} + C?
 \]
-yet the latter is the \textit{solution} of the former.
+sin embargo la última es la \textit{solución} de la primera.
 
-As a last example, let us work out the above together.
+Como último ejemplo, trabajemos la anterior juntos.
 
-By partial fractions,\Pagelabel{partfracs3}
+Por fracciones parciales,\Pagelabel{partfracs3}
 \begin{align*}
 \frac{1}{a^2-x^2} &= \frac{1}{2a(a+x)} + \frac{1}{2a(a-x)},  \\
 dy &= \frac {dx}{2a(a+x)}+ \frac{dx}{2a(a-x)},  \\
@@ -9273,42 +9269,42 @@ y  &= \frac{1}{2a}
 \end{align*}
 \DPPageSep{245.png}{233}%
 % [** TN: Hack removes vertical space, giving a better page break below]
-\indent Not a very difficult metamorphosis!
+\indent ¡No es una metamorfosis muy difícil!
 
-There are whole treatises, such as Boole's \textit{Differential
-Equations}, devoted to the subject of thus finding
-the ``solutions'' for different original forms.
+Hay tratados completos, como las \textit{Ecuaciones
+Diferenciales} de Boole, dedicados al tema de encontrar así
+las ``soluciones'' para diferentes formas originales.
 
 
-\Exercises{XIX} (See \Pageref{AnsEx:XIX} for Answers.)
+\Exercises{XIX} (Ver \Pageref{AnsEx:XIX} para Respuestas.)
 
 \begin{Problems}[2]
-\Item{(1)} Find $\ds\int \sqrt {a^2 - x^2}\, dx$.
-\Item{(2)} Find $\ds\int x \log_\epsilon x\, dx$.
+\Item{(1)} Encuentra $\ds\int \sqrt {a^2 - x^2}\, dx$.
+\Item{(2)} Encuentra $\ds\int x \log_\epsilon x\, dx$.
 
 \ResetCols{2}
-\Item{(3)} Find $\ds\int x^a \log_\epsilon x\, dx$.
-\Item{(4)} Find $\ds\int \epsilon^x \cos \epsilon^x\, dx$.
+\Item{(3)} Encuentra $\ds\int x^a \log_\epsilon x\, dx$.
+\Item{(4)} Encuentra $\ds\int \epsilon^x \cos \epsilon^x\, dx$.
 
 \ResetCols{2}
-\Item{(5)} Find $\ds\int \dfrac{1}{x} \cos (\log_\epsilon x)\, dx$.
-\Item{(6)} Find $\ds\int x^2 \epsilon^x\, dx$.
+\Item{(5)} Encuentra $\ds\int \dfrac{1}{x} \cos (\log_\epsilon x)\, dx$.
+\Item{(6)} Encuentra $\ds\int x^2 \epsilon^x\, dx$.
 
 \ResetCols{2}
-\Item{(7)} Find $\ds\int \dfrac{(\log_\epsilon x)^a}{x}\, dx$.
-\Item{(8)} Find $\ds\int \dfrac{dx}{x \log_\epsilon x}$.
+\Item{(7)} Encuentra $\ds\int \dfrac{(\log_\epsilon x)^a}{x}\, dx$.
+\Item{(8)} Encuentra $\ds\int \dfrac{dx}{x \log_\epsilon x}$.
 
 \ResetCols{2}
-\Item{(9)} Find $\ds\int \dfrac{5x+1}{x^2 +x-2}\, dx$.
-\Item{(10)} Find $\ds\int \dfrac{(x^2 -3)\, dx}{x^3 - 7x+6}$.
+\Item{(9)} Encuentra $\ds\int \dfrac{5x+1}{x^2 +x-2}\, dx$.
+\Item{(10)} Encuentra $\ds\int \dfrac{(x^2 -3)\, dx}{x^3 - 7x+6}$.
 
 \ResetCols{2}
-\Item{(11)} Find $\ds\int \dfrac{b\, dx}{x^2 -a^2}$.
-\Item{(12)} Find $\ds\int \dfrac{4x\, dx}{x^4 -1}$.
+\Item{(11)} Encuentra $\ds\int \dfrac{b\, dx}{x^2 -a^2}$.
+\Item{(12)} Encuentra $\ds\int \dfrac{4x\, dx}{x^4 -1}$.
 
 \ResetCols{2}
-\Item{(13)} Find $\ds\int \dfrac{dx}{1-x^4}$.
-\Item{(14)} Find $\ds\int \dfrac{dx}{x \sqrt {a-bx^2}}$.
+\Item{(13)} Encuentra $\ds\int \dfrac{dx}{1-x^4}$.
+\Item{(14)} Encuentra $\ds\int \dfrac{dx}{x \sqrt {a-bx^2}}$.
 \end{Problems}
 \DPPageSep{246.png}{234}%
 
@@ -9316,95 +9312,95 @@ the ``solutions'' for different original forms.
 \Chapter[ENCONTRANDO SOLUCIONES]
 {XXI}{Encontrando algunas Soluciones}
 
-\First{In} this chapter we go to work finding solutions to
-some important differential equations, using for this
-purpose the processes shown in the preceding chapters.
+\First{En} este capítulo nos ponemos a trabajar encontrando soluciones a
+algunas ecuaciones diferenciales importantes, usando para este
+propósito los procesos mostrados en los capítulos precedentes.
 
-The beginner, who now knows how easy most of
-those processes are in themselves, will here begin to
-realize that integration is \emph{an art}. As in all arts, so
-in this, facility can be acquired only by diligent and
-regular practice. He who would attain that facility
-must work out examples, and more examples, and yet
-more examples, such as are found abundantly in all
-the regular treatises on the Calculus. Our purpose
-here must be to afford the briefest introduction to
-serious work.
+El principiante, que ahora sabe cuán fáciles son la mayoría de
+esos procesos en sí mismos, aquí comenzará a
+darse cuenta de que la integración es \emph{un arte}. Como en todas las artes, así
+en esta, la facilidad puede ser adquirida solo por práctica
+diligente y regular. Quien desee alcanzar esa facilidad
+debe resolver ejemplos, y más ejemplos, y aún
+más ejemplos, como se encuentran abundantemente en todos
+los tratados regulares sobre el Cálculo. Nuestro propósito
+aquí debe ser proporcionar la más breve introducción al
+trabajo serio.
 
 \tb
 
-\Example{1.} Find the solution of the differential
-equation
+\Example{1.} Encuentra la solución de la ecuación
+diferencial
 \[
 ay + b \frac{dy}{dx} = 0.
 \]
 
-Transposing we have
+Transponiendo tenemos
 \[
 b \frac{dy}{dx} = -ay.
 \]
 \DPPageSep{247.png}{235}%
 
-Now the mere inspection of this relation tells us
-that we have got to do with a case in which $\dfrac{dy}{dx}$ is
-proportional to~$y$. If we think of the curve which
-will represent $y$ as a function of~$x$, it will be such
-that its slope at any point will be proportional to
-the ordinate at that point, and will be a negative
-slope if $y$~is positive. So obviously the curve will
-be a die-away curve (\Pageref{section:5}), and the solution will
-contain~$\epsilon^{-x}$ as a factor. But, without presuming on
-this bit of sagacity, let us go to work.
+Ahora la mera inspección de esta relación nos dice
+que tenemos que ver con un caso en el cual $\dfrac{dy}{dx}$ es
+proporcional a~$y$. Si pensamos en la curva que
+representará $y$ como función de~$x$, será tal
+que su pendiente en cualquier punto será proporcional a
+la ordenada en ese punto, y será una pendiente negativa
+si $y$~es positiva. Así que obviamente la curva será
+una curva de decaimiento (\Pageref{section:5}), y la solución
+contendrá~$\epsilon^{-x}$ como factor. Pero, sin presumir de
+este pedacito de sagacidad, pongámonos a trabajar.
 
-As both $y$~and~$dy$ occur in the equation and on
-opposite sides, we can do nothing until we get both
-$y$~and~$dy$ to one side, and $dx$~to the other. To do
-this, we must split our usually inseparable companions
-$dy$~and~$dx$ from one another.
+Como tanto $y$~como~$dy$ ocurren en la ecuación y en
+lados opuestos, no podemos hacer nada hasta que tengamos tanto
+$y$~como~$dy$ en un lado, y $dx$~en el otro. Para hacer
+esto, debemos separar nuestros compañeros usualmente inseparables
+$dy$~y~$dx$ uno del otro.
 \[
 \frac{dy}{y} = - \frac{a}{b}\, dx.
 \]
 
-Having done the deed, we now can see that both
-sides have got into a shape that is integrable, because
-we recognize $\dfrac{dy}{y}$, or $\dfrac{1}{y}\, dy$, as a differential that we
-have met with (\Pageref{expolo}) when differentiating logarithms.
-So we may at once write down the instructions to
-integrate,
+Habiendo hecho la obra, ahora podemos ver que ambos
+lados han llegado a una forma que es integrable, porque
+reconocemos $\dfrac{dy}{y}$, o $\dfrac{1}{y}\, dy$, como una diferencial que hemos
+encontrado (\Pageref{expolo}) cuando diferenciábamos logaritmos.
+Así que podemos de una vez escribir las instrucciones para
+integrar,
 \[
 \int \frac{dy}{y} = \int -\frac{a}{b}\, dx;
 \]
-and doing the two integrations, we have:
+y haciendo las dos integraciones, tenemos:
 \[
 \log_\epsilon y = -\frac{a}{b} x + \log_\epsilon C,
 \]
 \DPPageSep{248.png}{236}%
-where $\log_\epsilon C$ is the yet undetermined constant\footnote
-  {We may write down any form of constant as the ``constant of
-  integration,'' and the form $\log_\epsilon C$ is adopted here by preference,
-  because the other terms in this line of equation are, or are treated
-  as logarithms; and it saves complications afterward if the added
-  constant be \emph{of the same kind}.}
-of
-integration. Then, delogarizing, we get:
+donde $\log_\epsilon C$ es la constante aún indeterminada\footnote
+  {Podemos escribir cualquier forma de constante como la ``constante de
+  integración,'' y la forma $\log_\epsilon C$ se adopta aquí por preferencia,
+  porque los otros términos en esta línea de ecuación son, o son tratados
+  como logaritmos; y evita complicaciones después si la constante agregada
+  es \emph{del mismo tipo}.}
+de
+integración. Entonces, deslogaritizando, obtenemos:
 \[
 y = C \epsilon^{-\efrac{a}{b} x},
 \]
-which is \emph{the solution} required. Now, this solution
-looks quite unlike the original differential equation
-from which it was constructed: yet to an expert
-mathematician they both convey the same information
-as to the way in which $y$~depends on~$x$.
+que es \emph{la solución} requerida. Ahora, esta solución
+se ve bastante diferente de la ecuación diferencial original
+de la cual fue construida: sin embargo para un matemático
+experto ambas transmiten la misma información
+sobre la manera en que $y$~depende de~$x$.
 
-Now, as to the $C$, its meaning depends on the
-initial value of~$y$. For if we put $x = 0$ in order to
-see what value $y$ then has, we find that this makes
-$y = C \epsilon^{-0}$; and as $\epsilon^{-0} = 1$ we see that $C$~is nothing else
-than the particular value\footnote
-  {Compare what was said about the ``constant of integration,''
-  with reference to \Fig{48} on \Pageref{constant}, and \Fig{51} on \Pageref{fig:51}.}
- of~$y$ at starting. This we
-may call~$y_0$, and so write the solution as
+Ahora, en cuanto a la $C$, su significado depende del
+valor inicial de~$y$. Pues si ponemos $x = 0$ para
+ver qué valor tiene entonces $y$, encontramos que esto hace
+$y = C \epsilon^{-0}$; y como $\epsilon^{-0} = 1$ vemos que $C$~no es otra cosa
+que el valor particular\footnote
+  {Compara lo que se dijo sobre la ``constante de integración,''
+  con referencia a \Fig{48} en \Pageref{constant}, y \Fig{51} en \Pageref{fig:51}.}
+ de~$y$ al comienzo. A esto
+podemos llamarlo~$y_0$, y así escribir la solución como
 \[
 y = y_0 \epsilon^{-\efrac{a}{b} x}.
 \]
@@ -9413,110 +9409,109 @@ y = y_0 \epsilon^{-\efrac{a}{b} x}.
 
 \Example{2.}
 
-Let us take as an example to solve
+Tomemos como ejemplo para resolver
 \[
 ay + b \frac{dy}{dx} = g,
 \]
-where $g$ is a constant. Again, inspecting the equation
-will suggest, (1)~that somehow or other $\epsilon^x$~will come
-into the solution, and (2)~that if at any part of the
+donde $g$ es una constante. Otra vez, inspeccionar la ecuación
+sugerirá, (1)~que de alguna manera u otra $\epsilon^x$~vendrá
+en la solución, y (2)~que si en cualquier parte de la
 \DPPageSep{249.png}{237}%
-curve~$y$ becomes either a maximum or a minimum, so
-that $\dfrac{dy}{dx} = 0$, then $y$~will have the value $= \dfrac{g}{a}$. But let
-us go to work as before, separating the differentials
-and trying to transform the thing into some integrable
-shape.
+curva~$y$ se convierte en un máximo o un mínimo, de modo
+que $\dfrac{dy}{dx} = 0$, entonces $y$~tendrá el valor $= \dfrac{g}{a}$. Pero
+pongámonos a trabajar como antes, separando las diferenciales
+e intentando transformar la cosa en alguna forma
+integrable.
 \begin{align*}
 b\frac{dy}{dx}           &= g -ay; \\
 \frac{dy}{dx}            &= \frac{a}{b}\left(\frac{g}{a}-y\right); \\
 \frac{dy}{y-\dfrac{g}{a}} &= -\frac{a}{b}\, dx.
 \end{align*}
 
-Now we have done our best to get nothing but $y$~and~$dy$
-on one side, and nothing but $dx$ on the other.
-But is the result on the left side integrable?
+Ahora hemos hecho nuestro mejor esfuerzo para obtener nada más que $y$~y~$dy$
+en un lado, y nada más que $dx$ en el otro.
+Pero ¿es el resultado en el lado izquierdo integrable?
 
-It is of the same form as the result on \Pageref{differlog}; so,
-writing the instructions to integrate, we have:
+Es de la misma forma que el resultado en \Pageref{differlog}; así que,
+escribiendo las instrucciones para integrar, tenemos:
 \[
 \int{\frac{dy}{y-\dfrac{g}{a}}} = - \int{\frac{a}{b}\, dx};
 \]
-and, doing the integration, and adding the appropriate
-constant,
+y, haciendo la integración, y agregando la constante
+apropiada,
 \begin{DPalign*}
 \log_\epsilon\left(y-\frac{g}{a}\right) &= -\frac{a}{b}x + \log_\epsilon C; \\
-\lintertext{whence }      y-\frac{g}{a} &= C\epsilon^{-\efrac{a}{b}x}; \\
-\lintertext{and finally, }            y &= \frac{g}{a} + C\epsilon^{-\efrac{a}{b}x},
+\lintertext{de donde }      y-\frac{g}{a} &= C\epsilon^{-\efrac{a}{b}x}; \\
+\lintertext{y finalmente, }            y &= \frac{g}{a} + C\epsilon^{-\efrac{a}{b}x},
 \end{DPalign*}
-which is \emph{the solution}.
+que es \emph{la solución}.
 \DPPageSep{250.png}{238}%
 
-If the condition is laid down that $y = 0$ when $x = 0$
-we can find~$C$; for then the exponential becomes $= 1$;
-and we have
+Si se establece la condición de que $y = 0$ cuando $x = 0$
+podemos encontrar~$C$; pues entonces la exponencial se convierte en $= 1$;
+y tenemos
 \begin{DPalign*}
                 0 &= \frac{g}{a} + C, \\
-\lintertext{or} C &= -\frac{g}{a}.
+\lintertext{o} C &= -\frac{g}{a}.
 \end{DPalign*}
 
-Putting in this value, the solution becomes
+Poniendo este valor, la solución se convierte en
 \[
 y = \frac{g}{a} (1-\epsilon^{-\efrac{a}{b} x}).
 \]
 
-But further, if $x$ grows indefinitely, $y$ will grow to
-a maximum; for when $x=\infty$, the exponential $= 0$,
-giving $y_{\text{max.}} = \dfrac{g}{a}$. Substituting this, we get finally
+Pero además, si $x$ crece indefinidamente, $y$ crecerá a
+un máximo; pues cuando $x=\infty$, la exponencial $= 0$,
+dando $y_{\text{máx.}} = \dfrac{g}{a}$. Sustituyendo esto, obtenemos finalmente
 \[
-y = y_{\text{max.}}(1-\epsilon^{-\efrac{a}{b} x}).
+y = y_{\text{máx.}}(1-\epsilon^{-\efrac{a}{b} x}).
 \]
 
-This result is also of importance in physical science.
+Este resultado es también de importancia en la ciencia física.
 
 \tb
 
 
 \Example{3.}
 \begin{DPgather*}
-\lintertext{\indent Let} ay+b\frac{dy}{dt} = g · \sin 2\pi nt.
+\lintertext{\indent Sea} ay+b\frac{dy}{dt} = g · \sin 2\pi nt.
 \end{DPgather*}
 
-We shall find this much less tractable than the
-preceding. First divide through by~$b$.
+Encontraremos esto mucho menos tratable que el
+precedente. Primero divide todo por~$b$.
 \[
 \frac{dy}{dt} + \frac{a}{b}y = \frac{g}{b} \sin 2\pi nt.
 \]
 
-Now, as it stands, the left side is not integrable.
-But it can be made so by the artifice---and this is
+Ahora, tal como está, el lado izquierdo no es integrable.
+Pero puede hacerse así por el artificio---y aquí es
 \DPPageSep{251.png}{239}%
-where skill and practice suggest a plan---of multiplying
-all the terms by $\epsilon^{\efrac{a}{b} t}$, giving us:
+donde la habilidad y práctica sugieren un plan---de multiplicar
+todos los términos por $\epsilon^{\efrac{a}{b} t}$, dándonos:
 \[
 \frac{dy}{dt} \epsilon^{\efrac{a}{b} t} + \frac{a}{b} y \epsilon^{\efrac{a}{b} t} = \frac{g}{b} \epsilon^{\efrac{a}{b} t} · \sin 2 \pi nt,
 \]
-which is the same as
+que es lo mismo que
 \[
 \frac{dy}{dt} \epsilon^{\efrac{a}{b} t} + y \frac{d(\epsilon^{\efrac{a}{b} t})}{dt} = \frac{g}{b} \epsilon^{\efrac{a}{b} t} · \sin 2 \pi nt;
 \]
-and this being a perfect differential may be integrated
-thus:---since, if  $u = y\epsilon^{\efrac{a}{b} t}$, $\dfrac{du}{dt} = \dfrac{dy}{dt} \epsilon^{\efrac{a}{b} t} + y \dfrac{d(\epsilon^{\efrac{a}{b} t})}{dt}$,
+y siendo esto una diferencial perfecta puede ser integrada
+así:---ya que, si  $u = y\epsilon^{\efrac{a}{b} t}$, $\dfrac{du}{dt} = \dfrac{dy}{dt} \epsilon^{\efrac{a}{b} t} + y \dfrac{d(\epsilon^{\efrac{a}{b} t})}{dt}$,
 \begin{DPalign*}
   y \epsilon^{\efrac{a}{b} t}
   &= \frac{g}{b} \int \epsilon^{\efrac{a}{b} t} · \sin 2 \pi nt · dt + C, \\
-\lintertext{or}
+\lintertext{o}
 y &= \frac{g}{b} \epsilon^{-\efrac{a}{b} t}
      \int \epsilon^{ \efrac{a}{b} t} · \sin 2\pi nt · dt
        + C\epsilon^{-\efrac{a}{b} t}.
 \tag*{[\textsc{a}]}%[** TN: Omitted dot leaders here, below.]
 \end{DPalign*}
 
-The last term is obviously a term which will die
-out as $t$ increases, and may be omitted. The trouble
-now comes in to find the integral that appears as a
-factor. To tackle this we resort to the device (see
-\Pageref{intparts}) of integration by parts, the general formula for
-which is $\ds\int u dv = uv - \int v du$. For this purpose write
+El último término es obviamente un término que se desvanecerá
+a medida que $t$ aumente, y puede omitirse. El problema
+ahora viene a encontrar la integral que aparece como
+factor. Para abordar esto recurrimos al artificio (véase
+\Pageref{intparts}) de integración por partes, cuya fórmula general es $\ds\int u dv = uv - \int v du$. Para este propósito escribimos
 \begin{align*}
 &\left\{
 \begin{aligned}
@@ -9524,7 +9519,7 @@ which is $\ds\int u dv = uv - \int v du$. For this purpose write
 dv &= \sin 2\pi nt · dt.
 \end{aligned}
 \right. \displaybreak[1] \\
-\intertext{\indent We shall then have}
+\intertext{\indent Entonces tendremos}
 &\left\{
 \begin{aligned}
 du &= \epsilon^{\efrac{a}{b} t} × \frac{a}{b}\, dt; \\
@@ -9534,7 +9529,7 @@ v &= - \frac{1}{2\pi n} \cos 2\pi nt.
 \end{align*}
 \DPPageSep{252.png}{240}%
 
-Inserting these, the integral in question becomes:
+Insertando estos, la integral en cuestión se convierte en:
 \begin{align*}
 \int \epsilon^{\efrac{a}{b} t} &{} · \sin 2 \pi n t · dt \\
 &= -\frac{1}{2 \pi n} · \epsilon^{\efrac{a}{b} t} · \cos 2 \pi nt
@@ -9544,9 +9539,9 @@ Inserting these, the integral in question becomes:
 \tag*{[\textsc{b}]}
 \end{align*}
 
-The last integral is still irreducible. To evade the
-difficulty, repeat the integration by parts of the left
-side, but treating it in the reverse way by writing:
+La última integral sigue siendo irreducible. Para evadir la
+dificultad, repetimos la integración por partes del lado
+izquierdo, pero tratándola de manera inversa escribiendo:
 \begin{DPalign*}
 &\left\{
 \begin{aligned}
@@ -9554,7 +9549,7 @@ u &= \sin 2 \pi n t ; \\
 dv &= \epsilon^{\efrac{a}{b} t} · dt;
 \end{aligned}
 \right. \\[1ex]
-\lintertext{whence}
+\lintertext{de donde}
 &\left\{
   \begin{aligned}
   du &= 2 \pi n · \cos 2 \pi n t · dt; \\
@@ -9563,48 +9558,47 @@ dv &= \epsilon^{\efrac{a}{b} t} · dt;
 \right.
 \end{DPalign*}
 
-Inserting these, we get
+Insertando estos, obtenemos
 \begin{align*}
 \int \epsilon^{\efrac{a}{b} t} &{} · \sin 2 \pi n t · dt\\
 &= \frac{b}{a} · \epsilon^{\efrac{a}{b} t} · \sin 2 \pi n t -
    \frac{2 \pi n b}{a} \int \epsilon^{\efrac{a}{b} t} · \cos 2 \pi n t · dt. \tag*{[\textsc{c}]}
 \end{align*}
 
-Noting that the final intractable integral in~[\textsc{c}] is
-the same as that in~[\textsc{b}], we may eliminate it, by
-multiplying~[\textsc{b}] by $\dfrac{2 \pi nb}{a}$, and multiplying~[\textsc{c}] by
-$\dfrac{a}{2 \pi nb}$, and adding them.
+Notando que la integral intratable final en~[\textsc{c}] es
+la misma que la de~[\textsc{b}], podemos eliminarla, multiplicando~[\textsc{b}] por $\dfrac{2 \pi nb}{a}$, y multiplicando~[\textsc{c}] por
+$\dfrac{a}{2 \pi nb}$, y sumándolas.
 \DPPageSep{253.png}{241}%
 
-The result, when cleared down, is:
+El resultado, cuando se simplifica, es:
 \begin{align*}
 \int \epsilon^{\efrac{a}{b} t} · \sin 2 \pi n t · dt
   &= \epsilon^{\efrac{a}{b} t} \left\{\frac{ ab · \sin 2 \pi nt - 2 \pi n b^2 · \cos 2 \pi n t}{ a^2 + 4 \pi^2 n^2 b^2 } \right\}
 \tag*{[\textsc{d}]} &\\
-\intertext{\indent Inserting this value in~[\textsc{a}], we get}
+\intertext{\indent Insertando este valor en~[\textsc{a}], obtenemos}
 y &= g \left\{\frac{ a · \sin 2 \pi n t - 2 \pi n b · \cos 2 \pi nt}{ a^2 + 4 \pi^2  n^2 b^2}\right\}. &
 \end{align*}
 
-To simplify still further, let us imagine an angle~$\phi$
-such that $\tan \phi = \dfrac{2 \pi n b}{ a}$.
+Para simplificar aún más, imaginemos un ángulo~$\phi$
+tal que $\tan \phi = \dfrac{2 \pi n b}{ a}$.
 \begin{DPalign*}
-\lintertext{\indent Then}
+\lintertext{\indent Entonces}
 \sin \phi &= \frac{2 \pi nb}{\sqrt{a^2 + 4 \pi^2 n^2 b^2}}, \\
-\lintertext{and}
+\lintertext{y}
 \cos \phi &= \frac{a}{\sqrt{a^2 + 4 \pi^2 n^2 b^2}}. \displaybreak[1] \\
-\intertext{\rlap{Substituting these, we get:}}
+\intertext{\rlap{Sustituyendo estos, obtenemos:}}
 y &= g \frac{\cos \phi · \sin 2 \pi nt
   - \sin \phi · \cos 2 \pi nt}{\sqrt{a^2 + 4 \pi^2 n^2 b^2}}, \\
-\intertext{\rlap{which may be written}}
+\intertext{\rlap{lo cual puede escribirse}}
 y &= g \frac{\sin(2 \pi nt - \phi)}{\sqrt{a^2 + 4 \pi^2 n^2 b^2}},\\
-\lintertext{\rlap{which is \textit{the solution} desired.}}
+\lintertext{\rlap{que es \textit{la solución} deseada.}}
 \end{DPalign*}
 
-This is indeed none other than the equation of an
-alternating electric current, where $g$ represents the
+Esta no es otra que la ecuación de una
+corriente eléctrica alterna, donde $g$ representa la
 amplitude of the electromotive force, $n$~the frequency,
-$a$~the resistance, $b$~the coefficient of self-induction of
-the circuit, and $\phi$ is an angle of lag.
+$a$~la resistencia, $b$~el coeficiente de autoinducción del
+circuito, y $\phi$ es un ángulo de retraso.
 
 \tb
 \DPPageSep{254.png}{242}%
@@ -9612,17 +9606,17 @@ the circuit, and $\phi$ is an angle of lag.
 
 \Example{4.}
 \begin{DPgather*}
-\lintertext{\indent Suppose that}
+\lintertext{\indent Supongamos que}
 M\, dx + N\, dy = 0.
 \end{DPgather*}
 
-We could integrate this expression directly, if $M$
-were a function of~$x$ only, and $N$~a function of~$y$
-only; but, if both $M$~and~$N$ are functions that depend
-on both $x$~and~$y$, how are we to integrate it? Is it
-itself an exact differential? That is: have $M$~and~$N$
-each been formed by partial differentiation from some
-common function~$U$, or not? If they have, then
+Podríamos integrar esta expresión directamente, si $M$
+fuera una función solo de~$x$, y $N$~una función solo de~$y$;
+pero, si tanto $M$~como~$N$ son funciones que dependen
+de ambas $x$~y~$y$, ¿cómo vamos a integrarla? ¿Es ella
+misma una diferencial exacta? Es decir: ¿han sido $M$~y~$N$
+cada una formada por diferenciación parcial de alguna
+función común~$U$, o no? Si las han sido, entonces
 \[\left\{
   \begin{aligned}
  \frac{\partial U}{\partial x} = M, \\
@@ -9630,30 +9624,30 @@ common function~$U$, or not? If they have, then
   \end{aligned}
 \right.
 \]
-And if such a common function exists, then
+Y si tal función común existe, entonces
 \[
 \frac{\partial U}{\partial x}\, dx + \frac{\partial U}{\partial y}\, dy
 \]
-is an exact differential (compare \Pageref{partialdiff}).
+es una diferencial exacta (compárese con \Pageref{partialdiff}).
 
 %[** TN: Retaining original book's use of d instead of \partial below]
-Now the test of the matter is this. If the expression
-is an exact differential, it must be true that
+Ahora la prueba del asunto es esta. Si la expresión
+es una diferencial exacta, debe ser cierto que
 \begin{DPalign*}
         \frac{dM}{dy} &= \frac{dN}{dx}; \\
-\lintertext{for then}
+\lintertext{pues entonces}
 \frac{d(dU)}{dx\, dy} &= \frac{d(dU)}{dy\, dx},\\
-\lintertext{which is necessarily true.}
+\lintertext{lo cual es necesariamente cierto.}
 \end{DPalign*}
 
-Take as an illustration the equation
+Tomemos como ilustración la ecuación
 \[
 (1 + 3 xy)\, dx + x^2\, dy = 0.
 \]
 \DPPageSep{255.png}{243}%
 
-Is this an exact differential or not? Apply the
-test.
+¿Es esta una diferencial exacta o no? Apliquemos la
+prueba.
 \[\left\{
   \begin{aligned}
  \frac{d(1 + 3xy)}{dy}=3x, \\
@@ -9661,23 +9655,22 @@ test.
   \end{aligned}
 \right.
 \]
-which do not agree. Therefore, it is not an exact
-differential, and the two functions $1+3xy$ and~$x^2$
-have not come from a common original function.
+las cuales no concuerdan. Por lo tanto, no es una
+diferencial exacta, y las dos funciones $1+3xy$ y~$x^2$
+no han venido de una función original común.
 
-It is possible in such cases to discover, however, \emph{an
-integrating factor}, that is to say, a factor such that
-if both are multiplied by this factor, the expression
-will become an exact differential. There is no one
-rule for discovering such an integrating factor; but
-experience will usually suggest one. In the present
-instance $2x$ will act as such. Multiplying by~$2x$, we
-get
+Es posible en tales casos descubrir, sin embargo, \emph{un
+factor integrante}, es decir, un factor tal que
+si ambos son multiplicados por este factor, la expresión
+se convertirá en una diferencial exacta. No hay una regla
+única para descubrir tal factor integrante; pero
+la experiencia usualmente sugerirá uno. En el presente
+caso $2x$ actuará como tal. Multiplicando por~$2x$, obtenemos
 \[
 (2x + 6x^2y)\, dx + 2x^3\, dy = 0.
 \]
 
-Now apply the test to this.
+Ahora apliquemos la prueba a esto.
 \[
 \left\{
   \begin{aligned}
@@ -9686,142 +9679,141 @@ Now apply the test to this.
   \end{aligned}
 \right.
 \]
-which agrees. Hence this is an exact differential, and
-may be integrated. Now, if $w = 2x^3y$,
+lo cual concuerda. Por lo tanto esta es una diferencial exacta, y
+puede ser integrada. Ahora, si $w = 2x^3y$,
 \begin{DPgather*}
 dw=6x^2y\, dx + 2x^3\, dy. \\
-\lintertext{\indent Hence} \int 6x^2y\, dx + \int 2x^3\, dy=w=2x^3y; \\
-\lintertext{so that we get}  U = x^2 + 2x^3y + C.
+\lintertext{\indent Por lo tanto} \int 6x^2y\, dx + \int 2x^3\, dy=w=2x^3y; \\
+\lintertext{de modo que obtenemos}  U = x^2 + 2x^3y + C.
 \end{DPgather*}
 \DPPageSep{256.png}{244}%
 
 \tb %[** TN: No thought break in orignal]
-\Example{5.} Let $\dfrac{d^2 y}{dt^2} + n^2 y = 0$.
+\Example{5.} Sea $\dfrac{d^2 y}{dt^2} + n^2 y = 0$.
 
-In this case we have a differential equation of the
-second degree, in which $y$ appears in the form of
-a second differential coefficient, as well as in person.
+En este caso tenemos una ecuación diferencial de
+segundo grado, en la cual $y$ aparece en la forma de
+un coeficiente diferencial de segundo orden, así como en persona.
 
-Transposing, we have $\dfrac{d^2 y}{dt^2} = - n^2 y$.
+Transponiendo, tenemos $\dfrac{d^2 y}{dt^2} = - n^2 y$.
 
-It appears from this that we have to do with a
-function such that its second differential coefficient is
-proportional to itself, but with reversed sign. In
-Chapter~XV. we found that there was such a function---namely,
-the \emph{sine} (or the \emph{cosine} also) which
-possessed this property. So, without further ado,
-we may infer that the solution will be of the form
-$y = A \sin (pt + q)$. However, let us go to work.
+Parece de esto que tenemos que ver con una
+función tal que su segundo coeficiente diferencial es
+proporcional a sí misma, pero con signo invertido. En
+el Capítulo~XV. encontramos que había tal función---a saber,
+el \emph{seno} (o también el \emph{coseno}) que
+poseía esta propiedad. Así que, sin más preámbulos,
+podemos inferir que la solución será de la forma
+$y = A \sin (pt + q)$. Sin embargo, pongámonos a trabajar.
 
-Multiply both sides of the original equation by $2\dfrac{dy}{dt}$
-and integrate, giving us $2\dfrac{d^2 y}{dt^2}\, \dfrac{dy}{dt} + 2x^2 y \dfrac{dy}{dt} = 0$, and, as
+Multipliquemos ambos lados de la ecuación original por $2\dfrac{dy}{dt}$
+e integremos, dándonos $2\dfrac{d^2 y}{dt^2}\, \dfrac{dy}{dt} + 2x^2 y \dfrac{dy}{dt} = 0$, y, como
 \[
 2 \frac{d^2y}{dt^2}\, \frac{dy}{dt}
   = \frac{d \left(\dfrac{dy}{dt}\right)^2}{dt},\quad
 \left(\frac{dy}{dt}\right)^2 + n^2 (y^2-C^2) = 0,
 \]
-$C$ being a constant. Then, taking the square roots,
+siendo $C$ una constante. Entonces, tomando las raíces cuadradas,
 \[
-\frac{dy}{dt} = -n \sqrt{ y^2 - C^2}\quad \text{and}\quad
+\frac{dy}{dt} = -n \sqrt{ y^2 - C^2}\quad \text{y}\quad
 \frac{dy}{\sqrt{C^2 - y^2}} = n · dt.
 \]
 
-But it can be shown that (see \Pageref{intex3})
+Pero puede demostrarse que (véase \Pageref{intex3})
 \[
 \frac{1}{\sqrt{C^2 - y^2}} = \frac{d (\arcsin \dfrac{y}{C})}{dy};
 \]
-whence, passing from angles to sines,
+de donde, pasando de ángulos a senos,
 \[
-\arcsin \frac{y}{C} = nt + C_1\quad \text{and}\quad y = C \sin (nt + C_1),
+\arcsin \frac{y}{C} = nt + C_1\quad \text{y}\quad y = C \sin (nt + C_1),
 \]
 \DPPageSep{257.png}{245}%
-where $C_1$ is a constant angle that comes in by integration.
+donde $C_1$ es un ángulo constante que entra por integración.
 
-Or, preferably, this may be written
+O, preferiblemente, esto puede escribirse
 \[
-y = A \sin nt + B \cos nt, \text{ which is the solution.}
+y = A \sin nt + B \cos nt, \text{ que es la solución.}
 \]
 
 \tb
 
-\Example{6.} \hfil $\dfrac{d^2 y}{dt^2} - n^2 y = 0$.\phantom{\indent\textit{Example 6.}}
+\Example{6.} \hfil $\dfrac{d^2 y}{dt^2} - n^2 y = 0$.\phantom{\indent\textit{Ejemplo 6.}}
 
-Here we have obviously to deal with a function~$y$
-which is such that its second differential coefficient is
-proportional to itself. The only function we know
-that has this property is the exponential function
-(see \Pageref{unchanged}), and we may be certain therefore that the
-solution of the equation will be of that form.
+Aquí obviamente tenemos que ver con una función~$y$
+que es tal que su segundo coeficiente diferencial es
+proporcional a sí misma. La única función que conocemos
+que tiene esta propiedad es la función exponencial
+(véase \Pageref{unchanged}), y podemos estar seguros por lo tanto de que la
+solución de la ecuación será de esa forma.
 
-Proceeding as before, by multiplying through by
-$2 \dfrac{dy}{dx}$, and integrating, we get $2\dfrac{d^2 y}{dx^2}\, \dfrac{dy}{dx} - 2x^2 y \dfrac{dy}{dx}=0$,
+Procediendo como antes, multiplicando por
+$2 \dfrac{dy}{dx}$, e integrando, obtenemos $2\dfrac{d^2 y}{dx^2}\, \dfrac{dy}{dx} - 2x^2 y \dfrac{dy}{dx}=0$,
 \begin{DPgather*}
-\lintertext{and, as}
+\lintertext{y, como}
 2\frac{d^2 y}{dx^2}\, \frac{dy}{dx}
   = \frac{d \left(\dfrac{dy}{dx}\right)^2}{dx},\quad
 \left(\frac{dy}{dx}\right)^2 - n^2 (y^2 + c^2) = 0, \\
 \frac{dy}{dx} - n \sqrt{y^2 + c^2} = 0,
 \end{DPgather*}
-where $c$ is a constant, and $\dfrac{dy}{\sqrt{y^2 + c^2}} = n\, dx$.
+donde $c$ es una constante, y $\dfrac{dy}{\sqrt{y^2 + c^2}} = n\, dx$.
 
-Now, if\quad $w = \log_\epsilon ( y+ \sqrt{y^2+ c^2}) = \log_\epsilon u$,
+Ahora, si\quad $w = \log_\epsilon ( y+ \sqrt{y^2+ c^2}) = \log_\epsilon u$,
 \begin{DPgather*}
 \frac{dw}{du} = \frac{1}{u},\quad \frac{du}{dy} = 1 + \frac{y}{\sqrt{y^2 + c^2}} = \frac{y + \sqrt{ y^2 + c^2}}{\sqrt{y^2 + c^2}} \\
-\lintertext{and} \frac{dw}{dy} = \frac{1}{\sqrt{ y^2 + c^2}}.
+\lintertext{y} \frac{dw}{dy} = \frac{1}{\sqrt{ y^2 + c^2}}.
 \end{DPgather*}
 
-Hence, integrating, this gives us
+Por lo tanto, integrando, esto nos da
 \begin{DPgather*}
 \log_\epsilon (y + \sqrt{y^2 + c^2} ) = nx + \log_\epsilon C, \\
 y + \sqrt{y^2 + c^2} = C \epsilon^{nx}.
 \tag*{(1)} \displaybreak[1] \\
-\lintertext{\indent Now} \qquad ( y + \sqrt{y^2 + c^2} ) × ( -y + \sqrt{y^2 + c^2} ) = c^2 ;    \\
-\lintertext{whence} \qquad  -y + \sqrt{y^2 + c^2} = \dfrac{c^2}{C} \epsilon^{-nx}.
+\lintertext{\indent Ahora} \qquad ( y + \sqrt{y^2 + c^2} ) × ( -y + \sqrt{y^2 + c^2} ) = c^2 ;    \\
+\lintertext{de donde} \qquad  -y + \sqrt{y^2 + c^2} = \dfrac{c^2}{C} \epsilon^{-nx}.
 \tag*{(2)}
 \end{DPgather*}
 \DPPageSep{258.png}{246}%
 
-Subtracting (2) from~(1) and dividing by~$2$, we
-then have
+Restando (2) de~(1) y dividiendo por~$2$, entonces
+tenemos
 \[
 y = \frac{1}{2} C \epsilon^{nx} - \frac{1}{2}\, \frac{c^2}{C} \epsilon^{-nx},
 \]
-which is more conveniently written
+lo cual se escribe más convenientemente
 \[
 y = A \epsilon^{nx} + B \epsilon^{-nx}.
 \]
-Or, the solution, which at first sight does not look
-as if it had anything to do with the original equation,
-shows that $y$~consists of two terms, one of which
-grows logarithmically as $x$~increases, and of a second
-term which dies away as $x$~increases.
+O, la solución, que a primera vista no parece
+que tuviera algo que ver con la ecuación original,
+muestra que $y$~consiste de dos términos, uno de los cuales
+crece logarítmicamente a medida que $x$~aumenta, y de un segundo
+término que se desvanece a medida que $x$~aumenta.
 
 \tb
 
 
 \Example{7.}
 \begin{DPalign*}
-\lintertext{\indent Let}
+\lintertext{\indent Sea}
 b \frac{d^2y}{dt^2} + a \frac{dy}{dt} + gy &= 0.
 \end{DPalign*}
 
-Examination of this expression will show that, if
-$b = 0$, it has the form of Example~1, the solution of
-which was a negative exponential. On the other
-hand, if $a = 0$, its form becomes the same as that of
-Example~6, the solution of which is the sum of a
-positive and a negative exponential. It is therefore
-not very surprising to find that the solution of the
-present example is
+El examen de esta expresión mostrará que, si
+$b = 0$, tiene la forma del Ejemplo~1, cuya solución
+fue una exponencial negativa. Por otro lado, si $a = 0$, su forma se convierte en la misma que la del
+Ejemplo~6, cuya solución es la suma de una
+exponencial positiva y una negativa. Por lo tanto
+no es muy sorprendente encontrar que la solución del
+presente ejemplo es
 \begin{DPalign*}
 y &= (\epsilon^{-mt})(A \epsilon^{nt} + B \epsilon^{-nt}), \\
-\lintertext{where}
-m &= \frac{a}{2b}\quad \text{and}\quad
+\lintertext{donde}
+m &= \frac{a}{2b}\quad \text{y}\quad
 n  = \sqrt{\frac{a^2}{4b^2}} - \frac{g}{b}.
 \end{DPalign*}
 
-The steps by which this solution is reached are not
-given here; they may be found in advanced treatises.
+Los pasos por los cuales se alcanza esta solución no se
+dan aquí; pueden encontrarse en tratados avanzados.
 
 \tb
 \DPPageSep{259.png}{247}%
@@ -9832,64 +9824,62 @@ given here; they may be found in advanced treatises.
 \frac{d^2y}{dt^2} = a^2 \frac{d^2y}{dx^2}.
 \]
 
-It was seen (\Pageref{Example4}) that this equation was derived
-from the original
+Se vio (\Pageref{Example4}) que esta ecuación se derivó
+de la original
 \[
 y = F(x+at) + f(x-at),
 \]
-where $F$ and~$f$ were any arbitrary functions of~$t$.
+donde $F$ y~$f$ eran cualesquiera funciones arbitrarias de~$t$.
 
-Another way of dealing with it is to transform it
-by a change of variables into
+Otra manera de tratarla es transformarla
+por un cambio de variables en
 \[
 \frac{d^2y}{du · dv} = 0,
 \]
-where $u = x + at$, and $v = x - at$, leading to the same
-general solution. If we consider a case in which
-$F$~vanishes, then we have simply
+donde $u = x + at$, y $v = x - at$, conduciendo a la misma
+solución general. Si consideramos un caso en el cual
+$F$~se desvanece, entonces tenemos simplemente
 \[
 y = f(x-at);
 \]
-and this merely states that, at the time $t = 0$, $y$~is a
-particular function of~$x$, and may be looked upon as
-denoting that the curve of the relation of~$y$ to~$x$ has
-a particular shape. Then any change in the value
-of~$t$ is equivalent simply to an alteration in the origin
-from which $x$~is reckoned. That is to say, it indicates
-that, the form of the function being conserved, it is
-propagated along the $x$~direction with a uniform
-velocity~$a$; so that whatever the value of the
-ordinate~$y$ at any particular time~$t_0$ at any particular
-point~$x_0$, the same value of~$y$ will appear at the subsequent
-time~$t_1$ at a point further along, the abscissa
-of which is $x_0 + a(t_1 - t_0)$. In this case the simplified
+y esto meramente establece que, en el tiempo $t = 0$, $y$~es una
+función particular de~$x$, y puede considerarse como
+denotando que la curva de la relación de~$y$ a~$x$ tiene
+una forma particular. Entonces cualquier cambio en el valor
+de~$t$ es equivalente simplemente a una alteración en el origen
+desde el cual se cuenta~$x$. Es decir, indica
+que, siendo conservada la forma de la función, se
+propaga a lo largo de la dirección de~$x$ con una
+velocidad uniforme~$a$; de modo que cualquiera que sea el valor de la
+ordenada~$y$ en cualquier tiempo particular~$t_0$ en cualquier punto particular~$x_0$, el mismo valor de~$y$ aparecerá en el tiempo subsecuente~$t_1$ en un punto más adelante, cuya abscisa
+es $x_0 + a(t_1 - t_0)$. En este caso la ecuación simplificada
 \DPPageSep{260.png}{248}%
-equation represents the propagation of a wave (of any
-form) at a uniform speed along the $x$~direction.
+representa la propagación de una onda (de cualquier
+forma) a una velocidad uniforme a lo largo de la dirección de~$x$.
 
-If the differential equation had been written
+Si la ecuación diferencial hubiera sido escrita
 \[
 m \frac{d^2y}{dt^2} = k\, \frac{d^2y}{dx^2},
 \]
-the solution would have been the same, but the
-velocity of propagation would have had the value
+la solución habría sido la misma, pero la
+velocidad de propagación habría tenido el valor
 \[
 a = \sqrt{\frac{k}{m}}.
 \]
 
 \tb
 
-You have now been personally conducted over the
-frontiers into the enchanted land. And in order that
-you may have a handy reference to the principal
-results, the author, in bidding you farewell, begs to
-present you with a passport in the shape of a convenient
-collection of standard forms (see \Pagerange{stdforms1}{stdforms2}).
-In the middle column are set down a number of the
-functions which most commonly occur. The results
-of differentiating them are set down on the left; the
-results of integrating them are set down on the right.
-May you find them useful!
+Ahora has sido personalmente conducido sobre las
+fronteras hacia la tierra encantada. Y para que
+puedas tener una referencia conveniente a los principales
+resultados, el autor, al despedirse de ti, ruega
+presentarte un pasaporte en la forma de una conveniente
+colección de formas estándar (véase \Pagerange{stdforms1}{stdforms2}).
+En la columna del medio se exponen un número de las
+funciones que ocurren más comúnmente. Los resultados
+de diferenciarlas se exponen a la izquierda; los
+resultados de integrarlas se exponen a la derecha.
+¡Que las encuentres útiles!
 \DPPageSep{261.png}{249}%
 \backmatter
 \phantomsection
@@ -9925,44 +9915,39 @@ de parte del autor para demostrar con rigurosa
 y satisfactoria completitud la validez de varios
 métodos que él ha presentado de manera simple,
 ¡y incluso se ha \emph{atrevido a usar} en la resolución de problemas! Pero
-why should he not? You don't forbid the use of
-a watch to every person who does not know how to
-make one? You don't object to the musician playing
-on a violin that he has not himself constructed. You
-don't teach the rules of syntax to children until they
-have already become fluent in the \emph{use} of speech. It
-would be equally absurd to require general rigid
-demonstrations to be expounded to beginners in the
-calculus.
+¿Por qué no habría de hacerlo? ¿Acaso se prohíbe el uso de
+un reloj a toda persona que no sabe cómo fabricarlo? ¿Acaso se
+objeta que un músico toque un violín que él mismo no ha construido?
+¿Acaso se enseñan las reglas de la sintaxis a los niños antes
+de que hayan llegado a ser fluidos en el \emph{uso} del habla?
+Sería igualmente absurdo exigir que se expongan demostraciones
+generales y rígidas a los principiantes en el cálculo.
 
-One other thing will the professed mathematicians
-say about this thoroughly bad and vicious book: that
-the reason why it is \emph{so easy} is because the author has
-left out all the things that are really difficult. And
-the ghastly fact about this accusation is that---\emph{it
-is true!} That is, indeed, why the book has been
-written---written for the legion of innocents who have
-hitherto been deterred from acquiring the elements of
-the calculus by the stupid way in which its teaching
-is almost always presented. Any subject can be made
-repulsive by presenting it bristling with difficulties.
-The aim of this book is to enable beginners to learn
-its language, to acquire familiarity with its endearing
-simplicities, and to grasp its powerful methods of
-solving problems, without being compelled to toil
-through the intricate out-of-the-way (and mostly
-irrelevant) mathematical gymnastics so dear to the
-unpractical mathematician.
+Otra cosa dirán los matemáticos de profesión acerca de este
+libro completamente malo y vicioso: que la razón por la cual es
+\emph{tan fácil} es porque el autor ha dejado de lado todas las cosas
+que son realmente difíciles. Y el hecho espantoso acerca de
+esta acusación es que—¡\emph{es cierto!} Esa es, en efecto, la razón
+por la que el libro ha sido escrito—escrito para la legión de
+inocentes que hasta ahora se han visto disuadidos de adquirir
+los elementos del cálculo por la estúpida manera en que casi
+siempre se presenta su enseñanza. Cualquier tema puede
+hacerse repulsivo presentándolo erizado de dificultades. El
+objetivo de este libro es permitir que los principiantes aprendan
+su lenguaje, adquieran familiaridad con sus entrañables
+simplicidades, y comprendan sus poderosos métodos de
+resolución de problemas, sin verse obligados a fatigarse con
+las intrincadas y marginales (y en su mayoría irrelevantes)
+acrobacias matemáticas tan queridas por el matemático poco
+práctico.
 \DPPageSep{263.png}{251}%
 
-There are amongst young engineers a number on
-whose ears the adage that \emph{what one fool can do,
-another can}, may fall with a familiar sound. They
-are earnestly requested not to give the author
-away, nor to tell the mathematicians what a fool
-he really is.
+Entre los jóvenes ingenieros hay un cierto número en cuyos
+oídos el adagio de que \emph{lo que un necio puede hacer,
+otro también puede}, puede sonarles familiar. Se les ruega
+encarecidamente que no delaten al autor, ni cuenten a los
+matemáticos qué necio es en realidad.
 \DPPageSep{264.png}{252}%
-
 
 \AltChapter{Tabla de Formas Estándar}
 

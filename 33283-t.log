@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.18)  18 SEP 2025 10:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.18)  18 SEP 2025 10:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1579,22 +1579,22 @@ Package pdftex.def Info: ./images/195a.pdf  used on input line 7605.
 [186 <./images/195a.pdf>]
 
 [187]
-<./images/197a.pdf, id=2189, 188.705pt x 195.73125pt>
+<./images/197a.pdf, id=2188, 188.705pt x 195.73125pt>
 File: ./images/197a.pdf Graphic file (type pdf)
 <use ./images/197a.pdf>
 Package pdftex.def Info: ./images/197a.pdf  used on input line 7651.
 (pdftex.def)             Requested size: 180.67499pt x 187.40108pt.
-<./images/197b.pdf, id=2190, 47.17625pt x 30.1125pt>
+<./images/197b.pdf, id=2189, 47.17625pt x 30.1125pt>
 File: ./images/197b.pdf Graphic file (type pdf)
 <use ./images/197b.pdf>
 Package pdftex.def Info: ./images/197b.pdf  used on input line 7656.
 (pdftex.def)             Requested size: 47.17612pt x 30.11241pt.
-<./images/198a.pdf, id=2191, 287.0725pt x 16.06pt>
+<./images/198a.pdf, id=2190, 287.0725pt x 16.06pt>
 File: ./images/198a.pdf Graphic file (type pdf)
 <use ./images/198a.pdf>
 Package pdftex.def Info: ./images/198a.pdf  used on input line 7663.
 (pdftex.def)             Requested size: 287.0718pt x 16.05995pt.
-<./images/198b.pdf, id=2192, 275.0275pt x 286.06876pt>
+<./images/198b.pdf, id=2191, 275.0275pt x 286.06876pt>
 File: ./images/198b.pdf Graphic file (type pdf)
 <use ./images/198b.pdf>
 Package pdftex.def Info: ./images/198b.pdf  used on input line 7672.
@@ -1604,32 +1604,32 @@ Package pdftex.def Info: ./images/198b.pdf  used on input line 7672.
 [188 <./images/197a.pdf> <./images/197b.pdf> <./images/198a.pdf>]
 
 [189 <./images/198b.pdf>]
-<./images/200a1.pdf, id=2225, 36.135pt x 2.0075pt>
+<./images/200a1.pdf, id=2224, 36.135pt x 2.0075pt>
 File: ./images/200a1.pdf Graphic file (type pdf)
 <use ./images/200a1.pdf>
 Package pdftex.def Info: ./images/200a1.pdf  used on input line 7722.
 (pdftex.def)             Requested size: 36.13489pt x 2.00749pt.
-<./images/200a2.pdf, id=2226, 38.1425pt x 9.03375pt>
+<./images/200a2.pdf, id=2225, 38.1425pt x 9.03375pt>
 File: ./images/200a2.pdf Graphic file (type pdf)
 <use ./images/200a2.pdf>
 Package pdftex.def Info: ./images/200a2.pdf  used on input line 7722.
 (pdftex.def)             Requested size: 38.1424pt x 9.0337pt.
-<./images/200a3.pdf, id=2227, 39.14626pt x 17.06375pt>
+<./images/200a3.pdf, id=2226, 39.14626pt x 17.06375pt>
 File: ./images/200a3.pdf Graphic file (type pdf)
 <use ./images/200a3.pdf>
 Package pdftex.def Info: ./images/200a3.pdf  used on input line 7722.
 (pdftex.def)             Requested size: 39.14615pt x 17.06369pt.
-<./images/200a4.pdf, id=2228, 39.14626pt x 24.09pt>
+<./images/200a4.pdf, id=2227, 39.14626pt x 24.09pt>
 File: ./images/200a4.pdf Graphic file (type pdf)
 <use ./images/200a4.pdf>
 Package pdftex.def Info: ./images/200a4.pdf  used on input line 7722.
 (pdftex.def)             Requested size: 39.14615pt x 24.08992pt.
-<./images/200a5.pdf, id=2229, 39.14626pt x 31.11626pt>
+<./images/200a5.pdf, id=2228, 39.14626pt x 31.11626pt>
 File: ./images/200a5.pdf Graphic file (type pdf)
 <use ./images/200a5.pdf>
 Package pdftex.def Info: ./images/200a5.pdf  used on input line 7722.
 (pdftex.def)             Requested size: 39.14615pt x 31.11617pt.
-<./images/200a6.pdf, id=2230, 38.1425pt x 39.14626pt>
+<./images/200a6.pdf, id=2229, 38.1425pt x 39.14626pt>
 File: ./images/200a6.pdf Graphic file (type pdf)
 <use ./images/200a6.pdf>
 Package pdftex.def Info: ./images/200a6.pdf  used on input line 7722.
@@ -1661,7 +1661,7 @@ Package pdftex.def Info: ./images/200a6.pdf  used on input line 7722.
 
 
 [190]
-<./images/200b.pdf, id=2237, 237.88875pt x 159.59625pt>
+<./images/200b.pdf, id=2236, 237.88875pt x 159.59625pt>
 File: ./images/200b.pdf Graphic file (type pdf)
 <use ./images/200b.pdf>
 Package pdftex.def Info: ./images/200b.pdf  used on input line 7728.
@@ -1670,7 +1670,7 @@ Package pdftex.def Info: ./images/200b.pdf  used on input line 7728.
 
 [191 <./images/200a1.pdf> <./images/200a2.pdf> <./images/200a3.pdf> <./images/2
 00a4.pdf> <./images/200a5.pdf> <./images/200a6.pdf> <./images/200b.pdf>]
-<./images/201a.pdf, id=2265, 231.86626pt x 162.6075pt>
+<./images/201a.pdf, id=2264, 231.86626pt x 162.6075pt>
 File: ./images/201a.pdf Graphic file (type pdf)
 <use ./images/201a.pdf>
 Package pdftex.def Info: ./images/201a.pdf  used on input line 7737.
@@ -1678,7 +1678,7 @@ Package pdftex.def Info: ./images/201a.pdf  used on input line 7737.
 
 
 [192 <./images/201a.pdf>]
-<./images/202a.pdf, id=2282, 188.705pt x 195.73125pt>
+<./images/202a.pdf, id=2281, 188.705pt x 195.73125pt>
 File: ./images/202a.pdf Graphic file (type pdf)
 <use ./images/202a.pdf>
 Package pdftex.def Info: ./images/202a.pdf  used on input line 7760.
@@ -1761,7 +1761,7 @@ i hubi^^Seramos
 
 
 [208]
-<./images/218a.pdf, id=2531, 158.5925pt x 201.75375pt>
+<./images/218a.pdf, id=2530, 158.5925pt x 201.75375pt>
 File: ./images/218a.pdf Graphic file (type pdf)
 <use ./images/218a.pdf>
 Package pdftex.def Info: ./images/218a.pdf  used on input line 8345.
@@ -1772,7 +1772,7 @@ Package pdftex.def Info: ./images/218a.pdf  used on input line 8345.
 
 
  <./images/218a.pdf>]
-<./images/219a.pdf, id=2548, 24.09pt x 116.435pt>
+<./images/219a.pdf, id=2547, 24.09pt x 116.435pt>
 File: ./images/219a.pdf Graphic file (type pdf)
 <use ./images/219a.pdf>
 Package pdftex.def Info: ./images/219a.pdf  used on input line 8373.
@@ -1786,95 +1786,105 @@ Package pdftex.def Info: ./images/219a.pdf  used on input line 8373.
 [212]
 
 [213]
-<./images/223a.pdf, id=2580, 151.56625pt x 106.3975pt>
+<./images/223a.pdf, id=2579, 151.56625pt x 106.3975pt>
 File: ./images/223a.pdf Graphic file (type pdf)
 <use ./images/223a.pdf>
-Package pdftex.def Info: ./images/223a.pdf  used on input line 8530.
+Package pdftex.def Info: ./images/223a.pdf  used on input line 8529.
 (pdftex.def)             Requested size: 162.6075pt x 114.1494pt.
 
 
 [214 <./images/223a.pdf>]
-<./images/224a.pdf, id=2597, 235.88126pt x 149.55875pt>
+<./images/224a.pdf, id=2596, 235.88126pt x 149.55875pt>
 File: ./images/224a.pdf Graphic file (type pdf)
 <use ./images/224a.pdf>
-Package pdftex.def Info: ./images/224a.pdf  used on input line 8558.
+Package pdftex.def Info: ./images/224a.pdf  used on input line 8556.
 (pdftex.def)             Requested size: 198.7425pt x 126.01416pt.
 
 
 [215 <./images/224a.pdf>]
-<./images/225a.pdf, id=2612, 213.79875pt x 187.70125pt>
+<./images/225a.pdf, id=2611, 213.79875pt x 187.70125pt>
 File: ./images/225a.pdf Graphic file (type pdf)
 <use ./images/225a.pdf>
-Package pdftex.def Info: ./images/225a.pdf  used on input line 8595.
+Package pdftex.def Info: ./images/225a.pdf  used on input line 8593.
 (pdftex.def)             Requested size: 198.7425pt x 174.48302pt.
 
 
 [216 <./images/225a.pdf>]
-<./images/226a.pdf, id=2626, 110.4125pt x 129.48375pt>
+<./images/226a.pdf, id=2625, 110.4125pt x 129.48375pt>
 File: ./images/226a.pdf Graphic file (type pdf)
 <use ./images/226a.pdf>
-Package pdftex.def Info: ./images/226a.pdf  used on input line 8614.
+Package pdftex.def Info: ./images/226a.pdf  used on input line 8612.
 (pdftex.def)             Requested size: 108.405pt x 127.1362pt.
 
 
 [217 <./images/226a.pdf>]
-<./images/227a.pdf, id=2650, 182.6825pt x 141.52875pt>
+<./images/227a.pdf, id=2649, 182.6825pt x 141.52875pt>
 File: ./images/227a.pdf Graphic file (type pdf)
 <use ./images/227a.pdf>
-Package pdftex.def Info: ./images/227a.pdf  used on input line 8640.
+Package pdftex.def Info: ./images/227a.pdf  used on input line 8638.
 (pdftex.def)             Requested size: 162.6075pt x 125.98178pt.
-<./images/227b.pdf, id=2651, 179.67125pt x 158.5925pt>
+<./images/227b.pdf, id=2650, 179.67125pt x 158.5925pt>
 File: ./images/227b.pdf Graphic file (type pdf)
 <use ./images/227b.pdf>
-Package pdftex.def Info: ./images/227b.pdf  used on input line 8640.
+Package pdftex.def Info: ./images/227b.pdf  used on input line 8638.
 (pdftex.def)             Requested size: 162.6075pt x 143.54016pt.
 
 
 [218 <./images/227a.pdf> <./images/227b.pdf>]
-<./images/228a.pdf, id=2673, 168.63pt x 165.61874pt>
+<./images/228a.pdf, id=2672, 168.63pt x 165.61874pt>
 File: ./images/228a.pdf Graphic file (type pdf)
 <use ./images/228a.pdf>
-Package pdftex.def Info: ./images/228a.pdf  used on input line 8666.
+Package pdftex.def Info: ./images/228a.pdf  used on input line 8664.
 (pdftex.def)             Requested size: 162.6075pt x 159.70735pt.
 
 
 [219 <./images/228a.pdf>]
-<./images/229a.pdf, id=2688, 242.9075pt x 102.3825pt>
+<./images/229a.pdf, id=2687, 242.9075pt x 102.3825pt>
 File: ./images/229a.pdf Graphic file (type pdf)
 <use ./images/229a.pdf>
-Package pdftex.def Info: ./images/229a.pdf  used on input line 8707.
+Package pdftex.def Info: ./images/229a.pdf  used on input line 8705.
 (pdftex.def)             Requested size: 216.81pt x 91.38258pt.
 
 
 [220 <./images/229a.pdf>]
-<./images/231a.pdf, id=2704, 186.6975pt x 134.5025pt>
-File: ./images/231a.pdf Graphic file (type pdf)
-<use ./images/231a.pdf>
-Package pdftex.def Info: ./images/231a.pdf  used on input line 8770.
-(pdftex.def)             Requested size: 180.67499pt x 130.16965pt.
-
 
 [221]
+<./images/231a.pdf, id=2708, 186.6975pt x 134.5025pt>
+File: ./images/231a.pdf Graphic file (type pdf)
+<use ./images/231a.pdf>
+Package pdftex.def Info: ./images/231a.pdf  used on input line 8768.
+(pdftex.def)             Requested size: 180.67499pt x 130.16965pt.
+
 
 [222 <./images/231a.pdf>]
 
 [223]
-<./images/233a.pdf, id=2736, 158.5925pt x 173.64874pt>
+<./images/233a.pdf, id=2732, 158.5925pt x 173.64874pt>
 File: ./images/233a.pdf Graphic file (type pdf)
 <use ./images/233a.pdf>
-Package pdftex.def Info: ./images/233a.pdf  used on input line 8842.
+Package pdftex.def Info: ./images/233a.pdf  used on input line 8840.
 (pdftex.def)             Requested size: 144.54pt x 158.27496pt.
 
 
 [224 <./images/233a.pdf>]
-<./images/235a.pdf, id=2752, 201.75375pt x 129.48375pt>
-File: ./images/235a.pdf Graphic file (type pdf)
-<use ./images/235a.pdf>
-Package pdftex.def Info: ./images/235a.pdf  used on input line 8898.
-(pdftex.def)             Requested size: 180.67499pt x 115.95735pt.
+Overfull \hbox (63.77005pt too wide) detected at line 8855
+[]
+ []
+
+
+Overfull \hbox (22.45227pt too wide) detected at line 8867
+[]
+ []
+
 
 
 [225]
+<./images/235a.pdf, id=2758, 201.75375pt x 129.48375pt>
+File: ./images/235a.pdf Graphic file (type pdf)
+<use ./images/235a.pdf>
+Package pdftex.def Info: ./images/235a.pdf  used on input line 8896.
+(pdftex.def)             Requested size: 180.67499pt x 115.95735pt.
+
 
 [226 <./images/235a.pdf>]
 
@@ -1882,21 +1892,27 @@ Package pdftex.def Info: ./images/235a.pdf  used on input line 8898.
 
 [228]
 
-[229
+[229]
+
+[230
 
 
 ]
 
-[230]
-
 [231]
-Overfull \hbox (36.70195pt too wide) detected at line 9163
+
+[232]
+Overfull \hbox (11.78485pt too wide) in paragraph at lines 9121--9123
+[]\OT1/cmr/m/n/12 Sumando es-tas dos ^^Sultimas ecua-ciones, nos de-shace-mos d
+e $[] []$,
+ []
+
+
+Overfull \hbox (96.62633pt too wide) detected at line 9161
 []
  []
 
 
-
-[232]
 
 [233]
 
@@ -1904,58 +1920,69 @@ Overfull \hbox (36.70195pt too wide) detected at line 9163
 
 [235]
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 [236]
 
-[237
 
 
-]
+
+
+
+
+
+
+
+
+
+Overfull \hbox (10.67892pt too wide) in paragraph at lines 9290--9291
+[]\OT1/cmr/m/n/12 Encuentra $[] [] []([][] \OML/cmm/m/it/12 x\OT1/cmr/m/n/12 ) 
+\OML/cmm/m/it/12 dx$\OT1/cmr/m/n/12 . 
+ []
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[237]
+Overfull \hbox (2.45898pt too wide) in paragraph at lines 9298--9299
+[]\OT1/cmr/m/n/12 Encuentra $[] [] \OML/cmm/m/it/12 dx$\OT1/cmr/m/n/12 . 
+ []
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 [238]
 
-[239]
+[239
+
+
+]
 
 [240]
 
@@ -1968,10 +1995,25 @@ Overfull \hbox (36.70195pt too wide) detected at line 9163
 [244]
 
 [245]
+Overfull \hbox (1.284pt too wide) detected at line 9595
+[]
+ []
+
+
 
 [246]
+Overfull \hbox (91.84723pt too wide) detected at line 9641
+[]
+ []
+
+
 
 [247]
+Overfull \hbox (86.17531pt too wide) detected at line 9688
+[]
+ []
+
+
 
 [248]
 
@@ -1981,110 +2023,26 @@ Overfull \hbox (36.70195pt too wide) detected at line 9163
 
 [251]
 
-[252
-
-
-
-]
+[252]
 
 [253]
 
-[254
+[254]
+
+[255
+
 
 
 ]
 
-[255]
-
 [256]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 [257
 
 
 ]
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Overfull \hbox (2.47119pt too wide) in paragraph at lines 10168--10170
-[]$\OML/cmm/m/it/12 R[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 a \OT1/cmr/m/n/12 + 2\
-OML/cmm/m/it/12 bt\OT1/cmr/m/n/12 )$, $\OML/cmm/m/it/12 R[] []$\OT1/cmr/m/n/12 
-, $\OMS/cmsy/m/n/12 ^^@[]$ \OT1/cmr/m/n/12 or $[]$. 
- []
-
-
-
 [258]
-
-
-
-
-
-
 
 [259]
 
@@ -2108,7 +2066,6 @@ OML/cmm/m/it/12 bt\OT1/cmr/m/n/12 )$, $\OML/cmm/m/it/12 R[] []$\OT1/cmr/m/n/12
 
 
 
-[260]
 
 
 
@@ -2119,6 +2076,53 @@ OML/cmm/m/it/12 bt\OT1/cmr/m/n/12 )$, $\OML/cmm/m/it/12 R[] []$\OT1/cmr/m/n/12
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[260
+
+
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Overfull \hbox (2.47119pt too wide) in paragraph at lines 10153--10155
+[]$\OML/cmm/m/it/12 R[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 a \OT1/cmr/m/n/12 + 2\
+OML/cmm/m/it/12 bt\OT1/cmr/m/n/12 )$, $\OML/cmm/m/it/12 R[] []$\OT1/cmr/m/n/12 
+, $\OMS/cmsy/m/n/12 ^^@[]$ \OT1/cmr/m/n/12 or $[]$. 
+ []
 
 
 
@@ -2130,13 +2134,15 @@ OML/cmm/m/it/12 bt\OT1/cmr/m/n/12 )$, $\OML/cmm/m/it/12 R[] []$\OT1/cmr/m/n/12
 
 
 
-
-
-
-
-
-
 [262]
+
+
+
+
+
+
+
+
 
 
 
@@ -2164,43 +2170,7 @@ OML/cmm/m/it/12 bt\OT1/cmr/m/n/12 )$, $\OML/cmm/m/it/12 R[] []$\OT1/cmr/m/n/12
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 [264]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -2228,21 +2198,69 @@ OML/cmm/m/it/12 bt\OT1/cmr/m/n/12 )$, $\OML/cmm/m/it/12 R[] []$\OT1/cmr/m/n/12
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 [266]
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [267]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 [268]
 
@@ -2270,61 +2288,9 @@ OML/cmm/m/it/12 bt\OT1/cmr/m/n/12 )$, $\OML/cmm/m/it/12 R[] []$\OT1/cmr/m/n/12
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 [269]
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 [270]
-
-
-
-
-
-
 
 [271]
 
@@ -2352,37 +2318,113 @@ OML/cmm/m/it/12 bt\OT1/cmr/m/n/12 )$, $\OML/cmm/m/it/12 R[] []$\OT1/cmr/m/n/12
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [272]
-Underfull \hbox (badness 1975) in paragraph at lines 10822--10823
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[273]
+
+
+
+
+
+
+
+[274]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[275]
+Underfull \hbox (badness 1975) in paragraph at lines 10807--10808
 \OT1/cmr/m/n/17.28 Differential and In-te-gral Cal-cu-lus for Tech-ni-cal
  []
 
 
-
-[273
-
-
-]
-
-[274]
-
-[275]
 
 [276
 
 
 ]
 
-[277
+[277]
+
+[278]
+
+[279
 
 
 ]
 
-[278]
+[280
 
-[279]
 
-[280]
+]
 
 [281]
 
@@ -2394,7 +2436,13 @@ Underfull \hbox (badness 1975) in paragraph at lines 10822--10823
 
 [285]
 
-[286] (33283-t.aux)
+[286]
+
+[287]
+
+[288]
+
+[289] (33283-t.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-08-13>
@@ -2552,62 +2600,52 @@ mathcolor.ltx
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-
-Package rerunfilecheck Warning: File `33283-t.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `33283-t.out':
-(rerunfilecheck)             Before: B44C7DF9E4E7C741A6B7CA3536ACF995;10706
-(rerunfilecheck)             After:  5D4E1757B5F2E7B54A0BA882E0DF6C13;10694.
+Package rerunfilecheck Info: File `33283-t.out' has not changed.
+(rerunfilecheck)             Checksum: 52B77D26E2B705F680D1D6A16CECAF2E;10845.
  ) 
 Here is how much of TeX's memory you used:
- 13726 strings out of 468133
- 210551 string characters out of 5430228
- 651144 words of memory out of 5000000
+ 13728 strings out of 468133
+ 210604 string characters out of 5430228
+ 651271 words of memory out of 5000000
  41240 multiletter control sequences out of 15000+600000
  644251 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,19n,79p,564b,657s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{Slopes\040of\040Curves,\040and\040the\040Curves\040
-themselves..1} has been referenced but does not exist, replaced by a fixed one
-
- <C:\Users\Jerson\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0
-700.pk> <C:\Users\Jerson\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\tcrm0800.pk> <C:\Users\Jerson\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/e
-c/dpi600\tcrm1200.pk> <C:\Users\Jerson\AppData\Local\MiKTeX\fonts/pk/ljfour/jkn
-appen/ec/dpi600\tcrm1440.pk><C:/Users/Jerson/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Jerson/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Jerson/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Jerson/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/
-Jerson/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-<C:/Users/Jerson/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
-mmi12.pfb><C:/Users/Jerson/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmmi7.pfb><C:/Users/Jerson/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmmi8.pfb><C:/Users/Jerson/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Jerson/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Jerson/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Jerson/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Jerso
-n/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Use
-rs/Jerson/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb
-><C:/Users/Jerson/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmr8.pfb><C:/Users/Jerson/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmr9.pfb><C:/Users/Jerson/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb><C:/Users/Jerson/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Jerson/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Jerson/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/Jerson/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Jerso
-n/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/U
-sers/Jerson/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.
-pfb><C:/Users/Jerson/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-symbols/msam10.pfb>
-Output written on 33283-t.pdf (297 pages, 1919547 bytes).
+ <C:\Users\Jerson\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcr
+m0700.pk> <C:\Users\Jerson\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi
+600\tcrm0800.pk> <C:\Users\Jerson\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen
+/ec/dpi600\tcrm1200.pk> <C:\Users\Jerson\AppData\Local\MiKTeX\fonts/pk/ljfour/j
+knappen/ec/dpi600\tcrm1440.pk><C:/Users/Jerson/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Jerson/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Jerson/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Jerson/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/User
+s/Jerson/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pf
+b><C:/Users/Jerson/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmmi12.pfb><C:/Users/Jerson/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmmi7.pfb><C:/Users/Jerson/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmmi8.pfb><C:/Users/Jerson/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Jerson/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Jerson/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Jerson/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Jer
+son/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/U
+sers/Jerson/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.p
+fb><C:/Users/Jerson/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmr8.pfb><C:/Users/Jerson/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmr9.pfb><C:/Users/Jerson/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb><C:/Users/Jerson/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Jerson/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Jerson/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/Jerson/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Jer
+son/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:
+/Users/Jerson/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt
+9.pfb><C:/Users/Jerson/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/symbols/msam10.pfb>
+Output written on 33283-t.pdf (300 pages, 1920770 bytes).
 PDF statistics:
- 3516 PDF objects out of 3580 (max. 8388607)
- 934 named destinations out of 1000 (max. 500000)
+ 3527 PDF objects out of 3580 (max. 8388607)
+ 936 named destinations out of 1000 (max. 500000)
  915 words of extra memory for PDF output out of 10000 (max. 10000000)
 
