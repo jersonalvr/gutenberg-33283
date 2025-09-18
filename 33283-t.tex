@@ -7579,140 +7579,140 @@ un número infinito de elementos cada uno de los cuales es
 infinitesimalmente pequeño.
 
 Sí, dirás, pero ¿cuál es el uso de pensar
-of anything that way? Why not think of it straight
-off, as a whole? The simple reason is that there are
-a vast number of cases in which one cannot calculate
-the bigness of the thing as a whole without reckoning
-up the sum of a lot of small parts. The process of
-``\emph{integrating}'' is to enable us to calculate totals that
-otherwise we should be unable to estimate directly.
+en algo de esa manera? ¿Por qué no pensarlo directamente
+como un todo? La simple razón es que hay
+un vasto número de casos en los cuales uno no puede calcular
+la magnitud de la cosa como un todo sin contar
+la suma de muchas partes pequeñas. El proceso de
+``\emph{integrar}'' es para permitirnos calcular totales que
+de otra manera seríamos incapaces de estimar directamente.
 
-Let us first take one or two simple cases to
-familiarize ourselves with this notion of summing
-up a lot of separate parts.
+Tomemos primero uno o dos casos simples para
+familiarizarnos con esta noción de sumar
+muchas partes separadas.
 
-Consider the series:
+Considera la serie:
 \[
 1 + \tfrac{1}{2} + \tfrac{1}{4} + \tfrac{1}{8}
   + \tfrac{1}{16} + \tfrac{1}{32} + \tfrac{1}{64} + \text{etc.}
 \]
 
-Here each member of the series is formed by taking
-it half the value of the preceding. What is the value
-of the total if we could go on to an infinite number
-of terms? Every schoolboy knows that the answer
-is~$2$. Think of it, if you like, as a line. Begin with
+Aquí cada miembro de la serie se forma tomando
+la mitad del valor del precedente. ¿Cuál es el valor
+del total si pudiéramos continuar hasta un número infinito
+de términos? Todo escolar sabe que la respuesta
+es~$2$. Piénsalo, si quieres, como una línea. Comienza con
 \Figure[3.5in]{195a}{46}
-one inch; add a half inch, add a quarter; add an
-eighth; and so on. If at any point of the operation
+una pulgada; añade media pulgada, añade un cuarto; añade un
+octavo; y así sucesivamente. Si en cualquier punto de la operación
 \DPPageSep{196.png}{184}%
-we stop, there will still be a piece wanting to make
-up the whole $2$~inches; and the piece wanting will
-always be the same size as the last piece added.
-Thus, if after having put together $1$,~$\frac{1}{2}$, and~$\frac{1}{4}$, we stop,
-there will be $\frac{1}{4}$~wanting. If we go on till we have
-added~$\frac{1}{64}$, there will still be $\frac{1}{64}$~wanting. The
-remainder needed will always be equal to the last
-term added. By an infinite number of operations
-only should we reach the actual $2$~inches. Practically
-we should reach it when we got to pieces so small
-that they could not be drawn---that would be after
-about $10$~terms, for the eleventh term is~$\frac{1}{1024}$. If we
-want to go so far that not even a Whitworth's
-measuring machine would detect it, we should merely
-have to go to about $20$~terms. A microscope would
-not show even the $18^{\text{th}}$~term! So the infinite number
-of operations is no such dreadful thing after all.
-The \emph{integral} is simply the whole lot. But, as we
-shall see, there are cases in which the integral
-calculus enables us to get at the \emph{exact} total that
-there would be as the result of an infinite number
-of operations. In such cases the integral calculus
-gives us a \emph{rapid} and easy way of getting at a result
-that would otherwise require an interminable lot of
-elaborate working out. So we had best lose no time
-in learning \emph{how to integrate}.
+nos detenemos, aún habrá una pieza faltando para completar
+las $2$~pulgadas completas; y la pieza faltante será
+siempre del mismo tamaño que la última pieza añadida.
+Así, si después de haber juntado $1$,~$\frac{1}{2}$, y~$\frac{1}{4}$, nos detenemos,
+faltará $\frac{1}{4}$. Si continuamos hasta que hayamos
+añadido~$\frac{1}{64}$, aún faltará $\frac{1}{64}$. El
+remanente necesario será siempre igual al último
+término añadido. Solo por un número infinito de operaciones
+deberíamos alcanzar las $2$~pulgadas actuales. Prácticamente
+lo alcanzaríamos cuando llegáramos a piezas tan pequeñas
+que no pudieran ser dibujadas---eso sería después de
+cerca de $10$~términos, pues el undécimo término es~$\frac{1}{1024}$. Si queremos
+ir tan lejos que ni siquiera una máquina de medición de Whitworth
+lo detectaría, meramente tendríamos
+que ir hasta cerca de $20$~términos. ¡Un microscopio no
+mostraría ni siquiera el $18^{\text{avo}}$~término! Así que el número infinito
+de operaciones no es tal cosa terrible después de todo.
+La \emph{integral} es simplemente todo el conjunto. Pero, como
+veremos, hay casos en los cuales el cálculo integral
+nos permite llegar al total \emph{exacto} que
+habría como resultado de un número infinito
+de operaciones. En tales casos el cálculo integral
+nos da una manera \emph{rápida} y fácil de llegar a un resultado
+que de otra manera requeriría una cantidad interminable de
+elaboración trabajosa. Así que mejor no perdamos tiempo
+en aprender \emph{cómo integrar}.
 \DPPageSep{197.png}{185}%
 
-\Section{Slopes of Curves, and the Curves themselves.}
+\Section{Pendientes de Curvas, y las Curvas mismas.}
 
-Let us make a little preliminary enquiry about the
-slopes of curves. For we have seen that differentiating
-a curve means finding an expression for its slope (or
-for its slopes at different points). Can we perform
-the reverse process of reconstructing the whole curve
-if the slope (or slopes) are prescribed for us?
+Hagamos una pequeña investigación preliminar sobre las
+pendientes de curvas. Pues hemos visto que diferenciar
+una curva significa encontrar una expresión para su pendiente (o
+para sus pendientes en diferentes puntos). ¿Podemos realizar
+el proceso inverso de reconstruir toda la curva
+si la pendiente (o pendientes) se nos prescribe?
 
-Go back to case~(2) on \Pageref{Case2}. Here we have the %[ ** Page]
-simplest of curves, a sloping line with the equation
+Regresemos al caso~(2) en \Pageref{Case2}. Aquí tenemos la %[ ** Page]
+más simple de las curvas, una línea inclinada con la ecuación
 \[
 y = ax+b.
 \]
 \Figure[2.5in]{197a}{47}
 
-We know that here $b$~represents the initial height
-of~$y$ when $x= 0$, and that~$a$, which is the same as~$\dfrac{dy}{dx}$,
-is the ``slope'' of the line. The line has a constant
-slope. All along it the elementary triangles \raisebox{-12pt}{\Graphic{197b}}
-have the same proportion between height and base.
-Suppose we were to take the~$dx$'s, and~$dy$'s of finite
+Sabemos que aquí $b$~representa la altura inicial
+de~$y$ cuando $x= 0$, y que~$a$, que es lo mismo que~$\dfrac{dy}{dx}$,
+es la ``pendiente'' de la línea. La línea tiene una pendiente
+constante. A lo largo de ella los triángulos elementales \raisebox{-12pt}{\Graphic{197b}}
+tienen la misma proporción entre altura y base.
+Supongamos que tomáramos las~$dx$'s, y~$dy$'s de magnitud finita
 \DPPageSep{198.png}{186}%
-magnitude, so that $10$~$dx$'s made up one inch, then
-there would be ten little triangles like
+tal que $10$~$dx$'s formaran una pulgada, entonces
+habría diez triángulos pequeños como
 \begin{center}
   \Graphic{198a}
 \end{center}
 
-Now, suppose that we were ordered to reconstruct
-the ``curve,'' starting merely from the information
-that $\dfrac{dy}{dx} = a$. What could we do? Still taking the
-little~$d$'s as of finite size, we could draw $10$~of them,
-all with the same slope, and then put them together,
-end to end, like this:
+Ahora, supongamos que se nos ordenara reconstruir
+la ``curva,'' comenzando meramente desde la información
+de que $\dfrac{dy}{dx} = a$. ¿Qué podríamos hacer? Aún tomando las
+pequeñas~$d$'s como de tamaño finito, podríamos dibujar $10$~de ellas,
+todas con la misma pendiente, y luego ponerlas juntas,
+extremo con extremo, así:
 \Figure[3.25in]{198b}{48}
-And, as the slope is the same for all, they would join
-to make, as in \Fig{48}, a sloping line sloping with the
-correct slope $\dfrac{dy}{dx} = a$. And whether we take the $dy$'s
-and~$dx$'s as finite or infinitely small, as they are all
+Y, como la pendiente es la misma para todas, se unirían
+para formar, como en \Fig{48}, una línea inclinada inclinándose con la
+pendiente correcta $\dfrac{dy}{dx} = a$. Y ya sea que tomemos las $dy$'s
+y~$dx$'s como finitas o infinitamente pequeñas, como todas son
 \DPPageSep{199.png}{187}%
-alike, clearly $\dfrac{y}{x} = a$, if we reckon $y$~as the total of
-all the~$dy$'s, and $x$~as the total of all the~$dx$'s. But
-whereabouts are we to put this sloping line? Are
-we to start at the origin~$O$, or higher up? As the
-only information we have is as to the slope, we are
-without any instructions as to the particular height
-above~$O$; in fact the initial height is undetermined.
-The slope will be the same, whatever the initial height.
-Let us therefore make a shot at what may be wanted,
-and start the sloping line at a height~$C$ above~$O$.
-That is, we have the equation
+iguales, claramente $\dfrac{y}{x} = a$, si contamos $y$~como el total de
+todas las~$dy$'s, y $x$~como el total de todas las~$dx$'s. Pero
+¿en dónde vamos a poner esta línea inclinada? ¿Vamos
+a comenzar en el origen~$O$, o más arriba? Como la
+única información que tenemos es sobre la pendiente, estamos
+sin ninguna instrucción sobre la altura particular
+sobre~$O$; de hecho la altura inicial es indeterminada.
+La pendiente será la misma, cualquiera que sea la altura inicial.
+Hagamos por tanto un intento de lo que pueda ser deseado,
+y comencemos la línea inclinada a una altura~$C$ sobre~$O$.
+Esto es, tenemos la ecuación
 \[
 y = ax + C.
 \]
 
-It becomes evident now\Pagelabel{constant} that in this case the added
-constant means the particular value that $y$~has when
+Se hace evidente ahora\Pagelabel{constant} que en este caso la constante añadida
+significa el valor particular que $y$~tiene cuando
 $x = 0$.
 
-Now let us take a harder case, that of a line, the
-slope of which is not constant, but turns up more and
-more. Let us assume that the upward slope gets
-greater and greater in proportion as $x$~grows. In
-symbols this is:
+Ahora tomemos un caso más difícil, el de una línea, cuya
+pendiente no es constante, sino que se vuelve más y más
+empinada. Asumamos que la pendiente hacia arriba se vuelve
+mayor y mayor en proporción a como $x$~crece. En
+símbolos esto es:
 \[
 \frac{dy}{dx} = ax.
 \]
-Or, to give a concrete case, take $a = \frac{1}{5}$, so that
+O, para dar un caso concreto, tomemos $a = \frac{1}{5}$, de modo que
 \[
 \frac{dy}{dx} = \tfrac{1}{5} x.
 \]
 
-Then we had best begin by calculating a few of
-the values of the slope at different values of~$x$, and
-also draw little diagrams of them.
+Entonces será mejor que comencemos calculando algunos de
+los valores de la pendiente en diferentes valores de~$x$, y
+también dibujemos pequeños diagramas de ellos.
 \DPPageSep{200.png}{188}%
 \begin{DPalign*}
-\lintertext{\indent When}
+\lintertext{\indent Cuando}
 x &=0,\quad \frac{dy}{dx} = 0,\Z && \Graphic{200a1} \\
 x &=1,\quad \frac{dy}{dx} = 0.2, && \Graphic{200a2} \\
 x &=2,\quad \frac{dy}{dx} = 0.4, && \Graphic{200a3} \\
@@ -7721,63 +7721,62 @@ x &=4,\quad \frac{dy}{dx} = 0.8, && \Graphic{200a5} \\
 x &=5,\quad \frac{dy}{dx} = 1.0. && \Graphic{200a6}
 \end{DPalign*}
 
-Now try to put the pieces together, setting each so
-that the middle of its base is the proper distance to
-the right, and so that they fit together at the corners;
-thus (\Fig{49}). The result is, of course, not a smooth
+Ahora trata de juntar las piezas, colocando cada una de modo
+que el centro de su base esté a la distancia apropiada hacia
+la derecha, y de modo que encajen juntas en las esquinas;
+así (\Fig{49}). El resultado es, por supuesto, no una curva
 \Figure[3in]{200b}{49}
-curve: but it is an approximation to one. If we had
-taken bits half as long, and twice as numerous, like
-\Fig{50}, we should have a better approximation. But
+suave: pero es una aproximación a una. Si hubiéramos
+tomado pedazos de la mitad de largo, y el doble de numerosos, como
+\Fig{50}, tendríamos una mejor aproximación. Pero
 \DPPageSep{201.png}{189}%
-for a perfect curve we ought to take each~$dx$ and its
-corresponding~$dy$ infinitesimally small, and infinitely
-numerous.
+para una curva perfecta deberíamos tomar cada~$dx$ y su
+correspondiente~$dy$ infinitesimalmente pequeños, e infinitamente
+numerosos.
 
 \Figure[3in]{201a}{50}
-Then, how much ought the value of any~$y$ to be?
-Clearly, at any point~$P$ of the curve, the value of~$y$
-will be the sum of all the little~$dy$'s from~$0$ up to
-that level, that is to say, $\ds\int dy = y$. And as each~$dy$ is
-equal to $\frac{1}{5}x · dx$, it follows that the whole~$y$ will be
-equal to the sum of all such bits as~$\frac{1}{5}x · dx$, or, as we
-should write it, $\ds\int \tfrac{1}{5}x · dx$.
+Entonces, ¿cuánto debería ser el valor de cualquier~$y$?
+Claramente, en cualquier punto~$P$ de la curva, el valor de~$y$
+será la suma de todas las pequeñas~$dy$'s desde~$0$ hasta
+ese nivel, esto es, $\ds\int dy = y$. Y como cada~$dy$ es
+igual a $\frac{1}{5}x · dx$, se sigue que toda la~$y$ será
+igual a la suma de todos esos pedazos como~$\frac{1}{5}x · dx$, o, como
+deberíamos escribirlo, $\ds\int \tfrac{1}{5}x · dx$.
 
-Now if $x$ had been constant, $\ds\int \tfrac{1}{5}x · dx$ would have
-been the same as $\frac{1}{5} x \ds\int dx$, or~$\frac{1}{5}x^2$. But $x$~began by
-being~$0$, and increases to the particular value of~$x$ at
-the point~$P$, so that its average value from~$0$ to that
-point is~$\frac{1}{2}x$. Hence $\ds\int \tfrac{1}{5} x\, dx = \tfrac{1}{10} x^2$; or $y=\frac{1}{10}x^2$.
+Ahora si $x$ hubiera sido constante, $\ds\int \tfrac{1}{5}x · dx$ habría sido
+lo mismo que $\frac{1}{5} x \ds\int dx$, o~$\frac{1}{5}x^2$. Pero $x$~comenzó siendo~$0$, y se incrementa hasta el valor particular de~$x$ en
+el punto~$P$, de modo que su valor promedio desde~$0$ hasta ese
+punto es~$\frac{1}{2}x$. Por tanto $\ds\int \tfrac{1}{5} x\, dx = \tfrac{1}{10} x^2$; o $y=\frac{1}{10}x^2$.
 
-But, as in the previous case, this requires the addition
-of an undetermined constant~$C$, because we have not
+Pero, como en el caso previo, esto requiere la adición
+de una constante indeterminada~$C$, porque no se nos ha
 \DPPageSep{202.png}{190}%
-been told at what height above the origin the curve
-will begin, when $x = 0$. So we write, as the equation
-of the curve drawn in \Fig{51},
+dicho a qué altura sobre el origen comenzará la curva,
+cuando $x = 0$. Así que escribimos, como la ecuación
+de la curva dibujada en \Fig{51},
 \[
 y = \tfrac{1}{10}x^2 + C.
 \]
 \Figure{202a}{51}
 
 
-\Exercises{XVI} (See \Pageref[page]{AnsEx:XVI} for Answers.)
+\Exercises{XVI} (Ver \Pageref[página]{AnsEx:XVI} para Respuestas.)
 \begin{Problems}
-\Item{(1)} Find the ultimate sum of $\frac{2}{3} + \frac{1}{3} + \frac{1}{6} + \frac{1}{12} + \frac{1}{24} + \text{etc}$.
+\Item{(1)} Encuentra la suma última de $\frac{2}{3} + \frac{1}{3} + \frac{1}{6} + \frac{1}{12} + \frac{1}{24} + \text{etc}$.
 
-\Item{(2)} Show that the series $1 - \frac{1}{2} + \frac{1}{3} - \frac{1}{4} + \frac{1}{5} - \frac{1}{6} + \frac{1}{7}$\DPnote{[** TN: [sic], no +]}~etc.,
-is convergent, and find its sum to $8$~terms.
+\Item{(2)} Muestra que la serie $1 - \frac{1}{2} + \frac{1}{3} - \frac{1}{4} + \frac{1}{5} - \frac{1}{6} + \frac{1}{7}$\DPnote{[** TN: [sic], no +]}~etc.,
+es convergente, y encuentra su suma hasta $8$~términos.
 
-\Item{(3)} If $\log_\epsilon(1+x) = x - \dfrac{x^2}{2} + \dfrac{x^3}{3} - \dfrac{x^4}{4} + \text{etc}$., find $\log_\epsilon 1.3$.
+\Item{(3)} Si $\log_\epsilon(1+x) = x - \dfrac{x^2}{2} + \dfrac{x^3}{3} - \dfrac{x^4}{4} + \text{etc}$., encuentra $\log_\epsilon 1.3$.
 
-\Item{(4)} Following a reasoning similar to that explained
-in this chapter, find~$y$,
+\Item{(4)} Siguiendo un razonamiento similar al explicado
+en este capítulo, encuentra~$y$,
 \[
-\text{(\textit{a}) if $\frac{dy}{dx} = \tfrac{1}{4} x$;\quad
-(\textit{b}) if $\frac{dy}{dx} = \cos x$.}
+\text{(\textit{a}) si $\frac{dy}{dx} = \tfrac{1}{4} x$;\quad
+(\textit{b}) si $\frac{dy}{dx} = \cos x$.}
 \]
 
-\Item{(5)} If $\dfrac{dy}{dx} = 2x + 3$, find~$y$.
+\Item{(5)} Si $\dfrac{dy}{dx} = 2x + 3$, encuentra~$y$.
 \end{Problems}
 \DPPageSep{203.png}{191}%
 
@@ -7785,165 +7784,163 @@ in this chapter, find~$y$,
 \Chapter[CÓMO INTEGRAR]
 {XVIII}{Integrando como el Reverso de Diferenciar}
 
-\First{Differentiating} is the process by which when $y$~is
-given us (as a function of~$x$), we can find~$\dfrac{dy}{dx}$.
+\First{Diferenciar} es el proceso por el cual cuando $y$~se
+nos da (como una función de~$x$), podemos encontrar~$\dfrac{dy}{dx}$.
 
 \Pagelabel{revdif}%
-Like every other mathematical operation, the
-process of differentiation may be reversed; thus, if
-differentiating $y = x^4$ gives us $\dfrac{dy}{dx} = 4x^3$; if one begins
-with $\dfrac{dy}{dx} = 4x^3$ one would say that reversing the process
-would yield $y = x^4$.  But here comes in a curious
-point. We should get $\dfrac{dy}{dx} = 4x^3$ if we had begun with
-\emph{any} of the following:~$x^4$, or~$x^4 + a$, or~$x^4 + c$, or~$x^4$
-with \emph{any} added constant. So it is clear that in
-working backwards from $\dfrac{dy}{dx}$ to~$y$, one must make
-provision for the possibility of there being an added
-constant, the value of which will be undetermined
+Como cualquier otra operación matemática, el
+proceso de diferenciación puede ser invertido; así, si
+diferenciar $y = x^4$ nos da $\dfrac{dy}{dx} = 4x^3$; si uno comienza
+con $\dfrac{dy}{dx} = 4x^3$ uno diría que invertir el proceso
+produciría $y = x^4$. Pero aquí entra un punto curioso.
+Obtendríamos $\dfrac{dy}{dx} = 4x^3$ si hubiéramos comenzado con
+\emph{cualquiera} de los siguientes:~$x^4$, o~$x^4 + a$, o~$x^4 + c$, o~$x^4$
+con \emph{cualquier} constante añadida. Así que está claro que al
+trabajar hacia atrás desde $\dfrac{dy}{dx}$ hasta~$y$, uno debe hacer
+provisión para la posibilidad de que haya una constante
+añadida, cuyo valor será indeterminado
 \DPPageSep{204.png}{192}%
-until ascertained in some other way. So, if differentiating
-$x^n$ yields~$nx^{n-1}$, going backwards from
-$\dfrac{dy}{dx} = nx^{n-1}$ will give us $y = x^n + C$; where $C$~stands
-for the yet undetermined possible constant.
+hasta determinado de alguna otra manera. Así, si diferenciar
+$x^n$ produce~$nx^{n-1}$, ir hacia atrás desde
+$\dfrac{dy}{dx} = nx^{n-1}$ nos dará $y = x^n + C$; donde $C$~representa
+la posible constante aún indeterminada.
 
-Clearly, in dealing with powers of~$x$, the rule for
-working backwards will be: Increase the power by~$1$,
-then divide by that increased power, and add the
-undetermined constant.
+Claramente, al tratar con potencias de~$x$, la regla para
+trabajar hacia atrás será: Aumentar la potencia en~$1$,
+luego dividir por esa potencia aumentada, y añadir la
+constante indeterminada.
 
-So, in the case where
+Así, en el caso donde
 \[
 \frac{dy}{dx} = x^n,
 \]
-working backwards, we get
+trabajando hacia atrás, obtenemos
 \[
 y = \frac{1}{n + 1} x^{n+1} + C.
 \]
 
-If differentiating the equation $y = ax^n$ gives us
+Si diferenciar la ecuación $y = ax^n$ nos da
 \[
 \frac{dy}{dx} = anx^{n-1},
 \]
-it is a matter of common sense that beginning with
+es cuestión de sentido común que comenzar con
 \[
 \frac{dy}{dx} = anx^{n-1},
 \]
-and reversing the process, will give us
+e invertir el proceso, nos dará
 \[
 y = ax^n.
 \]
-So, when we are dealing with a multiplying constant,
-we must simply put the constant as a multiplier of
-the result of the integration.
+Así, cuando estamos tratando con una constante multiplicativa,
+debemos simplemente poner la constante como un multiplicador del
+resultado de la integración.
 \DPPageSep{205.png}{193}%
 
-Thus, if $\dfrac{dy}{dx} = 4x^2$, the reverse process gives us
+Así, si $\dfrac{dy}{dx} = 4x^2$, el proceso inverso nos da
 $y = \frac{4}{3}x^3$.
 
-But this is incomplete. For we must remember
-that if we had started with
+Pero esto está incompleto. Pues debemos recordar
+que si hubiéramos comenzado con
 \[
 y = ax^n + C,
 \]
-where $C$ is any constant quantity whatever, we should
-equally have found
+donde $C$ es cualquier cantidad constante, igualmente habríamos encontrado
 \[
 \frac{dy}{dx} = anx^{n-1}.
 \]
 
-So, therefore, when we reverse the process we must
-always remember to add on this undetermined constant,
-even if we do not yet know what its value
-will be.
+Así, por tanto, cuando invertimos el proceso debemos
+siempre recordar añadir esta constante indeterminada,
+aun si no sabemos todavía cuál será su valor.
 
-This process, the reverse of differentiating, is called
-\emph{integrating}; for it consists in finding the value of
-the whole quantity~$y$ when you are given only an
-expression for~$dy$ or for~$\dfrac{dy}{dx}$. Hitherto we have as
-much as possible kept $dy$~and~$dx$ together as a differential
-coefficient: henceforth we shall more often
-have to separate them.
+Este proceso, el reverso de diferenciar, se llama
+\emph{integrar}; pues consiste en encontrar el valor de
+la cantidad completa~$y$ cuando se te da solo una
+expresión para~$dy$ o para~$\dfrac{dy}{dx}$. Hasta ahora hemos tanto
+como sea posible mantenido $dy$~y~$dx$ juntos como un coeficiente
+diferencial: de aquí en adelante más a menudo
+tendremos que separarlos.
 
-If we begin with a simple case,
+Si comenzamos con un caso simple,
 \[
 \frac{dy}{dx} = x^2.
 \]
 
-We may write this, if we like, as
+Podemos escribir esto, si queremos, como
 \[
 dy = x^2\, dx.
 \]
 
-Now this is a  ``differential equation''  which informs
-us that an element of~$y$ is equal to the corresponding
-element of~$x$ multiplied by~$x^2$. Now, what we want
+Ahora esta es una ``ecuación diferencial'' que nos informa
+que un elemento de~$y$ es igual al elemento correspondiente
+de~$x$ multiplicado por~$x^2$. Ahora, lo que queremos
 \DPPageSep{206.png}{194}%
-is the integral; therefore, write down with the proper
-symbol the instructions to integrate both sides, thus:
+es la integral; por tanto, escribimos con el símbolo apropiado
+las instrucciones para integrar ambos lados, así:
 \[
 \int dy = \int x^2\, dx.
 \]
 
-[Note as to reading integrals: the above would be
-read thus:
+[Nota sobre la lectura de integrales: lo anterior se leería
+así:
 \begin{quote}
-``\emph{Integral dee-wy \emph{equals} integral eks-squared dee-eks}.'']
+``\emph{Integral de-y \emph{igual a} integral equis-cuadrada de-equis}.'']
 \end{quote}
 
-We haven't yet integrated: we have only written
-down instructions to integrate---if we can. Let us
-try. Plenty of other fools can do it---why not we
-also? The left-hand side is simplicity itself. The
-sum of all the bits of~$y$ is the same thing as $y$~itself.
-So we may at once put:
+Aún no hemos integrado: solo hemos escrito
+las instrucciones para integrar---si podemos. Intentemos.
+Muchos otros tontos pueden hacerlo---¿por qué no nosotros
+también? El lado izquierdo es la simplicidad misma. La
+suma de todos los pedazos de~$y$ es lo mismo que $y$~misma.
+Así que podemos poner de una vez:
 \[
 y = \int x^2\, dx.
 \]
 
-But when we come to the right-hand side of the
-equation we must remember that what we have got
-to sum up together is not all the~$dx$'s, but all such
-terms as~$x^2\, dx$; and this will \emph{not} be the same as
-$x^2 \ds\int dx$, because $x^2$~is not a constant. For some of the
-$dx$'s will be multiplied by big values of~$x^2$, and some
-will be multiplied by small values of~$x^2$, according to
-what $x$~happens to be. So we must bethink ourselves
-as to what we know about this process of integration
-being the reverse of differentiation. Now, our rule
-for this reversed process---see \Pageref{revdif} \textit{ante}---when
-dealing with~$x^n$ is ``increase the power by one, and\Pagelabel{diffrule}
-divide by the same number as this increased power.''
+Pero cuando llegamos al lado derecho de la
+ecuación debemos recordar que lo que tenemos que
+sumar juntos no son todas las~$dx$'s, sino todos los
+términos como~$x^2\, dx$; y esto \emph{no} será lo mismo que
+$x^2 \ds\int dx$, porque $x^2$~no es una constante. Pues algunas de las
+$dx$'s serán multiplicadas por valores grandes de~$x^2$, y algunas
+serán multiplicadas por valores pequeños de~$x^2$, según
+lo que $x$~resulte ser. Así que debemos reflexionar
+sobre lo que sabemos acerca de este proceso de integración
+siendo el reverso de diferenciación. Ahora, nuestra regla
+para este proceso invertido---ver \Pageref{revdif} \textit{ante}---cuando
+tratamos con~$x^n$ es ``aumentar la potencia en uno, y\Pagelabel{diffrule}
+dividir por el mismo número que esta potencia aumentada.''
 \DPPageSep{207.png}{195}%
-That is to say, $x^2\, dx$ will be changed\footnote
-  {You may ask, what has become of the little~$dx$ at the end?
-  Well, remember that it was really part of the differential coefficient,
-  and when changed over to the right-hand side, as in the~$x^2\, dx$,
-  serves as a reminder that $x$~is the independent variable with respect
-  to which the operation is to be effected; and, as the result of the
-  product being totalled up, the power of~$x$ has increased by \emph{one}.
-  You will soon become familiar with all this.}
-to~$\frac{1}{3} x^3$. Put
-this into the equation; but don't forget to add the
-``constant of integration''~$C$ at the end. So we get:
+Esto es, $x^2\, dx$ será cambiado\footnote
+  {Puedes preguntar, ¿qué pasó con la pequeña~$dx$ al final?
+  Bien, recuerda que era realmente parte del coeficiente diferencial,
+  y cuando se cambia al lado derecho, como en~$x^2\, dx$,
+  sirve como recordatorio de que $x$~es la variable independiente con respecto
+  a la cual se debe efectuar la operación; y, como resultado del
+  producto siendo totalizado, la potencia de~$x$ se ha incrementado en \emph{uno}.
+  Pronto te familiarizarás con todo esto.}
+a~$\frac{1}{3} x^3$. Pon
+esto en la ecuación; pero no olvides añadir la
+``constante de integración''~$C$ al final. Así obtenemos:
 \[
 y = \tfrac{1}{3} x^3 + C.
 \]
 
-You have actually performed the integration. How
-easy!
+Realmente has realizado la integración. ¡Qué
+fácil!
 
-Let us try another simple case.
+Intentemos otro caso simple.
 
 \begin{DPalign*}
-\lintertext{\indent Let}
+\lintertext{\indent Sea}
 \dfrac{dy}{dx} &= ax^{12},
 \end{DPalign*}
-where $a$ is any constant multiplier. Well, we found
-when differentiating (see \Pageref{differ}) that any constant
-factor in the value of~$y$ reappeared unchanged in the
-value of~$\dfrac{dy}{dx}$. In the reversed process of integrating,
-it will therefore also reappear in the value of~$y$. So
-we may go to work as before, thus
+donde $a$ es cualquier multiplicador constante. Bien, encontramos
+cuando diferenciábamos (ver \Pageref{differ}) que cualquier factor
+constante en el valor de~$y$ reaparecía sin cambio en el
+valor de~$\dfrac{dy}{dx}$. En el proceso invertido de integrar,
+por tanto también reaparecerá en el valor de~$y$. Así
+que podemos proceder como antes, así
 \begin{align*}
 dy &= ax^{12} · dx,\\
 \int dy &= \int ax^{12} · dx,\\
