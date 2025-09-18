@@ -1,0 +1,25 @@
+\ToCLine {}{Prólogo}{Prólogo}
+\ToCLine {I.}{Para librarte de los Terrores Preliminares}{chap:I}
+\ToCLine {II.}{Sobre Diferentes Grados de Pequeñez}{chap:II}
+\ToCLine {III.}{Sobre Crecimientos Relativos}{chap:III}
+\ToCLine {IV.}{Casos Más Simples}{chap:IV}
+\ToCLine {V.}{Siguiente Etapa. Qué hacer con las Constantes}{chap:V}
+\ToCLine {VI.}{Sumas, Diferencias, Productos y Cocientes}{chap:VI}
+\ToCLine {VII.}{Diferenciación Sucesiva}{chap:VII}
+\ToCLine {VIII.}{Cuando el Tiempo Varía}{chap:VIII}
+\ToCLine {IX.}{Introduciendo un Truco Útil}{chap:IX}
+\ToCLine {X.}{Significado Geométrico de la Diferenciación}{chap:X}
+\ToCLine {XI.}{Máximos y Mínimos}{chap:XI}
+\ToCLine {XII.}{Curvatura de Curvas}{chap:XII}
+\ToCLine {XIII.}{Otros Trucos Útiles}{chap:XIII}
+\ToCLine {XIV.}{Sobre el verdadero Interés Compuesto y la Ley del Crecimiento Orgánico}{chap:XIV}
+\ToCLine {XV.}{Cómo tratar con Senos y Cosenos}{chap:XV}
+\ToCLine {XVI.}{Diferenciación Parcial}{chap:XVI}
+\ToCLine {XVII.}{Integración}{chap:XVII}
+\ToCLine {XVIII.}{Integrando como el Reverso de Diferenciar}{chap:XVIII}
+\ToCLine {XIX.}{Sobre Encontrar Áreas por Integración}{chap:XIX}
+\ToCLine {XX.}{Trucos, Trampas y Triunfos}{chap:XX}
+\ToCLine {XXI.}{Encontrando algunas Soluciones}{chap:XXI}
+\ToCLine [\bfseries ]{}{Tabla de Formas Estándar}{Tabla de Formas Estándar}
+\ToCLine {}{Respuestas a los Ejercicios}{Respuestas}
+\contentsline {paragraph}{\normalfont (\textit {Examples}, \Pageref {examples3}):}{257}{section*.533}%
