@@ -1,141 +1,141 @@
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %
 %                                                                         %
-% The Project Gutenberg EBook of Calculus Made Easy, by Silvanus Thompson %
+% El eBook de Project Gutenberg: Calculus Made Easy, de Silvanus Thompson %
 %                                                                         %
-% This eBook is for the use of anyone anywhere in the United States and   %
-% most other parts of the world at no cost and with almost no restrictions%
-% whatsoever. You may copy it, give it away or re-use it under the terms  %
-% of the Project Gutenberg License included with this eBook or online at  %
-% www.gutenberg.org. If you are not located in the United States, you     %
-% will have to check the laws of the country where you are located before %
-% using this eBook.                                                       %
+% Este eBook es para uso de cualquiera en los Estados Unidos y en la      %
+% mayoría de las demás partes del mundo sin costo y con casi ninguna      %
+% restricción. Puede copiarlo, regalarlo o reutilizarlo bajo los términos %
+% de la Licencia Project Gutenberg incluida con este eBook o en línea en  %
+% www.gutenberg.org. Si no se encuentra en los Estados Unidos, tendrá que %
+% verificar las leyes del país donde se encuentre antes de usar este eBook.%
 %                                                                         %
 %                                                                         %
-% Title: Calculus Made Easy                                               %
-%        Being a very-simplest introduction to those beautiful            %
-%        methods which are generally called by the terrifying names       %
-%        of the Differentia                                               %
+% Título: Calculus Made Easy                                              %
+%        Siendo una introducción muy simple a esos bellos métodos que     %
+%        generalmente son llamados con los nombres aterradores de la      %
+%        Diferencia                                                       %
 %                                                                         %
-% Author: Silvanus Thompson                                               %
+% Autor: Silvanus Thompson                                                %
 %                                                                         %
-% Release Date: October 9, 2012 [eBook #33283]                            %
-% Most recently updated: August 10, 2025                                  %
+% Fecha de publicación: 9 de octubre de 2012 [eBook #33283]               %
+% Última actualización: 10 de agosto de 2025                              %
 %                                                                         %
-% Language: English                                                       %
+% Idioma: Inglés                                                          %
 %                                                                         %
-% Character set encoding: UTF-8                                           %
+% Codificación de caracteres: UTF-8                                       %
 %                                                                         %
-% *** START OF THE PROJECT GUTENBERG EBOOK CALCULUS MADE EASY ***         %
+% *** INICIO DEL EBOOK DE PROJECT GUTENBERG CALCULUS MADE EASY ***        %
 %                                                                         %
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %
 
 \def\ebook{33283}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                                                  %%
-%% Packages and substitutions:                                      %%
+%% Paquetes y sustituciones:                                        %%
 %%                                                                  %%
-%% book:     Required.                                              %%
-%% inputenc: Standard DP encoding. Required.                        %%
+%% book:     Requerido.                                             %%
+%% inputenc: Codificación estándar DP. Requerido.                   %%
 %%                                                                  %%
-%% ifthen:   Logical conditionals. Required.                        %%
+%% ifthen:   Condicionales lógicos. Requerido.                      %%
 %%                                                                  %%
-%% amsmath:  AMS mathematics enhancements. Required.                %%
-%% amssymb:  Additional mathematical symbols. Required.             %%
+%% amsmath:  Mejoras matemáticas AMS. Requerido.                    %%
+%% amssymb:  Símbolos matemáticos adicionales. Requerido.           %%
 %%                                                                  %%
-%% alltt:    Fixed-width font environment. Required.                %%
-%% array:    Enhanced tabular features. Required.                   %%
-%% dcolumn:  Decimal-aligned data columns. Required.                %%
+%% alltt:    Entorno de fuente monoespaciada. Requerido.            %%
+%% array:    Funciones extendidas de tablas. Requerido.             %%
+%% dcolumn:  Columnas alineadas por decimales. Requerido.           %%
 %%                                                                  %%
-%% footmisc: Extended footnote capabilities. Required.              %%
-%% perpage:  Start footnote numbering on each page. Required.       %%
+%% footmisc: Capacidades extendidas de notas al pie. Requerido.     %%
+%% perpage:  Reinicia la numeración de notas al pie en cada página. %%
 %%                                                                  %%
-%% indentfirst: Indent first word of each sectional unit. Optional. %%
+%% indentfirst: Sangría en la primera palabra de cada sección. Opc. %%
 %%                                                                  %%
-%% calc:     Length calculations. Required.                         %%
+%% calc:     Cálculo de longitudes. Requerido.                      %%
 %%                                                                  %%
-%% fancyhdr: Enhanced running headers and footers. Required.        %%
+%% fancyhdr: Encabezados y pies de página mejorados. Requerido.     %%
 %%                                                                  %%
-%% graphicx: Standard interface for graphics inclusion. Required.   %%
-%% wrapfig:  Illustrations surrounded by text. Required.            %%
+%% graphicx: Inclusión de gráficos. Requerido.                      %%
+%% wrapfig:  Ilustraciones rodeadas de texto. Requerido.            %%
 %%                                                                  %%
-%% geometry: Enhanced page layout package. Required.                %%
-%% hyperref: Hypertext embellishments for pdf output. Required.     %%
-%%                                                                  %%
-%%                                                                  %%
-%% Producer's Comments:                                             %%
-%%                                                                  %%
-%%   Changes are noted in this file in three ways.                  %%
-%%   1. \DPnote{} for in-line `placeholder' notes.                  %%
-%%   2. \DPtypo{}{} for typographical corrections, showing original %%
-%%      and replacement text side-by-side.                          %%
-%%   3. [** PP: Note]s for lengthier or stylistic comments.         %%
+%% geometry: Paquete de maquetación de página. Requerido.           %%
+%% hyperref: Hipervínculos en salida pdf. Requerido.                %%
 %%                                                                  %%
 %%                                                                  %%
-%% Compilation Flags:                                               %%
+%% Comentarios del productor:                                       %%
 %%                                                                  %%
-%%   The following behavior may be controlled by boolean flags.     %%
-%%                                                                  %%
-%%   ForPrinting (false by default):                                %%
-%%   Compile a screen-optimized PDF file. Set to false for print-   %%
-%%   optimized file (pages cropped, one-sided, blue hyperlinks).    %%
-%%                                                                  %%
-%%                                                                  %%
-%% PDF pages: 292 (if ForPrinting set to false)                     %%
-%% PDF page size: 6 x 8in (non-standard)                            %%
-%% PDF bookmarks: created, point to ToC entries                     %%
-%% PDF document info: filled in                                     %%
-%% Images: 74 pdf diagrams                                          %%
-%%                                                                  %%
-%% Summary of log file:                                             %%
-%% * Five invisible overfull hboxes in alignments.                  %%
-%% * Two underfull hboxes.                                          %%
+%%   Los cambios están señalados en este archivo de tres maneras:   %%
+%%   1. \DPnote{} para notas breves en línea.                       %%
+%%   2. \DPtypo{}{} para correcciones tipográficas, mostrando texto %%
+%%      original y reemplazo lado a lado.                           %%
+%%   3. [** PP: Nota] para comentarios más largos o de estilo.      %%
 %%                                                                  %%
 %%                                                                  %%
-%% Compile History:                                                 %%
+%% Indicadores de compilación:                                      %%
 %%                                                                  %%
-%% July, 2010: adhere (Andrew D. Hwang)                             %%
+%%   El siguiente comportamiento se controla con banderas booleanas.%%
+%%                                                                  %%
+%%   ForPrinting (falso por defecto):                               %%
+%%   Compilar un PDF optimizado para pantalla. Configúrelo en true  %%
+%%   para un archivo optimizado para impresión (páginas recortadas, %%
+%%   a una cara, hipervínculos negros).                             %%
+%%                                                                  %%
+%%                                                                  %%
+%% Páginas PDF: 292 (si ForPrinting=false)                          %%
+%% Tamaño de página PDF: 6 x 8in (no estándar)                      %%
+%% Marcadores PDF: creados, apuntan a entradas de la tabla de cont. %%
+%% Información del documento PDF: completada                        %%
+%% Imágenes: 74 diagramas en pdf                                    %%
+%%                                                                  %%
+%% Resumen del log de compilación:                                  %%
+%% * Cinco hboxes sobre-anchos invisibles en alineaciones.          %%
+%% * Dos hboxes infra-anchos.                                       %%
+%%                                                                  %%
+%%                                                                  %%
+%% Historial de compilación:                                        %%
+%%                                                                  %%
+%% Julio, 2010: adhere (Andrew D. Hwang)                            %%
 %%             texlive2007, GNU/Linux                               %%
 %%                                                                  %%
-%% Command block:                                                   %%
+%% Bloque de comandos:                                              %%
 %%                                                                  %%
 %%     pdflatex x3                                                  %%
 %%                                                                  %%
 %%                                                                  %%
-%% October 2012: pglatex.                                           %%
-%%   Compile this project with:                                     %%
-%%   pdflatex 33283-t.tex ..... THREE times                         %%
+%% Octubre 2012: pglatex.                                           %%
+%%   Compile este proyecto con:                                     %%
+%%   pdflatex 33283-t.tex ..... TRES veces                          %%
 %%                                                                  %%
-%%   pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian)       %%
-%%                                                                       %%
-%% November 2021: okrick.                                                %%
-%%         MiKTeX Console 4.3, Windows 10 Home                           %%
-%%         TeXworks 0.6.6 used to generate PDF output.                   %%
-%%                                                                       %%
+%%   pdfTeX, Versión 3.1415926-1.40.10 (TeX Live 2009/Debian)       %%
+%%                                                                  %%
+%% Noviembre 2021: okrick.                                          %%
+%%         MiKTeX Console 4.3, Windows 10 Home                      %%
+%%         TeXworks 0.6.6 usado para generar salida PDF.            %%
+%%                                                                  %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \listfiles
 \documentclass[12pt]{book}[2005/09/16]
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PACKAGES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PAQUETES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage[utf8]{inputenc}[2006/05/05]
 
-\usepackage{ifthen}[2001/05/26]  %% Logical conditionals
+\usepackage{ifthen}[2001/05/26]  %% Condicionales lógicos
 
-\usepackage{amsmath}[2000/07/18] %% Displayed equations
-\usepackage{amssymb}[2002/01/22] %% and additional symbols
+\usepackage{amsmath}[2000/07/18] %% Ecuaciones en pantalla
+\usepackage{amssymb}[2002/01/22] %% Símbolos adicionales
 
-\usepackage{alltt}[1997/06/16]   %% boilerplate, credits, license
+\usepackage{alltt}[1997/06/16]   %% créditos, licencia
 
-\usepackage{array}[2005/08/23]   %% extended array/tabular features
+\usepackage{array}[2005/08/23]   %% funciones extendidas de tablas
 \usepackage{dcolumn}
 
-                                 %% extended footnote capabilities
+                                 %% notas al pie extendidas
 \usepackage[symbol,perpage]{footmisc}[2005/03/17]
 \usepackage{perpage}[2006/07/15]
 
 \usepackage{multicol}
 
-\usepackage{graphicx}[1999/02/16]%% For diagrams
-\usepackage{wrapfig}%% For diagram on 219.png
+\usepackage{graphicx}[1999/02/16]%% Para diagramas
+\usepackage{wrapfig}%% Para diagrama en 219.png
 
 \IfFileExists{indentfirst.sty}{%
   \usepackage{indentfirst}[1995/11/23]
@@ -143,62 +143,62 @@
 
 \usepackage{calc}[2005/08/06]
 
-% for running heads
+% para encabezados y pies de página
 \usepackage{fancyhdr}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%% Interlude:  Set up PRINTING (default) or SCREEN VIEWING %%%%
+%%%% Interludio: Configuración de IMPRESIÓN (predeterminado) o PANTALLA %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% ForPrinting=true (default)           false
-% Asymmetric margins                   Symmetric margins
-% Black hyperlinks                     Blue hyperlinks
-% Start Preface, ToC, etc. recto       No blank verso pages
+% ForPrinting=true (predeterminado)        false
+% Márgenes asimétricos                     Márgenes simétricos
+% Hipervínculos negros                     Hipervínculos azules
+% Prefacio, ToC, etc. comienzan en página  No páginas en blanco extra
 %
-% Chapter-like ``Sections'' start both recto and verso in the scanned
-% book. This behavior has been retained.
+% Secciones tipo capítulo comienzan tanto en recto como en verso
+% en el libro escaneado. Este comportamiento se ha conservado.
 \newboolean{ForPrinting}
 
-%% UNCOMMENT the next line for a PRINT-OPTIMIZED VERSION of the text %%
+%% DESCOMENTE la siguiente línea para una VERSIÓN OPTIMIZADA PARA IMPRESIÓN %%
 %\setboolean{ForPrinting}{true}
 
-%% Initialize values to ForPrinting=false
-\newcommand{\Margins}{hmarginratio=1:1}     % Symmetric margins
-\newcommand{\HLinkColor}{blue}              % Hyperlink color
+%% Inicializar valores con ForPrinting=false
+\newcommand{\Margins}{hmarginratio=1:1}     % Márgenes simétricos
+\newcommand{\HLinkColor}{blue}              % Color de hipervínculo
 \newcommand{\PDFPageLayout}{SinglePage}
-\newcommand{\TransNote}{Transcriber's Note}
+\newcommand{\TransNote}{Nota del transcriptor}
 \newcommand{\TransNoteCommon}{%
-  Minor presentational changes, and minor typographical and numerical
-  corrections, have been made without comment. All textual changes are
-  detailed in the \LaTeX\ source file.
+  Se han hecho cambios de presentación menores, y correcciones
+  tipográficas y numéricas menores, sin comentarios. Todos los cambios
+  textuales están detallados en el archivo fuente \LaTeX.
   \bigskip
 }
 
 \newcommand{\TransNoteText}{%
   \TransNoteCommon
 
-  This PDF file is optimized for screen viewing, but may easily be
-  recompiled for printing. Please see the preamble of the \LaTeX\
-  source file for instructions.
+  Este archivo PDF está optimizado para visualización en pantalla,
+  pero puede recompilarse fácilmente para impresión. Consulte el
+  preámbulo del archivo fuente \LaTeX\ para instrucciones.
 }
-%% Re-set if ForPrinting=true
+%% Reconfigurar si ForPrinting=true
 \ifthenelse{\boolean{ForPrinting}}{%
-  \renewcommand{\Margins}{hmarginratio=2:3} % Asymmetric margins
-  \renewcommand{\HLinkColor}{black}         % Hyperlink color
+  \renewcommand{\Margins}{hmarginratio=2:3} % Márgenes asimétricos
+  \renewcommand{\HLinkColor}{black}         % Hipervínculos negros
   \renewcommand{\PDFPageLayout}{TwoPageRight}
-  \renewcommand{\TransNote}{Transcriber's Note}
+  \renewcommand{\TransNote}{Nota del transcriptor}
   \renewcommand{\TransNoteText}{%
     \TransNoteCommon
 
-    This PDF file is optimized for printing, but may easily be
-    recompiled for screen viewing. Please see the preamble of the
-    \LaTeX\ source file for instructions.
+    Este archivo PDF está optimizado para impresión,
+    pero puede recompilarse fácilmente para visualización en pantalla.
+    Consulte el preámbulo del archivo fuente \LaTeX\ para instrucciones.
   }
-}{% If ForPrinting=false, don't skip to recto
+}{% Si ForPrinting=false, no saltar a recto
   \renewcommand{\cleardoublepage}{\clearpage}
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%  End of PRINTING/SCREEN VIEWING code; back to packages  %%%%
+%%%%  Fin del código IMPRESIÓN/PANTALLA; regreso a paquetes   %%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \ifthenelse{\boolean{ForPrinting}}{%
@@ -216,7 +216,7 @@
 \providecommand{\ebook}{00000}    % Overridden during white-washing
 \usepackage[pdftex,
   hyperfootnotes=false,
-  pdftitle={The Project Gutenberg eBook \#\ebook: Calculus Made Easy, 2nd Edition},
+  pdftitle={El eBook de Project Gutenberg \#\ebook: El cálculo hecho fácil, 2ª edición},
   pdfauthor={Silvanus Phillips Thompson},
   pdfkeywords={Paula Appling, Don Bindner, Chris Curnow, Andrew D. Hwang,
                Project Gutenberg Online Distributed Proofreading Team},
@@ -858,32 +858,31 @@ DP@rint:#1\endcsname\relax\phantom
 \begin{minipage}{\textwidth}
 \small
 \begin{PGtext}
-The Project Gutenberg EBook of Calculus Made Easy, by Silvanus Thompson
+El eBook de Project Gutenberg: Calculus Made Easy, de Silvanus Thompson
 
-This eBook is for the use of anyone anywhere in the United States and   
-most other parts of the world at no cost and with almost no restrictions
-whatsoever. You may copy it, give it away or re-use it under the terms  
-of the Project Gutenberg License included with this eBook or online at  
-www.gutenberg.org. If you are not located in the United States, you     
-will have to check the laws of the country where you are located before 
-using this eBook.                                                       
+Este eBook es para uso de cualquiera en los Estados Unidos y en la      
+mayoría de las demás partes del mundo sin costo y con casi ninguna      
+restricción. Puede copiarlo, regalarlo o reutilizarlo bajo los términos  
+de la Licencia Project Gutenberg incluida con este eBook o en línea en  
+www.gutenberg.org. Si no se encuentra en los Estados Unidos, tendrá que 
+verificar las leyes del país donde se encuentre antes de usar este eBook. 
 
 
-Title: Calculus Made Easy
-       Being a very-simplest introduction to those beautiful
-       methods which are generally called by the terrifying names
-       of the Differentia
+Título: Calculus Made Easy
+        Siendo una introducción muy simple a esos bellos
+        métodos que generalmente son llamados con los
+        nombres aterradores de la Diferencia
 
-Author: Silvanus Thompson
+Autor: Silvanus Thompson
 
-Release Date: October 9, 2012 [eBook #33283]
-Most recently updated: August 10, 2025
+Fecha de publicación: 9 de octubre de 2012 [eBook #33283]
+Última actualización: 10 de agosto de 2025
 
-Language: English
+Idioma: Inglés
 
-Character set encoding: UTF-8     
+Codificación de caracteres: UTF-8     
 
-*** START OF THE PROJECT GUTENBERG EBOOK CALCULUS MADE EASY ***
+*** INICIO DEL EBOOK DE PROJECT GUTENBERG CALCULUS MADE EASY ***
 \end{PGtext}
 \end{minipage}
 \end{center}
@@ -3988,80 +3987,80 @@ diferenciar.
 y=x+b.
 \]
 
-It is plotted out in \Fig{19}, using equal scales
-for $x$~and~$y$. If we put $x = 0$, then the corresponding
-ordinate will be $y = b$; that is to say, the ``curve''
+Se traza en la \Fig{19}, usando escalas iguales
+para $x$~e~$y$. Si ponemos $x = 0$, entonces la ordenada correspondiente
+será $y = b$; esto es, la ``curva''
 \Figures{096a}{096b}{19}{20}%[** TN: Moved up]
-crosses the $y$-axis at the height~$b$. From here it
+cruza el eje~$y$ a la altura~$b$. Desde aquí
 \DPPageSep{096.png}{84}%
-ascends at~$45°$; for whatever values we give to~$x$ to
-the right, we have an equal~$y$ to ascend. The line
-has a gradient of $1$~in~$1$.
+asciende a~$45°$; pues cualesquiera valores que demos a~$x$ hacia
+la derecha, tenemos una~$y$ igual para ascender. La línea
+tiene un gradiente de $1$~en~$1$.
 
-Now differentiate $y = x+b$, by the rules we have
-already learned (pp.\ \pageref{diffrule1}~and~\pageref{diffrule2} \textit{ante}), and we get $\dfrac{dy}{dx} = 1$.
+Ahora diferencia $y = x+b$, por las reglas que ya hemos
+aprendido (pp.\ \pageref{diffrule1}~y~\pageref{diffrule2} \textit{arriba}), y obtenemos $\dfrac{dy}{dx} = 1$.
 
-The slope of the line is such that for every little
-step~$dx$ to the right, we go an equal little step~$dy$
-upward. And this slope is constant---always the
-same slope.
+La pendiente de la línea es tal que por cada pequeño
+paso~$dx$ hacia la derecha, vamos un paso pequeño igual~$dy$
+hacia arriba. Y esta pendiente es constante---siempre la
+misma pendiente.
 
-(2) Take another case:\Pagelabel{Case2}
+(2) Toma otro caso:\Pagelabel{Case2}
 \[
 y = ax+b.
 \]
-We know that this curve, like the preceding one, will
-start from a height~$b$ on the $y$-axis. But before we
-draw the curve, let us find its slope by differentiating;
-which gives $\dfrac{dy}{dx} = a$. The slope will be constant, at
-an angle, the tangent of which is here called~$a$. Let
-us assign to~$a$ some numerical value---say~$\frac{1}{3}$. Then we
-must give it such a slope that it ascends $1$~in~$3$; or
+Sabemos que esta curva, como la precedente,
+empezará desde una altura~$b$ en el eje~$y$. Pero antes de
+dibujar la curva, encontremos su pendiente diferenciando;
+lo que da $\dfrac{dy}{dx} = a$. La pendiente será constante, en
+un ángulo, cuya tangente se llama aquí~$a$. Asignemos
+a~$a$ algún valor numérico---digamos~$\frac{1}{3}$. Entonces debemos
+darle tal pendiente que ascienda $1$~en~$3$; o
 \DPPageSep{097.png}{85}%
-$dx$ will be $3$~times as great as~$dy$; as magnified in
-\Fig{21}. So, draw the line in \Fig{20} at this slope.
+$dx$ será $3$~veces tan grande como~$dy$; como se magnifica en
+la \Fig{21}. Así, dibuja la línea en la \Fig{20} con esta pendiente.
 
 \Figure[1.75in]{097a}{21}
-(3) Now for a slightly harder case.
+(3) Ahora para un caso ligeramente más difícil.
 \begin{DPalign*}
-\lintertext{\indent Let}
+\lintertext{\indent Sea}
 y= ax^2 + b.
 \end{DPalign*}
 
-Again the curve will start on the $y$-axis at a height~$b$
-above the origin.
+Nuevamente la curva empezará en el eje~$y$ a una altura~$b$
+sobre el origen.
 
-Now differentiate. [If you have forgotten, turn
-back to \Pageref{diffrule2}; or, rather, \emph{don't} turn back, but think %[ ** Page number]
-out the differentiation.]
+Ahora diferencia. [Si has olvidado, regresa
+a la \Pageref{diffrule2}; o, mejor, \emph{no} regreses, sino piensa %[ ** Page number]
+la diferenciación.]
 \[
 \frac{dy}{dx} = 2ax.
 \]
 
 \Figure[3.25in]{097b}{22}
 
-This shows that the steepness will not be constant:
-it increases as $x$~increases. At the starting point~$P$,
+Esto muestra que la empinadura no será constante:
+aumenta a medida que $x$~aumenta. En el punto de partida~$P$,
 \DPPageSep{098.png}{86}%
-where $x = 0$, the curve (\Fig{22}) has no steepness---that
-is, it is level. On the left of the origin, where
-$x$ has negative values, $\dfrac{dy}{dx}$~will also have negative
-values, or will descend from left to right, as in the
-Figure.
+donde $x = 0$, la curva (\Fig{22}) no tiene empinadura---esto
+es, está nivelada. A la izquierda del origen, donde
+$x$ tiene valores negativos, $\dfrac{dy}{dx}$~también tendrá valores negativos,
+o descenderá de izquierda a derecha, como en la
+Figura.
 
-Let us illustrate this by working out a particular
-instance. Taking the equation
+Ilustremos esto elaborando un ejemplo
+particular. Tomando la ecuación
 \[
 y = \tfrac{1}{4}x^2 + 3,
 \]
-and differentiating it, we get
+y diferenciándola, obtenemos
 \[
 \dfrac{dy}{dx} = \tfrac{1}{2}x.
 \]
-Now assign a few successive values, say from $0$~to~$5$,
-to~$x$; and calculate the corresponding values of~$y$
-by the first equation; and of~$\dfrac{dy}{dx}$ from the second
-equation. Tabulating results, we have:
+Ahora asigna unos pocos valores sucesivos, digamos de $0$~a~$5$,
+a~$x$; y calcula los valores correspondientes de~$y$
+por la primera ecuación; y de~$\dfrac{dy}{dx}$ de la segunda
+ecuación. Tabulando resultados, tenemos:
 \[
 \begin{array}{|c||*{6}{c|}}
 \hline
@@ -4077,109 +4076,109 @@ equation. Tabulating results, we have:
 \hline
 \end{array}
 \]
-Then plot them out in two curves, \Figs{23}{and}{24}\DPtypo{}{,}
-in \Fig{23} plotting the values of~$y$ against those of~$x$
-and in \Fig{24} those of $\dfrac{dy}{dx}$ against those of~$x$. For
+Luego tráza las en dos curvas, las \Figs{23}{y}{24}\DPtypo{}{,}
+en la \Fig{23} trazando los valores de~$y$ contra los de~$x$
+y en la \Fig{24} los de $\dfrac{dy}{dx}$ contra los de~$x$. Para
 \DPPageSep{099.png}{87}%
-any assigned value of~$x$, the \emph{height} of the ordinate
-in the second curve is proportional to the \emph{slope} of the
-first curve.
+cualquier valor asignado de~$x$, la \emph{altura} de la ordenada
+en la segunda curva es proporcional a la \emph{pendiente} de la
+primera curva.
 
 \Figures[2.5in]{099a}{099b}{23}{24}
 
-If a curve comes to a sudden cusp, as in \Fig{25},
-the slope at that point suddenly changes from a slope
+Si una curva llega a una cúspide súbita, como en la \Fig{25},
+la pendiente en ese punto cambia súbitamente de una pendiente
 \Figure{099c}{25}
-upward to a slope downward. In that case $\dfrac{dy}{dx}$ will
-clearly undergo an abrupt change from a positive to
-a negative value.
+hacia arriba a una pendiente hacia abajo. En ese caso $\dfrac{dy}{dx}$
+claramente experimentará un cambio abrupto de un valor positivo a
+un valor negativo.
 \DPPageSep{100.png}{88}%
 
-The following examples show further applications
-of the principles just explained.
+Los siguientes ejemplos muestran aplicaciones adicionales
+de los principios recién explicados.
 
-(4) Find the slope of the tangent to the curve
+(4) Encuentra la pendiente de la tangente a la curva
 \[
 y = \frac{1}{2x} + 3,
 \]
-at the point where $x = -1$. Find the angle which this
-tangent makes with the curve $y = 2x^2 + 2$.
+en el punto donde $x = -1$. Encuentra el ángulo que esta
+tangente hace con la curva $y = 2x^2 + 2$.
 
-The slope of the tangent is the slope of the curve at
-the point where they touch one another (see \Pageref{slope});
-that is, it is the $\dfrac{dy}{dx}$ of the curve for that point. Here
-$\dfrac{dy}{dx} = -\dfrac{1}{2x^2}$ and for $x = -1$, $\dfrac{dy}{dx} = -\dfrac{1}{2}$, which is the
-slope of the tangent and of the curve at that point.
-The tangent, being a straight line, has for equation
-$y = ax + b$, and its slope is $\dfrac{dy}{dx} = a$, hence $a = -\dfrac{1}{2}$. Also
-if $x= -1$, $y = \dfrac{1}{2(-1)} + 3 = 2\frac{1}{2}$; and as the tangent
-passes by this point, the coordinates of the point must
-satisfy the equation of the tangent, namely
+La pendiente de la tangente es la pendiente de la curva en
+el punto donde se tocan una a la otra (ver \Pageref{slope});
+esto es, es la $\dfrac{dy}{dx}$ de la curva para ese punto. Aquí
+$\dfrac{dy}{dx} = -\dfrac{1}{2x^2}$ y para $x = -1$, $\dfrac{dy}{dx} = -\dfrac{1}{2}$, que es la
+pendiente de la tangente y de la curva en ese punto.
+La tangente, siendo una línea recta, tiene por ecuación
+$y = ax + b$, y su pendiente es $\dfrac{dy}{dx} = a$, por tanto $a = -\dfrac{1}{2}$. También
+si $x= -1$, $y = \dfrac{1}{2(-1)} + 3 = 2\frac{1}{2}$; y como la tangente
+pasa por este punto, las coordenadas del punto deben
+satisfacer la ecuación de la tangente, a saber
 \[
   y = -\dfrac{1}{2} x + b,
 \]
-so that $2\frac{1}{2} = -\dfrac{1}{2} × (-1) + b$ and $b = 2$; the equation of
-the tangent is therefore $y = -\dfrac{1}{2} x + 2$.
+de modo que $2\frac{1}{2} = -\dfrac{1}{2} × (-1) + b$ y $b = 2$; la ecuación de
+la tangente es por tanto $y = -\dfrac{1}{2} x + 2$.
 
-Now, when two curves meet, the intersection being
-a point common to both curves, its coordinates must
-satisfy the equation of each one of the two curves;
+Ahora, cuando dos curvas se encuentran, siendo la intersección
+un punto común a ambas curvas, sus coordenadas deben
+satisfacer la ecuación de cada una de las dos curvas;
 \DPPageSep{101.png}{89}%
-that is, it must be a solution of the system of simultaneous
-equations formed by coupling together the
-equations of the curves. Here the curves meet one
-another at points given by the solution of
+esto es, debe ser una solución del sistema de ecuaciones simultáneas
+formado acoplando juntas las
+ecuaciones de las curvas. Aquí las curvas se encuentran una
+a la otra en puntos dados por la solución de
 \begin{DPgather*}
 \left\{
 \begin{aligned}
   y &= 2x^2 + 2, \\
-  y &= -\tfrac{1}{2} x + 2 \quad\text{or}\quad  2x^2 + 2 = -\tfrac{1}{2} x + 2;
+  y &= -\tfrac{1}{2} x + 2 \quad\text{o}\quad  2x^2 + 2 = -\tfrac{1}{2} x + 2;
 \end{aligned}
 \right. \displaybreak[1] \\
-\lintertext{that is,}
+\lintertext{esto es,}
 x(2x + \tfrac{1}{2}) = 0.
 \end{DPgather*}
 
-This equation has for its solutions $x = 0$ and $x = -\tfrac{1}{4}$.
-The slope of the curve $y = 2x^2 + 2$ at any point is
+Esta ecuación tiene por soluciones $x = 0$ y $x = -\tfrac{1}{4}$.
+La pendiente de la curva $y = 2x^2 + 2$ en cualquier punto es
 \[
 \dfrac{dy}{dx} = 4x.
 \]
 
-For the point where $x = 0$, this slope is zero; the curve
-is horizontal. For the point where
+Para el punto donde $x = 0$, esta pendiente es cero; la curva
+es horizontal. Para el punto donde
 \[
 x = -\dfrac{1}{4},\quad \dfrac{dy}{dx} = -1;
 \]
-hence the curve at that point slopes downwards to
-the right at such an angle~$\theta$ with the horizontal that
-$\tan \theta = 1$; that is, at~$45°$ to the horizontal.
+por tanto la curva en ese punto se inclina hacia abajo hacia
+la derecha en tal ángulo~$\theta$ con la horizontal que
+$\tan \theta = 1$; esto es, a~$45°$ a la horizontal.
 
-The slope of the straight line is $-\tfrac{1}{2}$; that is, it slopes
-downwards to the right and makes with the horizontal
-an angle~$\phi$ such that $\tan \phi = \tfrac{1}{2}$; that is, an angle of
-$26°~34'$. It follows that at the first point the curve
-cuts the straight line at an angle of $26°~34'$, while at
-the second it cuts it at an angle of $45° - 26°~34' = 18°~26'$.
+La pendiente de la línea recta es $-\tfrac{1}{2}$; esto es, se inclina
+hacia abajo a la derecha y hace con la horizontal
+un ángulo~$\phi$ tal que $\tan \phi = \tfrac{1}{2}$; esto es, un ángulo de
+$26°~34'$. Se sigue que en el primer punto la curva
+corta la línea recta en un ángulo de $26°~34'$, mientras que en
+el segundo la corta en un ángulo de $45° - 26°~34' = 18°~26'$.
 
-(5) A straight line is to be drawn, through a point
-whose coordinates are $x = 2$, $y = -1$, as tangent to the
-curve $y = x^2 - 5x + 6$. Find the coordinates of the
-point of contact.
+(5) Una línea recta debe ser dibujada, a través de un punto
+cuyas coordenadas son $x = 2$, $y = -1$, como tangente a la
+curva $y = x^2 - 5x + 6$. Encuentra las coordenadas del
+punto de contacto.
 \DPPageSep{102.png}{90}%
 
-The slope of the tangent must be the same as the
-$\dfrac{dy}{dx}$ of the curve; that is, $2x - 5$.
+La pendiente de la tangente debe ser la misma que la
+$\dfrac{dy}{dx}$ de la curva; esto es, $2x - 5$.
 
-The equation of the straight line is $y = ax + b$, and
-as it is satisfied for the values $x = 2$, $y = -1$, then
-$-1 = a×2 + b$; also, its $\dfrac{dy}{dx} = a = 2x - 5$.
+La ecuación de la línea recta es $y = ax + b$, y
+como es satisfecha para los valores $x = 2$, $y = -1$, entonces
+$-1 = a×2 + b$; también, su $\dfrac{dy}{dx} = a = 2x - 5$.
 
-The $x$ and the $y$ of the point of contact must also
-satisfy both the equation of the tangent and the
-equation of the curve.
+La $x$ y la $y$ del punto de contacto deben también
+satisfacer tanto la ecuación de la tangente como la
+ecuación de la curva.
 
-We have then
+Tenemos entonces
 %[** TN: Omitting dot leaders.]
 \begin{align*}
   y &= x^2 - 5x + 6, \tag*{(i)}   \\
