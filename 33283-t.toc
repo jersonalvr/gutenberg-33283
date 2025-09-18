@@ -1,5 +1,5 @@
 \ToCLine {}{Prólogo}{Prólogo}
-\ToCLine {I.}{Para librarte de los Terrores Preliminares}{chap:I}
+\ToCLine {I.}{En el que se cura al lector de su primer espanto}{chap:I}
 \ToCLine {II.}{Sobre Diferentes Grados de Pequeñez}{chap:II}
 \ToCLine {III.}{Sobre Crecimientos Relativos}{chap:III}
 \ToCLine {IV.}{Casos Más Simples}{chap:IV}
@@ -22,4 +22,4 @@
 \ToCLine {XXI.}{Encontrando algunas Soluciones}{chap:XXI}
 \ToCLine [\bfseries ]{}{Tabla de Formas Estándar}{Tabla de Formas Estándar}
 \ToCLine {}{Respuestas a los Ejercicios}{Respuestas}
-\contentsline {paragraph}{\normalfont (\textit {Examples}, \Pageref {examples3}):}{257}{section*.533}%
+\contentsline {paragraph}{\normalfont (\textit {Examples}, \Pageref {examples3}):}{258}{section*.533}%
