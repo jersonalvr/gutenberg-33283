@@ -471,29 +471,29 @@
 % Dedicated structural macros
 \newcommand{\Case}[1]{\Subsection{Case~\upshape{#1}.}}
 
-% "Example." goes on its own line; otherwise, run-in heading
-\newcommand{\Example}[1]{%
+% "Ejemplo." goes on its own line; otherwise, run-in heading
+\newcommand{\Ejemplo}[1]{%
   \ifthenelse{\equal{#1}{.}}{%
-    \Subsection{\textit{Example.}}%
+    \Subsection{\textit{Ejemplo.}}%
   }{%
-    \Paragraph{\textit{Example}~\upshape{#1}}%
+    \Paragraph{\textit{Ejemplo}~\upshape{#1}}%
   }%
 }
 
-\newcommand{\Examples}[1]{%
+\newcommand{\Ejemplos}[1]{%
   \ifthenelse{\equal{#1}{.}}{%
-    \Subsection{\textit{Examples.}}%
+    \Subsection{\textit{Ejemplos.}}%
   }{%
     \Subsection{\textit{#1}}%
   }
 }
 
 
-% Exercises section heading
-% \Exercises[Running Head]{I} (See p.~254 for Answers.)
-\newcommand{\Exercises}[2][]{%
-  \tb\textit{Exercises~#2.}\quad
-  \phantomsection\pdfbookmark[1]{Exercises #2}{Exercises #2}\label{Ex:#2}%
+% Ejercicio section heading
+% \Ejercicio[Running Head]{I} (See p.~254 for Answers.)
+\newcommand{\Ejercicio}[2][]{%
+  \tb\textit{Ejercicio~#2.}\quad
+  \phantomsection\pdfbookmark[1]{Ejercicio #2}{Ejercicio #2}\label{Ex:#2}%
   \ifthenelse{\not\equal{#1}{}}{\SetOddHead{#1}}{}%
 }
 
@@ -574,7 +574,7 @@
 \newenvironment{Answers}[4][1]{%
   \ifthenelse{\not\equal{#2}{I}}{\vspace{12pt plus 24pt minus 12pt}\tb#4}{}%
 %
-  \section*{\centering\normalsize Exercises~#2.\quad\normalfont#3\label{AnsEx:#2}}%
+  \section*{\centering\normalsize Ejercicio~#2.\quad\normalfont#3\label{AnsEx:#2}}%
   \begin{list}{}{\ListInitAns}%
     \ifthenelse{\equal{#1}{1}}{%
       \setboolean{InMulticols}{false}% Update state; else
@@ -1646,7 +1646,7 @@ pedazo de un pequeño pedazo de~$x$; es decir, como se explicó arriba
 (\Pageref{smallness}), es una cantidad pequeña del segundo orden
 de pequeñez. Por lo tanto puede descartarse como bastante
 despreciable en comparación con los otros términos.
-Dejándolo fuera, entonces tenemos:\Pagelabel{diffexample}%
+Dejándolo fuera, entonces tenemos:\Pagelabel{diffEjemplo}%
 \begin{align*}
 y + dy &= x^2 + 2x · dx. \displaybreak[1] \\
 \intertext{\indent Ahora $y=x^2$; entonces restemos esto de la ecuación
@@ -1886,7 +1886,7 @@ multiplica por la potencia y reduce la potencia en
 uno, dándonos así~$nx^{n-1}$ como resultado.
 
 
-\Exercises{I} (Véase \Pageref{AnsEx:I} para las Respuestas.)
+\Ejercicio{I} (Véase \Pageref{AnsEx:I} para las Respuestas.)
 
 Diferencia lo siguiente:
 \begin{Problems}[2]
@@ -2035,7 +2035,7 @@ a derecha) las ordenadas correspondientes de la curva derivada
 son negativas.
 
 \Pagelabel{differ}%
-Ahora si miramos hacia atrás en \Pageref{diffexample}, veremos que
+Ahora si miramos hacia atrás en \Pageref{diffEjemplo}, veremos que
 simplemente diferenciar~$x^2$ nos da~$2x$. Así que el
 coeficiente diferencial de~$7x^2$ es justamente $7$~veces tan grande como
 el de~$x^2$. Si hubiéramos tomado~$8x^2$, el coeficiente
@@ -2056,7 +2056,7 @@ en el resultado después de la diferenciación.
 \DPPageSep{042.png}{30}%
 
 
-\Examples{Algunos Ejemplos Adicionales.}
+\Ejemplos{Algunos Ejemplos Adicionales.}
 Los siguientes ejemplos adicionales, completamente desarrollados,
 te permitirán dominar completamente el proceso de
 diferenciación tal como se aplica a las expresiones algebraicas ordinarias,
@@ -2179,7 +2179,7 @@ hasta los~$1200°$.
 \DPPageSep{045.png}{33}%
 
 
-\Exercises{II} (Ver \Pageref{AnsEx:II} para las Respuestas.)
+\Ejercicio{II} (Ver \Pageref{AnsEx:II} para las Respuestas.)
 
 Diferencia las siguientes:
 \begin{Problems}[2]
@@ -2525,7 +2525,7 @@ El desarrollo de cocientes es a menudo tedioso, pero
 no hay nada difícil al respecto.
 
 Algunos ejemplos adicionales completamente desarrollados se dan
-a continuación.\Pagelabel{examples3}
+a continuación.\Pagelabel{Ejemplos3}
 
 (1) Diferencia $y = \dfrac{a}{b^2} x^3 - \dfrac{a^2}{b} x + \dfrac{a^2}{b^2}$.
 
@@ -2640,7 +2640,7 @@ w = (\theta + \theta^{-1})(\theta^{\efrac{1}{2}} + \theta^{-\efrac{1}{2}}). \\
 Esto, nuevamente, podría obtenerse más simplemente
 multiplicando primero los dos factores, y diferenciando
 después. Esto no es, sin embargo, siempre posible;
-ve, por ejemplo, \Pageref{example1}, ejemplo~8, en el cual la %[xref, hard-coded page]
+ve, por ejemplo, \Pageref{Ejemplo1}, ejemplo~8, en el cual la %[xref, hard-coded page]
 regla para diferenciar un producto \emph{debe} ser usada.
 
 (8) Diferencia $y =\dfrac{a}{1 + a\sqrt{x} + a^2x}$.
@@ -2736,10 +2736,10 @@ cuando $t = 100$ esto se convierte en $0.036$~atmósfera por
 grado centígrado de cambio de temperatura.
 
 
-\Exercises{III} (Ver las Respuestas en \Pageref{AnsEx:III}.)
+\Ejercicio{III} (Ver las Respuestas en \Pageref{AnsEx:III}.)
 
 \begin{Problems}
-\Item{(1)} Diferencia\Pagelabel{examples2}
+\Item{(1)} Diferencia\Pagelabel{Ejemplos2}
 \begin{SubProbs}
 \item[(\textit{a})] $u = 1 + x + \dfrac{x^2}{1 × 2} + \dfrac{x^3}{1 × 2 × 3} + \dotsb$.
 
@@ -2889,7 +2889,7 @@ resultado de diferenciar tres veces, $\dfrac{d^3y}{dx^3} = f'''(x)$.
 \DPPageSep{063.png}{51}%
 
 
-\Examples.
+\Ejemplos.
 Ahora probemos $y = f(x) = 7x^4 + 3.5x^3 - \frac{1}{2}x^2 + x - 2$.
 \begin{align*}
 \frac{dy}{dx}     &= f'(x) = 28x^3 + 10.5x^2 - x + 1, \\
@@ -2908,7 +2908,7 @@ De manera similar si $y = \phi(x) = 3x(x^2 - 4)$,
 
 
 %[** TN: Heading indented in the original]
-\Exercises{IV} (Ver \Pageref[page]{AnsEx:III} para las Respuestas.)
+\Ejercicio{IV} (Ver \Pageref[page]{AnsEx:III} para las Respuestas.)
 
 Encontrar $\dfrac{dy}{dx}$ y $\dfrac{d^2y}{dx^2}$ para las siguientes expresiones:
 \begin{Problems}[2]
@@ -2919,8 +2919,8 @@ Encontrar $\dfrac{dy}{dx}$ y $\dfrac{d^2y}{dx^2}$ para las siguientes expresione
 \Item{(3)} $y = 1 + \dfrac{x}{1} + \dfrac{x^2}{1×2} + \dfrac{x^3}{1×2×3} + \dfrac{x^4}{1×2×3×4}$.
 
 \Item{(4)} Encontrar las funciones derivadas 2da y~3ra en
-los Ejercicios~III. (\Pageref{examples2}), No.~1 al No.~7, y en los
-Ejemplos dados (\Pageref{examples3}), No.~1 al No.~7.
+los Ejercicios~III. (\Pageref{Ejemplos2}), No.~1 al No.~7, y en los
+Ejemplos dados (\Pageref{Ejemplos3}), No.~1 al No.~7.
 \end{Problems}
 \DPPageSep{064.png}{52}%
 
@@ -3181,7 +3181,7 @@ trabajo      &  $w = x × m \ddot{x}$.
 \DPPageSep{072.png}{60}%
 
 
-\Examples.
+\Ejemplos.
 (1) Un cuerpo se mueve de tal manera que la distancia~$x$ (en pies),
 que viaja desde cierto punto~$O$, está dada por
 la relación $x = 0.2t^2 + 10.4$, donde $t$~es el tiempo en
@@ -3376,7 +3376,7 @@ ha realizado
 \]
 
 
-\Exercises{V} (Ver \Pageref[page]{AnsEx:V} para las Respuestas.)
+\Ejercicio{V} (Ver \Pageref[page]{AnsEx:V} para las Respuestas.)
 
 \begin{Problems}
 \Item{(1)} Si $y = a + bt^2 + ct^4$; encontrar $\dfrac{dy}{dt}$ y $\dfrac{d^2y}{dt^2}$.
@@ -3507,7 +3507,7 @@ este truco de utilidad creciente.
 
 \tb
 
-\Examples.
+\Ejemplos.
 Practiquemos este truco en unos cuantos ejemplos.
 
 \Pagelabel{ExNo1}%
@@ -3555,7 +3555,7 @@ Sea $u = x^3 - a^2$.
 \frac{dy}{dx} &= \frac{dy}{du} × \frac{du}{dx} = -\frac{3x^2}{2\sqrt{(x^3 - a^2)^3}}.
 \end{align*}
 
-\Pagelabel{examples4}
+\Pagelabel{Ejemplos4}
 (5) Diferenciar $y=\sqrt{\dfrac{1-x}{1+x}}$.
 
 Escribir esto como $y=\dfrac{(1-x)^{\efrac{1}{2}}}{(1+x)^{\efrac{1}{2}}}$.
@@ -3683,7 +3683,7 @@ Hence
 \]
 
 %[** TN: Manual linebreak improves typeset appearance]
-(10)\Pagelabel{Example10} Encuentra el primer y segundo coeficientes diferenciales \\
+(10)\Pagelabel{Ejemplo10} Encuentra el primer y segundo coeficientes diferenciales \\
 de $y = \dfrac{x}{b} \sqrt{(a-x)x}$.
 \[
 \frac{dy}{dx}
@@ -3724,7 +3724,7 @@ Ahora
 más adelante. Ver \hyperref[Ex:X11]{Ej.~X. No.~11}.)
 
 
-\Exercises{VI} (Ver \Pageref[page]{AnsEx:VI} para las Respuestas.)
+\Ejercicio{VI} (Ver \Pageref[page]{AnsEx:VI} para las Respuestas.)
 
 Diferencia lo siguiente:
 
@@ -3754,7 +3754,7 @@ El proceso puede extenderse a tres o más
 coeficientes diferenciales, de modo que $\dfrac{dy}{dx} = \dfrac{dy}{dz} × \dfrac{dz}{dv} × \dfrac{dv}{dx}$.
 
 
-\Examples.
+\Ejemplos.
 (1) Si $z = 3x^4$;\quad $v = \dfrac{7}{z^2}$;\quad $y =\sqrt{1+v}$, encuentra~$\dfrac{dv}{dx}$.
 
 Tenemos
@@ -3792,7 +3792,7 @@ Obtenemos
 \frac{d\theta}{dx} = -\frac{3a^2}{2\sqrt{x^3}};\quad
 \frac{d\omega}{d\theta} = -\frac{1}{(1+\theta)\sqrt{1-\theta^2}}
 \end{gather*}
-(ver ejemplo~5, \Pageref{examples4}); y
+(ver ejemplo~5, \Pageref{Ejemplos4}); y
 \[
 \frac{d\phi}{d\omega} = \frac{1}{\sqrt{2}\omega^2}.
 \]
@@ -3804,7 +3804,7 @@ De modo que $\dfrac{d\theta}{dx} = \dfrac{1}{\sqrt{2} × \omega^2}
 Reemplaza ahora primero~$\omega$, luego~$\theta$ por su valor.
 
 
-\Exercises{VII}
+\Ejercicio{VII}
 %[ ** TN: Inconsistent formatting in original; heading on separate line]
 Ahora puedes intentar exitosamente lo siguiente. (Ver
 \Pageref[page]{AnsEx:VII} para las Respuestas.)
@@ -4207,7 +4207,7 @@ obtenidas trazando realmente las curvas.
 \DPPageSep{103.png}{91}%
 
 
-\Exercises{VIII} (Ver \Pageref[page]{AnsEx:VIII} para las Respuestas.)
+\Ejercicio{VIII} (Ver \Pageref[page]{AnsEx:VIII} para las Respuestas.)
 
 \begin{Problems}
 \Item{(1)} Traza la curva $y = \tfrac{3}{4} x^2 - 5$, usando una escala de
@@ -4556,7 +4556,7 @@ Traza la curva por ti mismo, y verifica el cálculo.
 \DPPageSep{113.png}{101}%
 
 
-\Examples{Ejemplos Adicionales.}
+\Ejemplos{Ejemplos Adicionales.}
 Un ejemplo muy interesante es proporcionado por una curva
 que tiene tanto un máximo como un mínimo. Su
 ecuación es:
@@ -4865,7 +4865,7 @@ Haz otros ejemplos por ti mismo. Hay pocos
 temas que ofrezcan tal riqueza de ejemplos interesantes.
 
 
-\Exercises{IX} (Ver \Pageref[página]{AnsEx:IX} para Respuestas.)
+\Ejercicio{IX} (Ver \Pageref[página]{AnsEx:IX} para Respuestas.)
 
 \begin{Problems}
 \Item{(1)} ¿Qué valores de~$x$ harán que $y$ sea un máximo
@@ -5127,7 +5127,7 @@ E = \sqrt[4.6]{\frac{1000 × 3.6 × 17}{10 × 16 × 5}}
 \]
 
 
-\Exercises{X} (Se te aconseja graficar
+\Ejercicio{X} (Se te aconseja graficar
 cualquier ejemplo numérico.) (Ver \Pageref{AnsEx:X} para las
 Respuestas.)
 \begin{Problems}
@@ -5566,7 +5566,7 @@ tales expresiones, encontraremos que la división en
 fracciones parciales es un auxiliar precioso (ver \Pageref{partfracs}).
 
 
-\Exercises{XI} (Ver \Pageref[page]{AnsEx:XI} para las Respuestas.)
+\Ejercicio{XI} (Ver \Pageref[page]{AnsEx:XI} para las Respuestas.)
 
 Dividir en fracciones:
 \begin{Problems}[2]
@@ -6316,7 +6316,7 @@ $\log_\epsilon y = x \log_\epsilon a$,
 Intentemos ahora más ejemplos.
 
 
-\Examples.
+\Ejemplos.
 (1) $y=\epsilon^{-ax}$. Sea $-ax=z$; entonces $y=\epsilon^z$.
 \[
 \frac{dy}{dx} = \epsilon^z;\quad
@@ -6463,7 +6463,7 @@ Similarmente, si $v=\log_\epsilon(x^3-2)$, $\dfrac{dv}{dx} = \dfrac{3x^2}{x^3-2}
 Intenta ahora los siguientes ejercicios.
 
 
-\Exercises{XII} (Ver \Pageref[página]{AnsEx:XII} para Respuestas.)
+\Ejercicio{XII} (Ver \Pageref[página]{AnsEx:XII} para Respuestas.)
 \begin{Problems}
 \Item{(1)} Diferencia $y=b(\epsilon^{ax} -\epsilon^{-ax})$.
 
@@ -6733,7 +6733,7 @@ habrá caído a $72° × 0.0498 = 3.586°$.
 \tb
 
 \clearpage%[** TN: Page break dependent on text block size]
-\Examples{Ejemplos Adicionales.}
+\Ejemplos{Ejemplos Adicionales.}
 (1) La fuerza de una corriente eléctrica en un conductor
 en un tiempo $t$~seg.\ después de la aplicación de la
 fuerza electromotriz que la produce está dada por la expresión
@@ -6818,7 +6818,7 @@ t &= 3\text{ minutos muy aproximadamente}.
 \end{DPalign*}
 
 
-\Exercises{XIII} (Ver \Pageref[página]{AnsEx:XIII} para Respuestas.)
+\Ejercicio{XIII} (Ver \Pageref[página]{AnsEx:XIII} para Respuestas.)
 \begin{Problems}
 \Item{(1)} Dibuja la curva $y = b \epsilon^{-\efrac{t}{T}}$; donde $b = 12$, $T = 8$,
 y $t$ toma varios valores de $0$~a~$20$.
@@ -7107,7 +7107,7 @@ signo opuesto a)} la función original.}
 
 \tb
 
-\Examples.\Pagelabel{intex3}
+\Ejemplos.\Pagelabel{intex3}
 Con lo que hemos aprendido hasta ahora podemos ahora
 diferenciar expresiones de naturaleza más compleja.
 
@@ -7199,7 +7199,7 @@ v &= 3u^2;\quad \frac{dv}{du} = 6u;\quad \frac{du}{d\theta} = \sec^2 \theta; \\
   &= \frac{6\tan\theta \sec^2\theta}{2\sqrt{1 + 3\tan^2\theta}}.
 \end{DPalign*}
 
-(8) $y=\sin x \cos x$. \Pagelabel{example1}
+(8) $y=\sin x \cos x$. \Pagelabel{Ejemplo1}
 \begin{align*}
 \frac{dy}{dx}
   &= \sin x(-\sin x) + \cos x × \cos x \\
@@ -7207,7 +7207,7 @@ v &= 3u^2;\quad \frac{dv}{du} = 6u;\quad \frac{du}{d\theta} = \sec^2 \theta; \\
 \end{align*}
 
 
-\Exercises{XIV} (Ver \Pageref[página]{AnsEx:XIV} para Respuestas.)
+\Ejercicio{XIV} (Ver \Pageref[página]{AnsEx:XIV} para Respuestas.)
 \begin{Problems}
 \Item{(1)} Diferencia lo siguiente:
 \begin{align*}
@@ -7323,7 +7323,7 @@ y esto se llama una \emph{diferencial total}. En algunos libros
 se escribe $dy = \left(\dfrac{dy}{du}\right)\, du + \left(\dfrac{dy}{dv}\right)\, dv$.
 
 
-\Example{(1).} Encuentra los coeficientes diferenciales parciales
+\Ejemplo{(1).} Encuentra los coeficientes diferenciales parciales
 de la expresión $w = 2ax^2 + 3bxy + 4cy^3$.
 Las respuestas son:
 \[
@@ -7342,7 +7342,7 @@ dw = (4ax+3by)\, dx + (3bx+12cy^2)\, dy.
 \]
 
 
-\Example{(2).} Sea $z = x^y$. Entonces, tratando primero $y$
+\Ejemplo{(2).} Sea $z = x^y$. Entonces, tratando primero $y$
 y luego $x$ como constante, obtenemos en la manera usual
 \[
 \left.
@@ -7354,7 +7354,7 @@ y luego $x$ como constante, obtenemos en la manera usual
 de modo que $dz = yx^{y-1}\, dx + x^y \log_\epsilon x \, dy$.
 
 
-\Example{(3).} Un cono teniendo altura $h$ y radio
+\Ejemplo{(3).} Un cono teniendo altura $h$ y radio
 de base~$r$\DPchg{,}{} tiene volumen $V=\frac{1}{3} \pi r^2 h$. Si su altura permanece
 constante, mientras $r$ cambia, la razón de cambio del
 volumen, con respecto al radio, es diferente de la razón
@@ -7373,7 +7373,7 @@ La variación cuando tanto el radio como la altura
 cambian está dada por $dV = \dfrac{2\pi}{3} rh\, dr + \dfrac{\pi}{3} r^2\, dh$.
 
 
-\Example{(4).} \Pagelabel{Example4} En el siguiente ejemplo $F$~y~$f$
+\Ejemplo{(4).} \Pagelabel{Ejemplo4} En el siguiente ejemplo $F$~y~$f$
 denotan dos funciones arbitrarias de cualquier forma. 
 Por ejemplo, pueden ser funciones seno, o
 exponenciales, o simples funciones algebraicas de las dos
@@ -7409,7 +7409,7 @@ en física matemática.
 Variables Independientes.}
 
 
-\Example{(5).} Retomemos de nuevo el Ejercicio~IX.,
+\Ejemplo{(5).} Retomemos de nuevo el Ejercicio~IX.,
 \Pageref{Ex9No4}, No.~4.
 
 Sean $x$~y~$y$ las longitudes de dos de las porciones de
@@ -7459,7 +7459,7 @@ el máximo, pues $\dfrac{d^2 P}{dx^2} = 12x - 150$, que es $+30$ para
 $x=15$ y $-30$ para $x=10$.
 
 
-\Example{(6).} Encuentra las dimensiones de un vagón
+\Ejemplo{(6).} Encuentra las dimensiones de un vagón
 de carbón ferroviario ordinario con extremos rectangulares, tal que,
 para un volumen dado~$V$ el área de lados y piso
 juntos sea lo más pequeña posible.
@@ -7487,7 +7487,7 @@ x = \sqrt[3]{2V}.
 \]
 
 
-\Exercises{XV} (Ver \Pageref[página]{AnsEx:XV} para Respuestas.)
+\Ejercicio{XV} (Ver \Pageref[página]{AnsEx:XV} para Respuestas.)
 \begin{Problems}
 \Item{(1)} Diferencia la expresión $\dfrac{x^3}{3} - 2x^3y - 2y^2x + \dfrac{y}{3}$
 con respecto a $x$ solamente, y con respecto a $y$ solamente.
@@ -7760,7 +7760,7 @@ y = \tfrac{1}{10}x^2 + C.
 \Figure{202a}{51}
 
 
-\Exercises{XVI} (Ver \Pageref[página]{AnsEx:XVI} para Respuestas.)
+\Ejercicio{XVI} (Ver \Pageref[página]{AnsEx:XVI} para Respuestas.)
 \begin{Problems}
 \Item{(1)} Encuentra la suma última de $\frac{2}{3} + \frac{1}{3} + \frac{1}{6} + \frac{1}{12} + \frac{1}{24} + \text{etc}$.
 
@@ -8025,7 +8025,7 @@ poderes recientemente adquiridos.
 \DPPageSep{210.png}{198}%
 
 
-\Examples.
+\Ejemplos.
 (1) Dado $\dfrac{dy}{dx} = 24x^{11}$. Encuentra~$y$.\qquad \textit{Resp}.\ $y = 2x^{12} + C$.
 
 (2) Encuentra $\ds\int (a + b)(x + 1)\, dx$.\qquad Es $(a + b) \ds\int (x + 1)\, dx$ \\
@@ -8210,7 +8210,7 @@ Intenta también $\cos^2\theta$; un pequeño truco simplificará las cosas:
 \int\cos^2 \theta\, d\theta
   &= \tfrac{1}{2} \int (\cos 2\theta + 1)\, d\theta \\
   &= \tfrac{1}{2} \int \cos 2 \theta\, d\theta + \tfrac{1}{2} \int d\theta. \\
-  &= \frac{\sin 2\theta}{4} + \frac{\theta}{2} + C.\text{ (Ver también \Pageref{moreexamples}).} %[ ** Page]
+  &= \frac{\sin 2\theta}{4} + \frac{\theta}{2} + C.\text{ (Ver también \Pageref{moreEjemplos}).} %[ ** Page]
 \end{DPalign*}
 
 
@@ -8291,7 +8291,7 @@ un espacio sólido dado.
 \DPPageSep{217.png}{205}%
 
 
-\Exercises[INTEGRACIONES SIMPLES]{XVII}
+\Ejercicio[INTEGRACIONES SIMPLES]{XVII}
 (Ver \Pageref{AnsEx:XVII} para las Respuestas.)
 \begin{Problems}
 \Item{(1)} Encuentra  $\ds\int y\, dx$ cuando  $y^2 = 4 ax$.
@@ -8519,7 +8519,7 @@ que, al hacer la sustracción la constante agregada~$C$
 ha desaparecido.
 
 
-\Examples.
+\Ejemplos.
 (1) Para familiarizarnos con el proceso,
 tomemos un caso del cual conocemos la respuesta de antemano.
 Encontremos el área del triángulo (\Fig{53}), que
@@ -8744,7 +8744,7 @@ de un sólido de revolución.
 \DPPageSep{231.png}{219}%
 
 %[** TN: Original contains a run-in heading]
-\Example. La curva $y=x^2-5$ está girando alrededor
+\Ejemplo. La curva $y=x^2-5$ está girando alrededor
 del eje de~$x$. Encuentra el área de la superficie generada
 por la curva entre $x=0$ y~$x=6$.
 
@@ -8787,7 +8787,7 @@ correspondientes a los ángulos $\theta_1$~y~$\theta_2$ está dada por
 \tb
 
 
-\Examples.
+\Ejemplos.
 (1) Encuentra el área del sector de $1$~radián en una
 circunferencia de radio $a$~\DPchg{pulgada}{pulgadas}.
 
@@ -8824,7 +8824,7 @@ de la figura sobre la cual operamos.
 \tb
 
 
-\Examples.
+\Ejemplos.
 (1) Encuentra el volumen de una esfera de radio~$r$.
 
 Una cáscara esférica delgada tiene por volumen~$4\pi x^2\, dx$ (ver
@@ -8886,7 +8886,7 @@ y $x=l$; entonces la media cuadrática se expresa como
 \DPPageSep{235.png}{223}%
 
 
-\Examples.
+\Ejemplos.
 (1) Encontrar la media cuadrática de la función
 $y=ax$ (\Fig{63}).
 
@@ -8925,7 +8925,7 @@ que es $\dfrac{a^l-1}{\log_\epsilon a}$.
 Por lo tanto la media cuadrática es $\sqrt[2] {\dfrac{a^l - 1}{l \log_\epsilon a}}$.
 
 
-\Exercises{XVIII} (Ver \Pageref{AnsEx:XVIII} para Respuestas.)
+\Ejercicio{XVIII} (Ver \Pageref{AnsEx:XVIII} para Respuestas.)
 \begin{Problems}
 \Item{(1)} Encuentra el área de la curva $y=x^2+x-5$ entre
 $x=0$ y $x=6$, y las ordenadas medias entre
@@ -9024,7 +9024,7 @@ que por integración directa da la expresión anterior.
 \DPPageSep{239.png}{227}%
 
 
-\Examples.
+\Ejemplos.
 (1) Encuentra $\ds\int w · \sin w\, dw$.
 
 Escribe $u = w$, y para $\sin w · dw$ escribe~$dx$. Entonces
@@ -9052,7 +9052,7 @@ du &= dx, & v &=\epsilon^x,
    = x \epsilon^x - \epsilon^x = \epsilon^x(x-1) + C.
 \end{DPgather*}}%
 
-(3) Intenta $\ds\int \cos^2 \theta\, d\theta$.\Pagelabel{moreexamples}
+(3) Intenta $\ds\int \cos^2 \theta\, d\theta$.\Pagelabel{moreEjemplos}
 \begin{DPalign*}
 u &= \cos \theta, &\cos \theta\, d\theta &= dv. \\
 \lintertext{\indent Por lo tanto}
@@ -9276,7 +9276,7 @@ Diferenciales} de Boole, dedicados al tema de encontrar así
 las ``soluciones'' para diferentes formas originales.
 
 
-\Exercises{XIX} (Ver \Pageref{AnsEx:XIX} para Respuestas.)
+\Ejercicio{XIX} (Ver \Pageref{AnsEx:XIX} para Respuestas.)
 
 \begin{Problems}[2]
 \Item{(1)} Encuentra $\ds\int \sqrt {a^2 - x^2}\, dx$.
@@ -9329,7 +9329,7 @@ trabajo serio.
 
 \tb
 
-\Example{1.} Encuentra la solución de la ecuación
+\Ejemplo{1.} Encuentra la solución de la ecuación
 diferencial
 \[
 ay + b \frac{dy}{dx} = 0.
@@ -9407,7 +9407,7 @@ y = y_0 \epsilon^{-\efrac{a}{b} x}.
 
 \tb
 
-\Example{2.}
+\Ejemplo{2.}
 
 Tomemos como ejemplo para resolver
 \[
@@ -9472,7 +9472,7 @@ Este resultado es también de importancia en la ciencia física.
 \tb
 
 
-\Example{3.}
+\Ejemplo{3.}
 \begin{DPgather*}
 \lintertext{\indent Sea} ay+b\frac{dy}{dt} = g · \sin 2\pi nt.
 \end{DPgather*}
@@ -9604,7 +9604,7 @@ circuito, y $\phi$ es un ángulo de retraso.
 \DPPageSep{254.png}{242}%
 
 
-\Example{4.}
+\Ejemplo{4.}
 \begin{DPgather*}
 \lintertext{\indent Supongamos que}
 M\, dx + N\, dy = 0.
@@ -9689,7 +9689,7 @@ dw=6x^2y\, dx + 2x^3\, dy. \\
 \DPPageSep{256.png}{244}%
 
 \tb %[** TN: No thought break in orignal]
-\Example{5.} Sea $\dfrac{d^2 y}{dt^2} + n^2 y = 0$.
+\Ejemplo{5.} Sea $\dfrac{d^2 y}{dt^2} + n^2 y = 0$.
 
 En este caso tenemos una ecuación diferencial de
 segundo grado, en la cual $y$ aparece en la forma de
@@ -9737,7 +9737,7 @@ y = A \sin nt + B \cos nt, \text{ que es la solución.}
 
 \tb
 
-\Example{6.} \hfil $\dfrac{d^2 y}{dt^2} - n^2 y = 0$.\phantom{\indent\textit{Ejemplo 6.}}
+\Ejemplo{6.} \hfil $\dfrac{d^2 y}{dt^2} - n^2 y = 0$.\phantom{\indent\textit{Ejemplo 6.}}
 
 Aquí obviamente tenemos que ver con una función~$y$
 que es tal que su segundo coeficiente diferencial es
@@ -9792,7 +9792,7 @@ término que se desvanece a medida que $x$~aumenta.
 \tb
 
 
-\Example{7.}
+\Ejemplo{7.}
 \begin{DPalign*}
 \lintertext{\indent Sea}
 b \frac{d^2y}{dt^2} + a \frac{dy}{dt} + gy &= 0.
@@ -9819,12 +9819,12 @@ dan aquí; pueden encontrarse en tratados avanzados.
 \DPPageSep{259.png}{247}%
 
 
-\Example{8.}
+\Ejemplo{8.}
 \[
 \frac{d^2y}{dt^2} = a^2 \frac{d^2y}{dx^2}.
 \]
 
-Se vio (\Pageref{Example4}) que esta ecuación se derivó
+Se vio (\Pageref{Ejemplo4}) que esta ecuación se derivó
 de la original
 \[
 y = F(x+at) + f(x-at),
@@ -9972,9 +9972,9 @@ matemáticos qué necio es en realidad.
 \DStrut$\dfrac{du}{dx} ± \dfrac{dv}{dx} ± \dfrac{dw}{dx}$
    & $u ± v ± w$     & $\int u\, dx ± \int v\, dx ± \int w\, dx$ \\
 \DStrut$u\, \dfrac{dv}{dx} + v\, \dfrac{du}{dx}$
-   & $uv$  & No general form known \\
+   & $uv$  & No se conoce ninguna forma general \\
 \DStrut$\dfrac{v\, \dfrac{du}{dx} - u\, \dfrac{dv}{dx}}{v^2}$
-   & $\dfrac{u}{v}$ & No general form known \\
+   & $\dfrac{u}{v}$ & No se conoce ninguna forma general \\
 \DStrut$\dfrac{du}{dx}$ & $u$ & $ux - \int x\, du + C$ \\
 \hline
 \end{tabular}
@@ -9987,26 +9987,26 @@ matemáticos qué necio es en realidad.
   & \multicolumn{1}{c}{$\longleftarrow\quad y\quad\longrightarrow$}
   & $\ds\int y\, dx$ \\
 \hline
-\ColumnHead{Exponential and Logarithmic.} \\
+\ColumnHead{Exponencial y logarítmica} \\
 $\epsilon^x$ & $\epsilon^x$ & $\epsilon^x + C$ \\
 $x^{-1}$     & $\log_\epsilon x$ & $ x(\log_\epsilon x - 1) + C$ \\
 $0.4343 × x^{-1}$ & $\log_{10} x$ & $0.4343x (\log_\epsilon x - 1) + C$ \\
 \DStrut$a^x \log_\epsilon a$ & $a^x$ & $\dfrac{a^x}{\log_\epsilon a} + C$ \\
 \hline
 %
-\ColumnHead{Trigonometrical.} \\
+\ColumnHead{Trigonométrico.} \\
 $\cos x$  & $\sin x$ & $-\cos x + C $ \\
 $-\sin x$ & $\cos x$ & $\sin x + C $ \\
 $\sec^2 x$& $\tan x$ & $-\log_\epsilon \cos x + C $ \\
 \hline
 %
-\ColumnHead{Circular (Inverse).} \\
+\ColumnHead{Circular (Inversa).} \\
 $\dfrac{1}{\sqrt{(1-x^2)}}$ & $\arcsin x$ & $x · \arcsin x + \sqrt{1 - x^2} + C$ \\
 \DStrut$-\dfrac{1}{\sqrt{(1-x^2)}}$ & $\arccos x$ & $x · \arccos x - \sqrt{1 - x^2} + C$ \\
 $\dfrac{1}{1+x^2}$ & $\arctan x$ & $x · \arctan x - \frac{1}{2} \log_\epsilon (1 + x^2) + C$ \\
 \hline
 %\DPPageSep{265.png}{253}%
-\ColumnHead{Hyperbolic.} \\
+\ColumnHead{Hiperbólico.} \\
 $\cosh x   $ & $\sinh x$ & $\cosh x + C$ \\
 $\sinh x   $ & $\cosh x$ & $\sinh x + C$ \\
 $\sech^2 x $ & $\tanh x$ & $\log_\epsilon \cosh x + C $ \\
@@ -10023,7 +10023,7 @@ $\sech^2 x $ & $\tanh x$ & $\log_\epsilon \cosh x + C $ \\
   & \multicolumn{1}{c}{$\longleftarrow\quad y\quad\longrightarrow$}
   & $\ds\int y\, dx$ \\
 \hline
-\ColumnHead{Miscellaneous.} \\
+\ColumnHead{Misceláneo.} \\
 \DStrut$-\dfrac{1}{(x + a)^2}$ & $\dfrac{1}{x + a}$ & $ \log_\epsilon (x+a) + C $ \\
 $-\dfrac{x}{(a^2 + x^2)^{\efrac{3}{2}}}$
   & $\dfrac{1}{\sqrt{a^2 + x^2}}$
@@ -10100,7 +10100,7 @@ $ 2a·\sin 2ax$ & $\sin^2 ax$ & $\dfrac{x}{2} - \dfrac{\sin 2ax}{4a} + C $ \\
 \ResetCols{1}
 \Item{(7)} $\dfrac{dl_t}{dt} = 0.000012×l_0$.
 
-\Item{(8)} $\dfrac{dC}{dV} = abV^{b-1}$, $0.98$, $3.00$ and $7.47$~candle power per volt respectively.
+\Item{(8)} $\dfrac{dC}{dV} = abV^{b-1}$, $0.98$, $3.00$ y $7.47$~potencia lumínica por voltio, respectivamente.
 
 \Item{(9)} $\begin{aligned}[t]
   \dfrac{dn}{dD} &= -\dfrac{1}{LD^2} \sqrt{\dfrac{gT}{\pi \sigma}}, &
@@ -10168,7 +10168,7 @@ $ 2a·\sin 2ax$ & $\sin^2 ax$ & $\dfrac{x}{2} - \dfrac{\sin 2ax}{4a} + C $ \\
 \Item{(3)} $1 + x + \dfrac{x^2}{1 × 2} + \dfrac{x^3}{1 × 2 × 3}$;\quad $1 + x + \dfrac{x^2}{1 × 2}$.
 
 % [** TN: Freely reformatting subitems]
-\Item{(4)} (\textit{Exercises III.}):
+\Item{(4)} (\textit{Ejercicio III.}):
 \begin{itemize}
 \item[(1)] (\textit{a}) $\dfrac{d^2 y}{dx^2} = \dfrac{d^3 y}{dx^3} = 1 + x + \frac{1}{2}x^2 + \frac{1}{6} x^3 + \ldots$. \\
   (\textit{b}) $2a$, $0$.\hfil
@@ -10188,7 +10188,7 @@ $ 2a·\sin 2ax$ & $\sin^2 ax$ & $\dfrac{x}{2} - \dfrac{\sin 2ax}{4a} + C $ \\
 \item[(7)] $\dfrac{30}{(3x + 2)^3}$,\quad $-\dfrac{270}{(3x + 2)^4}$.
 \end{itemize}
 
-\paragraph{\normalfont(\textit{Examples}, \Pageref{examples3}):}
+\paragraph{\normalfont(\textit{Ejemplos}, \Pageref{Ejemplos3}):}
 \begin{itemize}
 \item[(1)] $\dfrac{6a}{b^2} x$,\quad $\dfrac{6a}{b^2}$.\hfil
 (2) $\dfrac{3a \sqrt{b}} {2 \sqrt{x}} - \dfrac{6b \sqrt[3]{a}}{x^3}$,\quad
@@ -10219,18 +10219,18 @@ $\begin{aligned}[t]
 
 \begin{Answers}{V}{(\Pageref{Ex:V}.)}{}
 
-\Item{(2)}  64; 147.2; and 0.32 feet per second.
+\Item{(2)}  64; 147.2; and 0.32 pies por segundo.
 
 \ResetCols{2}
 \Item{(3)}  $x = a - gt$; $\ddot{x} = -g$.
 
-\Item{(4)}  $45.1$ feet per second.
+\Item{(4)}  $45.1$ pies por segundo.
 
 \ResetCols{1}
-\Item{(5)}  $12.4$ feet per second per second.\quad Yes.
+\Item{(5)}  $12.4$ pies por segundo por segundo.\quad Si.
 
-\Item{(6)} Angular velocity ${} = 11.2$ radians per second; angular
-  acceleration ${}= 9.6$ radians per second per second.
+\Item{(6)} Angular velocity ${} = 11.2$ radianes por segundo; aceleración
+  angular ${}= 9.6$ radianes por segundo por segundo.
 
 \Item{(7)}  $v = 20.4t^2 - 10.8$.\quad $a = 40.8t$.\quad $172.8$~in./sec., $122.4~\text{in./sec}^2$.
 
@@ -10277,18 +10277,18 @@ $\begin{aligned}[t]
 
 \Item{(2)}  $1.44$.
 
-\Item{(4)}  $\dfrac{dy}{dx} = 3x^2 + 3$; and the numerical values are:
-     $3$,~$3 \frac{3}{4}$, $6$,~and~$15$.
+\Item{(4)}  $\dfrac{dy}{dx} = 3x^2 + 3$; y los valores numéricos son:
+     $3$,~$3 \frac{3}{4}$, $6$,~y~$15$.
 
 \Item{(5)}  $ ± \sqrt{2}$.
 
-\Item{(6)}  $ \dfrac{dy}{dx} = - \dfrac{4}{9} \dfrac{x}{y}$. Slope is zero where $x = 0$; and is $\mp \dfrac{1}{3 \sqrt{2}}$ where $x = 1$.
+\Item{(6)}  $ \dfrac{dy}{dx} = - \dfrac{4}{9} \dfrac{x}{y}$. La pendiente es cero donde $x = 0$; y es $\mp \dfrac{1}{3 \sqrt{2}}$ donde $x = 1$.
 
 \Item{(7)}  $m = 4$, $n = -3$.
 
-\Item{(8)}  Intersections at $x = 1$, $x = -3$. Angles $153°\;26'$, $2°\;28'$.
+\Item{(8)}  Intersecciones en $x = 1$, $x = -3$. Ángulos $153°\;26'$, $2°\;28'$.
 
-\Item{(9)}  Intersection at $x = 3.57$, $y = 3.50$. Angle $16°\;16'$.
+\Item{(9)}  Intersección en $x = 3.57$, $y = 3.50$. Ángulo $16°\;16'$.
 
 \Item{(10)}  $x = \frac{1}{3}$, $y = 2 \frac{1}{3}$, $b = -\frac{5}{3}$.
 \end{Answers}
@@ -10302,20 +10302,20 @@ $\begin{aligned}[t]
 \ResetCols{2}
 \Item{(2)}  $x = a$.
 
-\Item{(4)}  $25 \sqrt{3}$ square inches.
+\Item{(4)}  $25 \sqrt{3}$ pulgada cuadrada.
 
 \ResetCols{1}
 \Item{(5)}  $\dfrac{dy}{dx} = - \dfrac{10}{x^2} + \dfrac{10}{(8 - x)^2}$; $x = 4$; $y = 5$.
 
-\Item{(6)}  Max.\ for $x = -1$; min.\ for $x = 1$.
+\Item{(6)}  Max.\ for $x = -1$; min.\ para $x = 1$.
 
-\Item{(7)}  Join the middle points of the four sides.
+\Item{(7)}  Une los puntos medios de los cuatro lados.
 
 \Item{(8)}  $r = \frac{2}{3} R$, $r = \dfrac{R}{2}$, no max.
 
 \Item{(9)}  $r = R \sqrt{\dfrac{2}{3}}$, $r = \dfrac{R}{\sqrt{2}}$, $r = 0.8506R$.
 
-\Item{(10)}  At the rate of $\dfrac{8}{r}$ square feet per second.
+\Item{(10)}  A una tasa de $\dfrac{8}{r}$ pies cuadrados por segundo.
 
 \ResetCols{2}
 \Item{(11)}  $r = \dfrac{R \sqrt{8}}{3}$.
@@ -10327,10 +10327,10 @@ $\begin{aligned}[t]
 
 \Item{(1)}  Max.: $x = -2.19$, $y = 24.19$; min.:, $x = 1.52$, $y = -1.38$.
 
-\Item{(2)}  $\dfrac{dy}{dx} = \dfrac{b}{a} - 2cx$; $\dfrac{d^2 y}{dx^2} = -2c$; $x = \dfrac{b}{2ac}$ (\emph{a maximum}).
+\Item{(2)}  $\dfrac{dy}{dx} = \dfrac{b}{a} - 2cx$; $\dfrac{d^2 y}{dx^2} = -2c$; $x = \dfrac{b}{2ac}$ (\emph{un máximo}).
 
-\Item{(3)}  (\textit{a}) One maximum and two minima.  \\
-(\textit{b}) One maximum. ($x = 0$; other points unreal.)
+\Item{(3)}  (\textit{a}) Un máximo y dos mínimos.  \\
+(\textit{b}) Un máximo. ($x = 0$; otros puntos irreales.)
 
 \ResetCols{2}
 \Item{(4)}  Min.: $x = 1.71$, $y = 6.14$.
@@ -10350,14 +10350,14 @@ Min.: $x = +3.565$, $y = 7.88$.
 \Item{(9)}  $x = \sqrt{\dfrac{a}{c}}$.
 
 \ResetCols{1}
-\Item{(10)}  Speed $8.66$ nautical miles per hour. Time taken $115.47$~hours. \\
-Minimum cost £$112$.~$12$\textit{s}.
+\Item{(10)}  Velocidad $8.66$ millas náuticas por hora. Tiempo tomado $115.47$~horas. \\
+Costo mínimo £$112$.~$12$\textit{s}.
 \DPPageSep{271.png}{259}%
 
-\Item{(11)}  Max.\ and min.\ for $x = 7.5$, $y = ±5.414$. (See example
-no.~10, \Pageref{Example10}.)
+\Item{(11)}  Máx.\ y mín.\ para $x = 7.5$, $y = ±5.414$. (Véase ejemplo
+núm.~10, \Pageref{Ejemplo10}.)
 
-\Item{(12)}  Min.: $x = \frac{1}{2}$, $y= 0.25$; max.: $x = - \frac{1}{3}$, $y= 1.408$.
+\Item{(12)}  Mín.: $x = \frac{1}{2}$, $y= 0.25$; máx.: $x = - \frac{1}{3}$, $y= 1.408$.
 \end{Answers}
 
 %[** TN: Text block-dependent page break]
@@ -10435,7 +10435,7 @@ no.~10, \Pageref{Example10}.)
 \ResetCols{2}
 \Item{(12)}  $a^x\left(ax^{a-1} + x^a \log_\epsilon a\right)$.
 
-\Item{(14)}  Min.: $y = 0.7$ for $x = 0.694$.
+\Item{(14)}  Min.: $y = 0.7$ para $x = 0.694$.
 
 \ResetCols{2}
 \Item{(15)}  $\dfrac{1 + x}{x}$.
@@ -10446,35 +10446,35 @@ no.~10, \Pageref{Example10}.)
 
 \begin{Answers}{XIII}{(\Pageref{Ex:XIII}.)}{}
 
-\Item{(1)}  Let $\dfrac{t}{T} = x$ ($\therefore t = 8x$), and use the Table on \Pageref[page]{littletable}.
+\Item{(1)}  Sea $\dfrac{t}{T} = x$ ($\therefore t = 8x$), y úsese la Tabla en \Pageref[page]{littletable}.
 
-\Item{(2)}  $T = 34.627$; $159.46$ minutes.
+\Item{(2)}  $T = 34.627$; $159.46$ minutos.
 
-\Item{(3)}  Take $2t = x$; and use the Table on \Pageref[page]{littletable}.
+\Item{(3)}  Tómese $2t = x$; y úsese la Tabla en \Pageref[page]{littletable}.
 
 \Item{(5)}  (\textit{a}) $x^x \left(1 + \log_\epsilon x\right)$;\quad
 (\textit{b}) $2x(\epsilon^x)^x$;\quad
 (\textit{c}) $\epsilon^{x^x} × x^x \left(1 + \log_\epsilon x\right)$.
 
 \ResetCols{2}
-\Item{(6)}  $0.14$ second.
+\Item{(6)}  $0.14$ segundo.
 
 \Item{(7)}  (\textit{a}) $1.642$;\quad (\textit{b}) $15.58$.
 
 \ResetCols{1}
 \Item{(8)}  $\mu = 0.00037$, $31^m \frac{1}{4}$. %[** Time units]
 
-\Item{(9)}  $i$ is $63.4$\% of~$i_0$, $220$~kilometres.
+\Item{(9)}  $i$ es $63.4$\% de~$i_0$, $220$~kilómetros.
 
-\Item{(10)}  $0.133$, $0.145$, $0.155$, mean $0.144$; $-10.2$\%, $-0.9$\%, $+77.2$\%.
+\Item{(10)}  $0.133$, $0.145$, $0.155$, promedio $0.144$; $-10.2$\%, $-0.9$\%, $+77.2$\%.
 
 \ResetCols{2}
-\Item{(11)}  Min.\ for $x = \dfrac{1}{\epsilon}$.
+\Item{(11)}  Mín.\ para $x = \dfrac{1}{\epsilon}$.
 
-\Item{(12)}  Max.\ for $x = \epsilon$.
+\Item{(12)}  Máx.\ para $x = \epsilon$.
 
 \ResetCols{1}
-\Item{(13)}  Min.\ for $x = \log_\epsilon a$.
+\Item{(13)}  Mín.\ para $x = \log_\epsilon a$.
 \end{Answers}
 \DPPageSep{273.png}{261}%
 
@@ -10488,7 +10488,7 @@ no.~10, \Pageref{Example10}.)
 (iii) $\dfrac{dy}{d\theta} = 3\sin^2 \theta \cos\theta$ and $\dfrac{dy}{d\theta} = 3\cos3\theta$.
 
 \ResetCols{2}
-\Item{(2)}  $\theta = 45°$ or $\dfrac{\pi}{4}$ radians.
+\Item{(2)}  $\theta = 45°$ o $\dfrac{\pi}{4}$ radianes.
 
 \Item{(3)}  $\dfrac{dy}{dt} = -n \sin 2\pi nt$.
 
@@ -10500,9 +10500,9 @@ no.~10, \Pageref{Example10}.)
 \ResetCols{1}
 \Item{(6)}  $18.2 \cos \left(x + 26° \right)$.
 
-\Item{(7)} {\loosen The slope is $\dfrac{dy}{d\theta} = 100\cos\left(\theta - 15° \right)$, which is a maximum
- when $(\theta -15°) = 0$, or $\theta = 15°$; the value of the slope
- being then ${}= 100$. When $\theta = 75°$ the slope is
+\Item{(7)} {\loosen La pendiente es $\dfrac{dy}{d\theta} = 100\cos\left(\theta - 15° \right)$, que es un máximo
+ cuando $(\theta -15°) = 0$, o $\theta = 15°$; siendo el valor de la pendiente
+ entonces ${}= 100$. Cuando $\theta = 75°$ la pendiente es
  $100\cos(75°  - 15°) = 100\cos 60° = 100 × \frac{1}{2} = 50$.}
 
 \Item{(8)} $\begin{aligned}[t]
@@ -10534,7 +10534,7 @@ no.~10, \Pageref{Example10}.)
 
 \Item{(14)}  $\dfrac{dy}{d\theta} = 3\theta^2 + 3\cos \left( \theta + 3 \right) - \log_\epsilon 3 \left( \cos\theta × 3^{\sin\theta} + 3\theta \right)$.
 
-\Item{(15)}  $\theta = \cot\theta; \theta = ±0.86$; is max.~for $+\theta$, min.~for $-\theta$.
+\Item{(15)}  $\theta = \cot\theta; \theta = ±0.86$; es máx.~para $+\theta$, mín.~para $-\theta$.
 \end{Answers}
 
 
@@ -10554,20 +10554,19 @@ no.~10, \Pageref{Example10}.)
      $dy = u \sin x^{u-1} \cos x\, dx + (\sin x)^u \log_\epsilon \sin x du$,\\
      $dy = \dfrac{1}{v}\, \dfrac{1}{u}\, du - \log_\epsilon u \dfrac{1}{v^2}\, dv$.
 
-\Item{(7)}  Minimum for $x = y = -\frac{1}{2}$.
+\Item{(7)}  Mínimo para $x = y = -\frac{1}{2}$.
 
-\Item{(8)}  (\textit{a}) Length $2$~feet, width = depth = $1$~foot, vol.\ = $2$~cubic
- feet.
+\Item{(8)}  (\textit{a}) Longitud $2$~pies, ancho = profundidad = $1$~pie, vol.\ = $2$~pies cúbicos.
 
- (\textit{b}) Radius = $\dfrac{2}{\pi}$ feet = $7.46$~in., length = $2$~feet, vol.\ = $2.54$.
+ (\textit{b}) Radio = $\dfrac{2}{\pi}$ pies = $7.46$~pulg., longitud = $2$~pies, vol.\ = $2.54$.
 
-\Item{(9)}   All three parts equal; the product is maximum.
+\Item{(9)}   Las tres partes iguales; el producto es máximo.
 
-\Item{(10)}  Minimum for $x = y = 1$.
+\Item{(10)}  Mínimo para $x = y = 1$.
 
-\Item{(11)}  Min.: $x = \frac{1}{2}$ and $y = 2$.
+\Item{(11)}  Mín.: $x = \frac{1}{2}$ y $y = 2$.
 
-\Item{(12)}  Angle at apex $= 90°$; equal sides = length = $\sqrt[3]{2V}$.
+\Item{(12)}  Ángulo en el vértice $= 90°$; lados iguales = longitud = $\sqrt[3]{2V}$.
 \end{Answers}
 
 %[** TN: Text block-dependent page break]
@@ -10607,9 +10606,9 @@ no.~10, \Pageref{Example10}.)
 \Item{(7)} $\dfrac{ax^2}{4} + \dfrac{bx^3}{9} + \dfrac{cx^4}{16} + C$.
 
 \ResetCols{1}
-\Item{(8)} {\loosen $\dfrac{x^2 + a}{x + a} = x - a + \dfrac{a^2 + a}{x + a}$ by division. Therefore the answer
-is $\dfrac{x^2}{2} - ax + (a^2 + a)\log_\epsilon (x + a) + C$.}
-  (See pages \pageref{intex1} and~\pageref{intex2}.)
+\Item{(8)} {\loosen $\dfrac{x^2 + a}{x + a} = x - a + \dfrac{a^2 + a}{x + a}$ por división. Por lo tanto la respuesta
+es $\dfrac{x^2}{2} - ax + (a^2 + a)\log_\epsilon (x + a) + C$.}
+  (Véanse páginas \pageref{intex1} y~\pageref{intex2}.)
 
 \ResetCols{2}
 \Item{(9)} $\dfrac{x^4}{4} + 3x^3 + \dfrac{27}{2} x^2 + 27x + C$.
@@ -10640,18 +10639,18 @@ is $\dfrac{x^2}{2} - ax + (a^2 + a)\log_\epsilon (x + a) + C$.}
 
 \begin{Answers}{XVIII}{(\Pageref{Ex:XVIII}.)}{}
 
-\Item{(1)} $\text{Area} = 60$; $\text{mean ordinate} = 10$.
+\Item{(1)} $\text{Área} = 60$; $\text{ordenada promedio} = 10$.
 
-\Item{(2)} $\text{Area} = \frac{2}{3}$ of $a × 2a \sqrt{a}$.
+\Item{(2)} $\text{Área} = \frac{2}{3}$ de $a × 2a \sqrt{a}$.
 
-\Item{(3)} $\text{Area} = 2$; $\text{mean ordinate} = \dfrac{2}{\pi} = 0.637$.
+\Item{(3)} $\text{Área} = 2$; $\text{ordenada promedio} = \dfrac{2}{\pi} = 0.637$.
 
-\Item{(4)} $\text{Area} = 1.57$; $\text{mean ordinate} = 0.5$.
+\Item{(4)} $\text{Área} = 1.57$; $\text{ordenada promedio} = 0.5$.
 
 \ResetCols{2}
 \Item{(5)} $0.572$, $0.0476$.
 
-\Item{(6)} $\text{Volume} = \pi r^2 \dfrac{h}{3}$.
+\Item{(6)} $\text{Volumen} = \pi r^2 \dfrac{h}{3}$.
 
 \ResetCols{2}
 \Item{(7)} $1.25$.
@@ -10659,34 +10658,34 @@ is $\dfrac{x^2}{2} - ax + (a^2 + a)\log_\epsilon (x + a) + C$.}
 \Item{(8)} $79.4$.
 
 \ResetCols{1}
-\Item{(9)} $\text{Volume} = 4.9348$; $\text{area of surface} = 12.57$ (from $0$ to~$\pi$).
+\Item{(9)} $\text{Volumen} = 4.9348$; $\text{área de superficie} = 12.57$ (de $0$ a~$\pi$).
 
 \Item{(10)} $a\log_\epsilon a$,\quad $\dfrac{a}{a - 1} \log_\epsilon a$.
 
-\Item{(12)} $\text{Arithmetical mean} = 9.5$; $\text{quadratic mean} = 10.85$.
+\Item{(12)} $\text{Media aritmética} = 9.5$; $\text{media cuadrática} = 10.85$.
 \DPPageSep{276.png}{264}%
 
-\Item{(13)} $\text{Quadratic mean} = \dfrac{1}{\sqrt{2}} \sqrt{A_1^2 + A_3^2}$; $\text{arithmetical mean} = 0$.
+\Item{(13)} $\text{Media cuadrática} = \dfrac{1}{\sqrt{2}} \sqrt{A_1^2 + A_3^2}$; $\text{media aritmética} = 0$.
 
-The first involves a somewhat difficult integral, and may be
-stated thus: By definition the quadratic mean will be
+La primera involucra una integral algo difícil, y puede
+enunciarse así: Por definición la media cuadrática será
 \[
 \sqrt{\dfrac{1}{2\pi} \int_0^{2\pi} (A_1 \sin x + A_3 \sin 3x)^2\, dx}. %[** TN: Moved period out of radicand]
 \]
-Now the integration indicated by
+Ahora la integración indicada por
 \[
 \int (A_1^2 \sin^2 x + 2A_1 A_3 \sin x \sin 3x + A_3^2 \sin^2 3x)\, dx
 \]
-is more readily obtained if for $\sin^2 x$ we write
+se obtiene más fácilmente si para $\sin^2 x$ escribimos
 \[
 \dfrac{1 - \cos 2x}{2}.
 \]
-For $2\sin x \sin 3x$ we write $\cos 2x - \cos 4x$; and, for $\sin^2 3x$,
+Para $2\sin x \sin 3x$ escribimos $\cos 2x - \cos 4x$; y, para $\sin^2 3x$,
 \[
 \dfrac{1 - \cos 6x}{2}.
 \]
 
-Making these substitutions, and integrating, we get (see
+Haciendo estas sustituciones, e integrando, obtenemos (véase
 \Pageref{cosax})
 \[
 \dfrac{A_1^2}{2} \left( x - \dfrac{\sin 2x}{2} \right)
@@ -10694,14 +10693,14 @@ Making these substitutions, and integrating, we get (see
  + \dfrac{A_3^2}{2} \left( x - \dfrac{\sin 6x}{6} \right).
 \]
 
-At the lower limit the substitution of $0$ for~$x$ causes all
-this to vanish, whilst at the upper limit the substitution
-of $2\pi$ for~$x$ gives $A_1^2 \pi + A_3^2 \pi$. And hence the
-answer follows.
+En el límite inferior la sustitución de $0$ por~$x$ hace que todo
+esto se desvanezca, mientras que en el límite superior la sustitución
+de $2\pi$ por~$x$ da $A_1^2 \pi + A_3^2 \pi$. Y por lo tanto sigue la
+respuesta.
 
-\Item{(14)} Area is $62.6$~square units. Mean ordinate is $10.42$.
+\Item{(14)} El área es $62.6$~unidades cuadradas. La ordenada promedio es $10.42$.
 
-\Item{(16)} $436.3$. (This solid is pear shaped.)
+\Item{(16)} $436.3$. (Este sólido tiene forma de pera.)
 \end{Answers}
 
 
@@ -10740,23 +10739,23 @@ answer follows.
 \ResetCols{1}
 \Item{(13)} $\frac{1}{4} \log_\epsilon \dfrac{1 + x}{1 - x} + \frac{1}{2} \arctan x + C$.
 
-\Item{(14)} $\dfrac{1}{\sqrt{a}} \log_\epsilon \dfrac{\sqrt{a} - \sqrt{a - bx^2}}{x\sqrt{a}}$.\quad (Let $\dfrac{1}{x} = v$; then, in the result,
-let $\sqrt{v^2 - \dfrac{b}{a}} = v - u$.) %[** TN: Large () in the original]
+\Item{(14)} $\dfrac{1}{\sqrt{a}} \log_\epsilon \dfrac{\sqrt{a} - \sqrt{a - bx^2}}{x\sqrt{a}}$.\quad (Sea $\dfrac{1}{x} = v$; entonces, en el resultado,
+sea $\sqrt{v^2 - \dfrac{b}{a}} = v - u$.) %[** TN: Large () in the original]
 
-You had better differentiate now the answer and work
-back to the given expression as a check.
+Será mejor que diferencies ahora la respuesta y trabajes
+de vuelta hacia la expresión dada como verificación.
 \end{Answers}
 
-Every earnest student is exhorted to manufacture more
-examples for himself at every stage, so as to test his powers.
-When integrating he can always test his answer by differentiating
-it, to see whether he gets back the expression from
-which he started.
+Todo estudiante serio es exhortado a fabricar más
+ejemplos para sí mismo en cada etapa, de modo de probar sus poderes.
+Cuando integre siempre puede probar su respuesta diferenciándola,
+para ver si obtiene de vuelta la expresión de la
+cual comenzó.
 
-There are lots of books which give examples for practice.
-It will suffice here to name two: R.~G.~Blaine's \textit{The Calculus
-and its Applications}, and F.~M.~Saxelby's \textit{A Course in Practical
-Mathematics}.
+Hay muchos libros que dan ejemplos para práctica.
+Bastará aquí nombrar dos: \textit{The Calculus
+and its Applications} de R.~G.~Blaine, y \textit{A Course in Practical
+Mathematics} de F.~M.~Saxelby.
 
 \vfill
 \begin{center}
@@ -10791,7 +10790,7 @@ to the Study of Differential Equations. By
 Introduction to those beautiful Methods of Reckoning
 which are generally called by the terrifying names of the
 Differential Calculus and the Integral Calculus. By \Author{F.~R.~S\@.}
-2s.~net. New Edition, with many Examples.}
+2s.~net. New Edition, with many Ejemplos.}
 
 \Book{\Title{A First Course in the Differential and Integral
 Calculus.} By Prof.\ \Author{W.~F.~Osgood}, Ph.D\@. 8s.~6d.\ net.}
@@ -10800,7 +10799,7 @@ Calculus.} By Prof.\ \Author{W.~F.~Osgood}, Ph.D\@. 8s.~6d.\ net.}
 etc.} By \Author{A.~S.~Percival}, M.A\@. 2s.~6d.\ net.}
 
 \Book{\Title{Differential Calculus.} With Applications and
-numerous Examples. An Elementary Treatise by \Author{Joseph
+numerous Ejemplos. An Elementary Treatise by \Author{Joseph
 Edwards}, M.A\@. 14s.}
 
 \Book{\Title{Differential and Integral Calculus for Technical
@@ -10817,7 +10816,7 @@ Applications.} By \Author{I.~Todhunter}, F.R.S\@. 10s.~6d. Key.
 By \Author{H.~St.~J.~Hunter}, M.A\@. 10s.~6d.}
 
 \Book{\Title{A Treatise on the Differential Calculus and the
-Elements of the Integral Calculus.} With numerous Examples.
+Elements of the Integral Calculus.} With numerous Ejemplos.
 By \Author{I.~Todhunter}, F.R.S\@. 10s.~6d. Key. By
 \Author{H.~St.~J.~Hunter}, M.A\@. 10s.~6d.}
 

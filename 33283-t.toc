@@ -22,4 +22,4 @@
 \ToCLine {XXI.}{Encontrando algunas Soluciones}{chap:XXI}
 \ToCLine [\bfseries ]{}{Tabla de Formas Estándar}{Tabla de Formas Estándar}
 \ToCLine {}{Respuestas a los Ejercicios}{Respuestas}
-\contentsline {paragraph}{\normalfont (\textit {Examples}, \Pageref {examples3}):}{262}{section*.533}%
+\contentsline {paragraph}{\normalfont (\textit {Ejemplos}, \Pageref {Ejemplos3}):}{262}{section*.533}%

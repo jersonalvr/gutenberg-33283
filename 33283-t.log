@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.18)  18 SEP 2025 10:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.18)  18 SEP 2025 10:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2036,6 +2036,11 @@ Overfull \hbox (86.17531pt too wide) detected at line 9688
 ]
 
 [256]
+Overfull \hbox (13.55359pt too wide) in paragraph at lines 9958--9981
+ [] 
+ []
+
+
 
 [257
 
@@ -2368,12 +2373,6 @@ OML/cmm/m/it/12 bt\OT1/cmr/m/n/12 )$, $\OML/cmm/m/it/12 R[] []$\OT1/cmr/m/n/12
 
 [273]
 
-
-
-
-
-
-
 [274]
 
 
@@ -2400,33 +2399,39 @@ OML/cmm/m/it/12 bt\OT1/cmr/m/n/12 )$, $\OML/cmm/m/it/12 R[] []$\OT1/cmr/m/n/12
 
 
 
+
+
+
+
+
+
 [275]
-Underfull \hbox (badness 1975) in paragraph at lines 10807--10808
+
+[276]
+Underfull \hbox (badness 1975) in paragraph at lines 10806--10807
 \OT1/cmr/m/n/17.28 Differential and In-te-gral Cal-cu-lus for Tech-ni-cal
  []
 
 
 
-[276
+[277
 
 
 ]
-
-[277]
 
 [278]
 
-[279
-
-
-]
+[279]
 
 [280
 
 
 ]
 
-[281]
+[281
+
+
+]
 
 [282]
 
@@ -2442,7 +2447,9 @@ Underfull \hbox (badness 1975) in paragraph at lines 10807--10808
 
 [288]
 
-[289] (33283-t.aux)
+[289]
+
+[290] (33283-t.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-08-13>
@@ -2601,12 +2608,12 @@ mathcolor.ltx
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `33283-t.out' has not changed.
-(rerunfilecheck)             Checksum: 52B77D26E2B705F680D1D6A16CECAF2E;10845.
+(rerunfilecheck)             Checksum: A496F954DC76AB8D0A78E058BCE775B9;10845.
  ) 
 Here is how much of TeX's memory you used:
- 13728 strings out of 468133
- 210604 string characters out of 5430228
- 651271 words of memory out of 5000000
+ 13729 strings out of 468133
+ 210612 string characters out of 5430228
+ 651272 words of memory out of 5000000
  41240 multiletter control sequences out of 15000+600000
  644251 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2643,9 +2650,9 @@ son/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:
 /Users/Jerson/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt
 9.pfb><C:/Users/Jerson/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/symbols/msam10.pfb>
-Output written on 33283-t.pdf (300 pages, 1920770 bytes).
+Output written on 33283-t.pdf (301 pages, 1921377 bytes).
 PDF statistics:
- 3527 PDF objects out of 3580 (max. 8388607)
- 936 named destinations out of 1000 (max. 500000)
+ 3534 PDF objects out of 3580 (max. 8388607)
+ 937 named destinations out of 1000 (max. 500000)
  915 words of extra memory for PDF output out of 10000 (max. 10000000)
 
