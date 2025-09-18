@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.18)  18 SEP 2025 08:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.18)  18 SEP 2025 08:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -588,7 +588,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ]
-<./images/pubmark.pdf, id=108, 234.8775pt x 67.25125pt>
+<./images/pubmark.pdf, id=300, 234.8775pt x 67.25125pt>
 File: ./images/pubmark.pdf Graphic file (type pdf)
 <use ./images/pubmark.pdf>
 Package pdftex.def Info: ./images/pubmark.pdf  used on input line 927.
@@ -620,18 +620,20 @@ Overfull \hbox (5.5895pt too wide) detected at line 955
 [6
 
 
-] (33283-t.toc)
+] (33283-t.toc
+
+[7
+
+
+])
 \tf@toc=\write4
 \openout4 = `33283-t.toc'.
 
 
 
-[7
+[8]
 
-
-]
-
-[8
+[9
 
 
 ]
@@ -658,17 +660,17 @@ on \OT1/cmr/m/it/12 peque~na\OT1/cmr/m/n/12 , en-tonces $1$ por ciento de
 [4]
 
 [5]
-<./images/018a.pdf, id=202, 155.58125pt x 185.69376pt>
+<./images/018a.pdf, id=443, 155.58125pt x 185.69376pt>
 File: ./images/018a.pdf Graphic file (type pdf)
 <use ./images/018a.pdf>
 Package pdftex.def Info: ./images/018a.pdf  used on input line 1288.
 (pdftex.def)             Requested size: 108.405pt x 129.38687pt.
-<./images/019a.pdf, id=205, 175.65625pt x 191.71625pt>
+<./images/019a.pdf, id=446, 175.65625pt x 191.71625pt>
 File: ./images/019a.pdf Graphic file (type pdf)
 <use ./images/019a.pdf>
 Package pdftex.def Info: ./images/019a.pdf  used on input line 1300.
 (pdftex.def)             Requested size: 175.6558pt x 191.71577pt.
-<./images/019b.pdf, id=206, 175.65625pt x 197.73875pt>
+<./images/019b.pdf, id=447, 175.65625pt x 197.73875pt>
 File: ./images/019b.pdf Graphic file (type pdf)
 <use ./images/019b.pdf>
 Package pdftex.def Info: ./images/019b.pdf  used on input line 1300.
@@ -685,7 +687,7 @@ Package pdftex.def Info: ./images/019b.pdf  used on input line 1300.
 
 
 ]
-<./images/022a.pdf, id=268, 197.73875pt x 149.55875pt>
+<./images/022a.pdf, id=508, 197.73875pt x 149.55875pt>
 File: ./images/022a.pdf Graphic file (type pdf)
 <use ./images/022a.pdf>
 Package pdftex.def Info: ./images/022a.pdf  used on input line 1395.
@@ -693,7 +695,7 @@ Package pdftex.def Info: ./images/022a.pdf  used on input line 1395.
 
 
 [10 <./images/022a.pdf>]
-<./images/023a.pdf, id=290, 164.615pt x 240.9pt>
+<./images/023a.pdf, id=530, 164.615pt x 240.9pt>
 File: ./images/023a.pdf Graphic file (type pdf)
 <use ./images/023a.pdf>
 Package pdftex.def Info: ./images/023a.pdf  used on input line 1413.
@@ -739,23 +741,7 @@ Overfull \hbox (21.71983pt too wide) detected at line 1798
 
 [22]
 
-LaTeX Warning: Hyper reference `binomtheo' on page 23 undefined on input line 1
-844.
-
-
-LaTeX Warning: Reference `binomtheo' on page 23 undefined on input line 1844.
-
-
-
 [23]
-
-LaTeX Warning: Hyper reference `AnsEx:I' on page 24 undefined on input line 189
-0.
-
-
-LaTeX Warning: Reference `AnsEx:I' on page 24 undefined on input line 1890.
-
-
 
 
 
@@ -802,24 +788,16 @@ Overfull \hbox (18.05641pt too wide) detected at line 1962
 ]
 
 [27]
-<./images/040a.pdf, id=414, 208.78pt x 226.8475pt>
+<./images/040a.pdf, id=658, 208.78pt x 226.8475pt>
 File: ./images/040a.pdf Graphic file (type pdf)
 <use ./images/040a.pdf>
 Package pdftex.def Info: ./images/040a.pdf  used on input line 2019.
 (pdftex.def)             Requested size: 180.67499pt x 196.32076pt.
-<./images/040b.pdf, id=415, 209.78375pt x 252.945pt>
+<./images/040b.pdf, id=659, 209.78375pt x 252.945pt>
 File: ./images/040b.pdf Graphic file (type pdf)
 <use ./images/040b.pdf>
 Package pdftex.def Info: ./images/040b.pdf  used on input line 2019.
 (pdftex.def)             Requested size: 180.67499pt x 217.8488pt.
-
-
-LaTeX Warning: Hyper reference `slope' on page 28 undefined on input line 2031.
-
-
-
-LaTeX Warning: Reference `slope' on page 28 undefined on input line 2031.
-
 
 
 [28]
@@ -831,14 +809,6 @@ LaTeX Warning: Reference `slope' on page 28 undefined on input line 2031.
 [31]
 
 [32]
-
-LaTeX Warning: Hyper reference `AnsEx:II' on page 33 undefined on input line 21
-83.
-
-
-LaTeX Warning: Reference `AnsEx:II' on page 33 undefined on input line 2183.
-
-
 
 
 
@@ -883,45 +853,14 @@ LaTeX Warning: Reference `AnsEx:II' on page 33 undefined on input line 2183.
 
 [43]
 
-LaTeX Warning: Hyper reference `dodge' on page 44 undefined on input line 2579.
-
-
-
-LaTeX Warning: Reference `dodge' on page 44 undefined on input line 2579.
-
-
-
 [44]
-
-LaTeX Warning: Hyper reference `example1' on page 45 undefined on input line 26
-44.
-
-
-LaTeX Warning: Reference `example1' on page 45 undefined on input line 2644.
-
-
 
 [45]
 
 [46]
-
-LaTeX Warning: Hyper reference `binomtheo' on page 47 undefined on input line 2
-726.
-
-
-LaTeX Warning: Reference `binomtheo' on page 47 undefined on input line 2726.
-
-
 Overfull \hbox (53.87189pt too wide) detected at line 2735
 []
  []
-
-
-LaTeX Warning: Hyper reference `AnsEx:III' on page 47 undefined on input line 2
-740.
-
-
-LaTeX Warning: Reference `AnsEx:III' on page 47 undefined on input line 2740.
 
 
 
@@ -960,14 +899,6 @@ Overfull \hbox (28.06808pt too wide) detected at line 2885
 
 [51]
 
-LaTeX Warning: Hyper reference `AnsEx:III' on page 52 undefined on input line 2
-912.
-
-
-LaTeX Warning: Reference `AnsEx:III' on page 52 undefined on input line 2912.
-
-
-
 
 
 
@@ -1005,14 +936,6 @@ LaTeX Warning: Reference `AnsEx:III' on page 52 undefined on input line 2912.
 
 [65]
 
-LaTeX Warning: Hyper reference `AnsEx:V' on page 66 undefined on input line 338
-0.
-
-
-LaTeX Warning: Reference `AnsEx:V' on page 66 undefined on input line 3380.
-
-
-
 [66]
 
 [67]
@@ -1039,18 +962,6 @@ Overfull \hbox (79.37369pt too wide) detected at line 3635
 
 [74]
 
-LaTeX Warning: Hyper reference `Ex:X11' on page 75 undefined on input line 3725
-.
-
-
-LaTeX Warning: Hyper reference `AnsEx:VI' on page 75 undefined on input line 37
-28.
-
-
-LaTeX Warning: Reference `AnsEx:VI' on page 75 undefined on input line 3728.
-
-
-
 
 
 
@@ -1070,35 +981,20 @@ LaTeX Warning: Reference `AnsEx:VI' on page 75 undefined on input line 3728.
 
 
 [75]
-
-LaTeX Warning: Hyper reference `examples4' on page 76 undefined on input line 3
-796.
-
-
-LaTeX Warning: Reference `examples4' on page 76 undefined on input line 3796.
-
-
-LaTeX Warning: Hyper reference `AnsEx:VII' on page 76 undefined on input line 3
-811.
-
-
-LaTeX Warning: Reference `AnsEx:VII' on page 76 undefined on input line 3811.
+Overfull \hbox (28.32849pt too wide) detected at line 3780
+[]
+ []
 
 
 
 [76]
 
 [77]
-<./images/088a.pdf, id=754, 201.75375pt x 190.7125pt>
+<./images/088a.pdf, id=1022, 201.75375pt x 190.7125pt>
 File: ./images/088a.pdf Graphic file (type pdf)
 <use ./images/088a.pdf>
 Package pdftex.def Info: ./images/088a.pdf  used on input line 3834.
 (pdftex.def)             Requested size: 162.6075pt x 153.71092pt.
-
-
-LaTeX Warning: Hyper reference `fig:7' on page 78 undefined on input line 3836.
-
-
 
 
 [78
@@ -1107,144 +1003,78 @@ LaTeX Warning: Hyper reference `fig:7' on page 78 undefined on input line 3836.
  <./images/088a.pdf>]
 
 [79]
-<./images/090a.pdf, id=777, 182.6825pt x 177.66376pt>
+<./images/090a.pdf, id=1043, 182.6825pt x 177.66376pt>
 File: ./images/090a.pdf Graphic file (type pdf)
 <use ./images/090a.pdf>
 Package pdftex.def Info: ./images/090a.pdf  used on input line 3889.
 (pdftex.def)             Requested size: 162.6075pt x 158.14734pt.
-
-
-LaTeX Warning: Hyper reference `fig:8' on page 80 undefined on input line 3892.
-
-
-
-LaTeX Warning: Hyper reference `fig:9' on page 80 undefined on input line 3896.
-
-
-<./images/091a.pdf, id=778, 182.6825pt x 177.66376pt>
+<./images/091a.pdf, id=1046, 182.6825pt x 177.66376pt>
 File: ./images/091a.pdf Graphic file (type pdf)
 <use ./images/091a.pdf>
 Package pdftex.def Info: ./images/091a.pdf  used on input line 3898.
 (pdftex.def)             Requested size: 162.6075pt x 158.14734pt.
-<./images/091b.pdf, id=779, 182.6825pt x 177.66376pt>
+<./images/091b.pdf, id=1047, 182.6825pt x 177.66376pt>
 File: ./images/091b.pdf Graphic file (type pdf)
 <use ./images/091b.pdf>
 Package pdftex.def Info: ./images/091b.pdf  used on input line 3898.
 (pdftex.def)             Requested size: 162.6075pt x 158.14734pt.
-
-LaTeX Warning: Hyper reference `fig:10' on page 80 undefined on input line 3900
-.
-
-<./images/091c.pdf, id=780, 204.765pt x 177.66376pt>
+<./images/091c.pdf, id=1049, 204.765pt x 177.66376pt>
 File: ./images/091c.pdf Graphic file (type pdf)
 <use ./images/091c.pdf>
 Package pdftex.def Info: ./images/091c.pdf  used on input line 3905.
 (pdftex.def)             Requested size: 162.6075pt x 141.09561pt.
 
-LaTeX Warning: Hyper reference `fig:11' on page 80 undefined on input line 3907
-.
-
-
-LaTeX Warning: Hyper reference `fig:12' on page 80 undefined on input line 3914
-.
-
-
 
 [80 <./images/090a.pdf>]
-<./images/092a.pdf, id=794, 209.78375pt x 177.66376pt>
+<./images/092a.pdf, id=1068, 209.78375pt x 177.66376pt>
 File: ./images/092a.pdf Graphic file (type pdf)
 <use ./images/092a.pdf>
 Package pdftex.def Info: ./images/092a.pdf  used on input line 3917.
 (pdftex.def)             Requested size: 162.6075pt x 137.70967pt.
-
-
-LaTeX Warning: Hyper reference `fig:13' on page 81 undefined on input line 3922
-.
-
-<./images/092b.pdf, id=795, 209.78375pt x 177.66376pt>
+<./images/092b.pdf, id=1070, 209.78375pt x 177.66376pt>
 File: ./images/092b.pdf Graphic file (type pdf)
 <use ./images/092b.pdf>
 Package pdftex.def Info: ./images/092b.pdf  used on input line 3923.
 (pdftex.def)             Requested size: 162.6075pt x 137.70967pt.
-
-LaTeX Warning: Hyper reference `fig:14' on page 81 undefined on input line 3928
-.
-
-<./images/093a.pdf, id=796, 201.75375pt x 177.66376pt>
+<./images/093a.pdf, id=1072, 201.75375pt x 177.66376pt>
 File: ./images/093a.pdf Graphic file (type pdf)
 <use ./images/093a.pdf>
 Package pdftex.def Info: ./images/093a.pdf  used on input line 3930.
 (pdftex.def)             Requested size: 162.6075pt x 143.19386pt.
-<./images/093b.pdf, id=797, 201.75375pt x 177.66376pt>
+<./images/093b.pdf, id=1073, 201.75375pt x 177.66376pt>
 File: ./images/093b.pdf Graphic file (type pdf)
 <use ./images/093b.pdf>
 Package pdftex.def Info: ./images/093b.pdf  used on input line 3930.
 (pdftex.def)             Requested size: 162.6075pt x 143.19386pt.
 
-LaTeX Warning: Hyper reference `fig:15' on page 81 undefined on input line 3933
-.
-
-
-LaTeX Warning: Hyper reference `fig:28' on page 81 undefined on input line 3942
-.
-
-
-LaTeX Warning: Hyper reference `fig:28' on page 81 undefined on input line 3942
-.
-
-
-LaTeX Warning: Reference `fig:28' on page 81 undefined on input line 3942.
-
-
 
 [81 <./images/091a.pdf> <./images/091b.pdf> <./images/091c.pdf>]
 
 [82 <./images/092a.pdf> <./images/092b.pdf>]
-
-LaTeX Warning: Hyper reference `fig:16' on page 83 undefined on input line 3955
-.
-
-
-LaTeX Warning: Hyper reference `fig:28' on page 83 undefined on input line 3958
-.
-
-<./images/094a.pdf, id=843, 201.75375pt x 177.66376pt>
+<./images/094a.pdf, id=1124, 201.75375pt x 177.66376pt>
 File: ./images/094a.pdf Graphic file (type pdf)
 <use ./images/094a.pdf>
 Package pdftex.def Info: ./images/094a.pdf  used on input line 3962.
 (pdftex.def)             Requested size: 162.6075pt x 143.19386pt.
-<./images/094b.pdf, id=844, 201.75375pt x 180.675pt>
+<./images/094b.pdf, id=1125, 201.75375pt x 180.675pt>
 File: ./images/094b.pdf Graphic file (type pdf)
 <use ./images/094b.pdf>
 Package pdftex.def Info: ./images/094b.pdf  used on input line 3962.
 (pdftex.def)             Requested size: 162.6075pt x 145.62088pt.
 
-LaTeX Warning: Hyper reference `fig:17' on page 83 undefined on input line 3967
-.
-
-
-LaTeX Warning: Hyper reference `fig:18' on page 83 undefined on input line 3974
-.
-
-
 
 [83 <./images/093a.pdf> <./images/093b.pdf>]
-<./images/095a.pdf, id=868, 201.75375pt x 186.6975pt>
+<./images/095a.pdf, id=1152, 201.75375pt x 186.6975pt>
 File: ./images/095a.pdf Graphic file (type pdf)
 <use ./images/095a.pdf>
 Package pdftex.def Info: ./images/095a.pdf  used on input line 3980.
 (pdftex.def)             Requested size: 162.6075pt x 150.47491pt.
-
-
-LaTeX Warning: Hyper reference `fig:19' on page 84 undefined on input line 3992
-.
-
-<./images/096a.pdf, id=869, 165.61874pt x 177.66376pt>
+<./images/096a.pdf, id=1154, 165.61874pt x 177.66376pt>
 File: ./images/096a.pdf Graphic file (type pdf)
 <use ./images/096a.pdf>
 Package pdftex.def Info: ./images/096a.pdf  used on input line 3995.
 (pdftex.def)             Requested size: 162.6075pt x 174.44272pt.
-<./images/096b.pdf, id=870, 165.61874pt x 177.66376pt>
+<./images/096b.pdf, id=1155, 165.61874pt x 177.66376pt>
 File: ./images/096b.pdf Graphic file (type pdf)
 <use ./images/096b.pdf>
 Package pdftex.def Info: ./images/096b.pdf  used on input line 3995.
@@ -1253,65 +1083,31 @@ Package pdftex.def Info: ./images/096b.pdf  used on input line 3995.
 
 [84 <./images/094a.pdf> <./images/094b.pdf> <./images/095a.pdf>]
 
-LaTeX Warning: Hyper reference `fig:21' on page 85 undefined on input line 4023
-.
-
-
-LaTeX Warning: Hyper reference `fig:20' on page 85 undefined on input line 4023
-.
-
-
-
 [85 <./images/096a.pdf> <./images/096b.pdf>]
-<./images/097a.pdf, id=920, 176.66pt x 79.29625pt>
+<./images/097a.pdf, id=1205, 176.66pt x 79.29625pt>
 File: ./images/097a.pdf Graphic file (type pdf)
 <use ./images/097a.pdf>
 Package pdftex.def Info: ./images/097a.pdf  used on input line 4025.
 (pdftex.def)             Requested size: 126.47249pt x 56.76897pt.
-<./images/097b.pdf, id=923, 272.01625pt x 177.66376pt>
+<./images/097b.pdf, id=1208, 272.01625pt x 177.66376pt>
 File: ./images/097b.pdf Graphic file (type pdf)
 <use ./images/097b.pdf>
 Package pdftex.def Info: ./images/097b.pdf  used on input line 4042.
 (pdftex.def)             Requested size: 234.87749pt x 153.41406pt.
 
 
-LaTeX Warning: Hyper reference `fig:22' on page 86 undefined on input line 4047
-.
-
-
-
 [86 <./images/097a.pdf>]
-
-LaTeX Warning: Hyper reference `fig:23' on page 87 undefined on input line 4081
-.
-
-
-LaTeX Warning: Hyper reference `fig:24' on page 87 undefined on input line 4081
-.
-
-
-LaTeX Warning: Hyper reference `fig:23' on page 87 undefined on input line 4082
-.
-
-
-LaTeX Warning: Hyper reference `fig:24' on page 87 undefined on input line 4083
-.
-
-<./images/099a.pdf, id=935, 208.78pt x 205.76875pt>
+<./images/099a.pdf, id=1227, 208.78pt x 205.76875pt>
 File: ./images/099a.pdf Graphic file (type pdf)
 <use ./images/099a.pdf>
 Package pdftex.def Info: ./images/099a.pdf  used on input line 4089.
 (pdftex.def)             Requested size: 180.67499pt x 178.07855pt.
-<./images/099b.pdf, id=936, 208.78pt x 194.7275pt>
+<./images/099b.pdf, id=1228, 208.78pt x 194.7275pt>
 File: ./images/099b.pdf Graphic file (type pdf)
 <use ./images/099b.pdf>
 Package pdftex.def Info: ./images/099b.pdf  used on input line 4089.
 (pdftex.def)             Requested size: 180.67499pt x 168.52312pt.
-
-LaTeX Warning: Hyper reference `fig:25' on page 87 undefined on input line 4091
-.
-
-<./images/099c.pdf, id=937, 162.6075pt x 141.52875pt>
+<./images/099c.pdf, id=1230, 162.6075pt x 141.52875pt>
 File: ./images/099c.pdf Graphic file (type pdf)
 <use ./images/099c.pdf>
 Package pdftex.def Info: ./images/099c.pdf  used on input line 4093.
@@ -1322,48 +1118,27 @@ Package pdftex.def Info: ./images/099c.pdf  used on input line 4093.
 
 [88 <./images/099a.pdf> <./images/099b.pdf> <./images/099c.pdf>]
 
-LaTeX Warning: Hyper reference `slope' on page 89 undefined on input line 4110.
-
-
-
-LaTeX Warning: Reference `slope' on page 89 undefined on input line 4110.
-
-
-
 [89]
 
 [90]
-
-LaTeX Warning: Hyper reference `AnsEx:VIII' on page 91 undefined on input line 
-4212.
-
-
-LaTeX Warning: Reference `AnsEx:VIII' on page 91 undefined on input line 4212.
-
-
 
 [91]
 
 [92]
 
 [93]
-<./images/105a.pdf, id=1020, 159.59625pt x 177.66376pt>
+<./images/105a.pdf, id=1315, 159.59625pt x 177.66376pt>
 File: ./images/105a.pdf Graphic file (type pdf)
 <use ./images/105a.pdf>
 Package pdftex.def Info: ./images/105a.pdf  used on input line 4285.
 (pdftex.def)             Requested size: 162.6075pt x 181.01672pt.
 
 
-LaTeX Warning: Hyper reference `fig:26' on page 94 undefined on input line 4304
-.
-
-
-
 [94
 
 
 ]
-<./images/106a.pdf, id=1030, 163.61125pt x 165.61874pt>
+<./images/106a.pdf, id=1325, 163.61125pt x 165.61874pt>
 File: ./images/106a.pdf Graphic file (type pdf)
 <use ./images/106a.pdf>
 Package pdftex.def Info: ./images/106a.pdf  used on input line 4314.
@@ -1372,51 +1147,18 @@ Package pdftex.def Info: ./images/106a.pdf  used on input line 4314.
 
 [95 <./images/105a.pdf> <./images/106a.pdf>]
 
-LaTeX Warning: Hyper reference `fig:27' on page 96 undefined on input line 4334
-.
-
-
-LaTeX Warning: Reference `curve' on page 96 undefined on input line 4348.
-
-
-LaTeX Warning: Hyper reference `fig:14' on page 96 undefined on input line 4349
-.
-
-
-LaTeX Warning: Hyper reference `fig:15' on page 96 undefined on input line 4349
-.
-
-
-
 [96]
-
-LaTeX Warning: Hyper reference `fig:26' on page 97 undefined on input line 4394
-.
-
-
-LaTeX Warning: Hyper reference `fig:24' on page 97 undefined on input line 4398
-.
-
-
 
 [97]
 
 [98]
-
-LaTeX Warning: Hyper reference `chap:XII' on page 99 undefined on input line 44
-72.
-
-
-LaTeX Warning: Reference `chap:XII' on page 99 undefined on input line 4472.
-
-
 
 [99]
 
 [100]
 
 [101]
-<./images/113a.pdf, id=1087, 188.705pt x 237.88875pt>
+<./images/113a.pdf, id=1389, 188.705pt x 237.88875pt>
 File: ./images/113a.pdf Graphic file (type pdf)
 <use ./images/113a.pdf>
 Package pdftex.def Info: ./images/113a.pdf  used on input line 4570.
@@ -1424,15 +1166,7 @@ Package pdftex.def Info: ./images/113a.pdf  used on input line 4570.
 
 
 [102 <./images/113a.pdf>]
-
-LaTeX Warning: Hyper reference `fig:28' on page 103 undefined on input line 459
-0.
-
-
-LaTeX Warning: Hyper reference `fig:29' on page 103 undefined on input line 461
-1.
-
-<./images/114a.pdf, id=1103, 201.75375pt x 177.66376pt>
+<./images/114a.pdf, id=1406, 201.75375pt x 177.66376pt>
 File: ./images/114a.pdf Graphic file (type pdf)
 <use ./images/114a.pdf>
 Package pdftex.def Info: ./images/114a.pdf  used on input line 4615.
@@ -1443,32 +1177,12 @@ Package pdftex.def Info: ./images/114a.pdf  used on input line 4615.
 
 [104]
 
-LaTeX Warning: Hyper reference `dodge' on page 105 undefined on input line 4698
-.
-
-
-LaTeX Warning: Reference `dodge' on page 105 undefined on input line 4698.
-
-
-
 [105]
 
 [106]
 
-LaTeX Warning: Hyper reference `ExNo1' on page 107 undefined on input line 4771
-.
-
-
-LaTeX Warning: Reference `ExNo1' on page 107 undefined on input line 4771.
-
-
-
 [107]
-
-LaTeX Warning: Hyper reference `fig:30' on page 108 undefined on input line 482
-3.
-
-<./images/120a.pdf, id=1138, 199.74625pt x 214.8025pt>
+<./images/120a.pdf, id=1446, 199.74625pt x 214.8025pt>
 File: ./images/120a.pdf Graphic file (type pdf)
 <use ./images/120a.pdf>
 Package pdftex.def Info: ./images/120a.pdf  used on input line 4835.
@@ -1479,58 +1193,26 @@ Package pdftex.def Info: ./images/120a.pdf  used on input line 4835.
 
 [109 <./images/120a.pdf>]
 
-LaTeX Warning: Hyper reference `AnsEx:IX' on page 110 undefined on input line 4
-871.
-
-
-LaTeX Warning: Reference `AnsEx:IX' on page 110 undefined on input line 4871.
-
-
-
 [110]
 
 [111]
-<./images/124a.pdf, id=1173, 195.73125pt x 177.66376pt>
+<./images/124a.pdf, id=1483, 195.73125pt x 177.66376pt>
 File: ./images/124a.pdf Graphic file (type pdf)
 <use ./images/124a.pdf>
 Package pdftex.def Info: ./images/124a.pdf  used on input line 4947.
 (pdftex.def)             Requested size: 162.6075pt x 147.60455pt.
-<./images/124b.pdf, id=1174, 182.6825pt x 177.66376pt>
+<./images/124b.pdf, id=1484, 182.6825pt x 177.66376pt>
 File: ./images/124b.pdf Graphic file (type pdf)
 <use ./images/124b.pdf>
 Package pdftex.def Info: ./images/124b.pdf  used on input line 4947.
 (pdftex.def)             Requested size: 162.6075pt x 158.14734pt.
 
 
-LaTeX Warning: Hyper reference `fig:31' on page 112 undefined on input line 494
-9.
-
-
-
 [112
 
 
  <./images/124a.pdf> <./images/124b.pdf>]
-
-LaTeX Warning: Hyper reference `fig:32' on page 113 undefined on input line 495
-4.
-
-
-LaTeX Warning: Hyper reference `fig:14' on page 113 undefined on input line 495
-9.
-
-
-LaTeX Warning: Hyper reference `fig:14' on page 113 undefined on input line 495
-9.
-
-
-LaTeX Warning: Reference `fig:14' on page 113 undefined on input line 4959.
-
-
-LaTeX Warning: Hyper reference `fig:33' on page 113 undefined on input line 495
-9.
-
-<./images/125a.pdf, id=1196, 182.6825pt x 177.66376pt>
+<./images/125a.pdf, id=1510, 182.6825pt x 177.66376pt>
 File: ./images/125a.pdf Graphic file (type pdf)
 <use ./images/125a.pdf>
 Package pdftex.def Info: ./images/125a.pdf  used on input line 4964.
@@ -1538,46 +1220,16 @@ Package pdftex.def Info: ./images/125a.pdf  used on input line 4964.
 
 
 [113 <./images/125a.pdf>]
-
-LaTeX Warning: Hyper reference `fig:15' on page 114 undefined on input line 498
-2.
-
-
-LaTeX Warning: Hyper reference `fig:15' on page 114 undefined on input line 498
-2.
-
-
-LaTeX Warning: Reference `fig:15' on page 114 undefined on input line 4982.
-
-
-LaTeX Warning: Hyper reference `fig:34' on page 114 undefined on input line 498
-2.
-
-<./images/126a.pdf, id=1210, 182.6825pt x 177.66376pt>
+<./images/126a.pdf, id=1528, 182.6825pt x 177.66376pt>
 File: ./images/126a.pdf Graphic file (type pdf)
 <use ./images/126a.pdf>
 Package pdftex.def Info: ./images/126a.pdf  used on input line 4987.
 (pdftex.def)             Requested size: 162.6075pt x 158.14734pt.
-<./images/126b.pdf, id=1211, 182.6825pt x 177.66376pt>
+<./images/126b.pdf, id=1529, 182.6825pt x 177.66376pt>
 File: ./images/126b.pdf Graphic file (type pdf)
 <use ./images/126b.pdf>
 Package pdftex.def Info: ./images/126b.pdf  used on input line 4987.
 (pdftex.def)             Requested size: 162.6075pt x 158.14734pt.
-
-LaTeX Warning: Hyper reference `fig:16' on page 114 undefined on input line 499
-5.
-
-
-LaTeX Warning: Hyper reference `fig:16' on page 114 undefined on input line 499
-5.
-
-
-LaTeX Warning: Reference `fig:16' on page 114 undefined on input line 4995.
-
-
-LaTeX Warning: Hyper reference `fig:35' on page 114 undefined on input line 499
-5.
-
 
 
 [114 <./images/126a.pdf> <./images/126b.pdf>]
@@ -1587,14 +1239,6 @@ LaTeX Warning: Hyper reference `fig:35' on page 114 undefined on input line 499
 [116]
 
 [117]
-
-LaTeX Warning: Hyper reference `AnsEx:X' on page 118 undefined on input line 51
-34.
-
-
-LaTeX Warning: Reference `AnsEx:X' on page 118 undefined on input line 5134.
-
-
 
 [118]
 
@@ -1621,23 +1265,7 @@ LaTeX Warning: Reference `AnsEx:X' on page 118 undefined on input line 5134.
 
 [128]
 
-LaTeX Warning: Hyper reference `partfracs' on page 129 undefined on input line 
-5569.
-
-
-LaTeX Warning: Reference `partfracs' on page 129 undefined on input line 5569.
-
-
-
 [129]
-
-LaTeX Warning: Hyper reference `AnsEx:XI' on page 130 undefined on input line 5
-572.
-
-
-LaTeX Warning: Reference `AnsEx:XI' on page 130 undefined on input line 5572.
-
-
 
 
 
@@ -1693,21 +1321,6 @@ LaTeX Warning: Reference `AnsEx:XI' on page 130 undefined on input line 5572.
 
 [132]
 
-LaTeX Warning: Hyper reference `ExNo1' on page 133 undefined on input line 5690
-.
-
-
-LaTeX Warning: Reference `ExNo1' on page 133 undefined on input line 5690.
-
-
-LaTeX Warning: Hyper reference `Ex:VI' on page 133 undefined on input line 5691
-.
-
-
-LaTeX Warning: Reference `Ex:VI' on page 133 undefined on input line 5691.
-
-
-
 [133]
 
 [134
@@ -1718,23 +1331,15 @@ LaTeX Warning: Reference `Ex:VI' on page 133 undefined on input line 5691.
 [135]
 
 [136]
-
-LaTeX Warning: Hyper reference `fig:36' on page 137 undefined on input line 584
-8.
-
-<./images/150a.pdf, id=1379, 226.8475pt x 177.66376pt>
+<./images/150a.pdf, id=1706, 226.8475pt x 177.66376pt>
 File: ./images/150a.pdf Graphic file (type pdf)
 <use ./images/150a.pdf>
 Package pdftex.def Info: ./images/150a.pdf  used on input line 5855.
 (pdftex.def)             Requested size: 180.67499pt x 141.50226pt.
 
-LaTeX Warning: Hyper reference `fig:37' on page 137 undefined on input line 586
-2.
-
-
 
 [137]
-<./images/151a.pdf, id=1385, 253.94875pt x 201.75375pt>
+<./images/151a.pdf, id=1715, 253.94875pt x 201.75375pt>
 File: ./images/151a.pdf Graphic file (type pdf)
 <use ./images/151a.pdf>
 Package pdftex.def Info: ./images/151a.pdf  used on input line 5876.
@@ -1754,20 +1359,12 @@ Package pdftex.def Info: ./images/151a.pdf  used on input line 5876.
 [143]
 
 [144]
-
-LaTeX Warning: Hyper reference `fig:38' on page 145 undefined on input line 610
-3.
-
-
-LaTeX Warning: Hyper reference `fig:39' on page 145 undefined on input line 610
-3.
-
-<./images/158b.pdf, id=1441, 157.58875pt x 178.6675pt>
+<./images/158b.pdf, id=1770, 157.58875pt x 178.6675pt>
 File: ./images/158b.pdf Graphic file (type pdf)
 <use ./images/158b.pdf>
 Package pdftex.def Info: ./images/158b.pdf  used on input line 6133.
 (pdftex.def)             Requested size: 162.6075pt x 184.36761pt.
-<./images/158a.pdf, id=1442, 157.58875pt x 178.6675pt>
+<./images/158a.pdf, id=1771, 157.58875pt x 178.6675pt>
 File: ./images/158a.pdf Graphic file (type pdf)
 <use ./images/158a.pdf>
 Package pdftex.def Info: ./images/158a.pdf  used on input line 6133.
@@ -1784,32 +1381,10 @@ LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 61
 75.
 
 
-LaTeX Warning: Hyper reference `unchanged' on page 146 undefined on input line 
-6211.
-
-
-LaTeX Warning: Reference `unchanged' on page 146 undefined on input line 6211.
-
-
 
 [146]
 
 [147]
-
-LaTeX Warning: Hyper reference `section:3' on page 148 undefined on input line 
-6261.
-
-
-LaTeX Warning: Reference `section:3' on page 148 undefined on input line 6261.
-
-
-LaTeX Warning: Hyper reference `section:3' on page 148 undefined on input line 
-6261.
-
-
-LaTeX Warning: Reference `section:3' on page 148 undefined on input line 6261.
-
-
 
 [148]
 
@@ -1820,14 +1395,6 @@ LaTeX Warning: Reference `section:3' on page 148 undefined on input line 6261.
 [151]
 
 [152]
-
-LaTeX Warning: Hyper reference `AnsEx:XII' on page 153 undefined on input line 
-6469.
-
-
-LaTeX Warning: Reference `AnsEx:XII' on page 153 undefined on input line 6469.
-
-
 
 [153]
 
@@ -1850,32 +1417,20 @@ LaTeX Warning: Reference `AnsEx:XII' on page 153 undefined on input line 6469.
 
 
 [154]
-
-LaTeX Warning: Hyper reference `fig:40' on page 155 undefined on input line 654
-5.
-
-<./images/167a.pdf, id=1529, 213.79875pt x 159.59625pt>
+<./images/167a.pdf, id=1867, 213.79875pt x 159.59625pt>
 File: ./images/167a.pdf Graphic file (type pdf)
 <use ./images/167a.pdf>
 Package pdftex.def Info: ./images/167a.pdf  used on input line 6549.
 (pdftex.def)             Requested size: 162.6075pt x 121.38206pt.
-<./images/167b.pdf, id=1530, 229.85875pt x 159.59625pt>
+<./images/167b.pdf, id=1868, 229.85875pt x 159.59625pt>
 File: ./images/167b.pdf Graphic file (type pdf)
 <use ./images/167b.pdf>
 Package pdftex.def Info: ./images/167b.pdf  used on input line 6549.
 (pdftex.def)             Requested size: 162.6075pt x 112.90742pt.
 
-LaTeX Warning: Hyper reference `fig:41' on page 155 undefined on input line 655
-4.
-
-
 
 [155 <./images/167a.pdf> <./images/167b.pdf>]
-
-LaTeX Warning: Hyper reference `fig:42' on page 156 undefined on input line 657
-9.
-
-<./images/168a.pdf, id=1557, 216.81pt x 159.59625pt>
+<./images/168a.pdf, id=1896, 216.81pt x 159.59625pt>
 File: ./images/168a.pdf Graphic file (type pdf)
 <use ./images/168a.pdf>
 Package pdftex.def Info: ./images/168a.pdf  used on input line 6586.
@@ -1886,21 +1441,7 @@ Package pdftex.def Info: ./images/168a.pdf  used on input line 6586.
 
 [157 <./images/168a.pdf>]
 
-LaTeX Warning: Hyper reference `fig:42' on page 158 undefined on input line 663
-3.
-
-
-
 [158]
-
-LaTeX Warning: Hyper reference `littletable' on page 159 undefined on input lin
-e 6680.
-
-
-LaTeX Warning: Reference `littletable' on page 159 undefined on input line 6680
-.
-
-
 
 [159]
 
@@ -1910,50 +1451,28 @@ LaTeX Warning: Reference `littletable' on page 159 undefined on input line 6680
 
 ]
 
-LaTeX Warning: Hyper reference `AnsEx:XIII' on page 162 undefined on input line
- 6827.
-
-
-LaTeX Warning: Reference `AnsEx:XIII' on page 162 undefined on input line 6827.
-
-
-
-
 [162]
 
 [163]
 
 [164]
-<./images/177a.pdf, id=1623, 174.6525pt x 165.61874pt>
+<./images/177a.pdf, id=1967, 174.6525pt x 165.61874pt>
 File: ./images/177a.pdf Graphic file (type pdf)
 <use ./images/177a.pdf>
 Package pdftex.def Info: ./images/177a.pdf  used on input line 6920.
 (pdftex.def)             Requested size: 162.6075pt x 154.20578pt.
 
 
-LaTeX Warning: Hyper reference `fig:43' on page 165 undefined on input line 692
-6.
-
-
-
 [165
 
 
  <./images/177a.pdf>]
-
-LaTeX Warning: Hyper reference `fig:44' on page 166 undefined on input line 697
-3.
-
-
-LaTeX Warning: Hyper reference `fig:45' on page 166 undefined on input line 697
-3.
-
-<./images/179a.pdf, id=1640, 292.09125pt x 187.70125pt>
+<./images/179a.pdf, id=1984, 292.09125pt x 187.70125pt>
 File: ./images/179a.pdf Graphic file (type pdf)
 <use ./images/179a.pdf>
 Package pdftex.def Info: ./images/179a.pdf  used on input line 6977.
 (pdftex.def)             Requested size: 289.07999pt x 185.78185pt.
-<./images/179b.pdf, id=1641, 288.07625pt x 187.70125pt>
+<./images/179b.pdf, id=1985, 288.07625pt x 187.70125pt>
 File: ./images/179b.pdf Graphic file (type pdf)
 <use ./images/179b.pdf>
 Package pdftex.def Info: ./images/179b.pdf  used on input line 6978.
@@ -1968,52 +1487,13 @@ Package pdftex.def Info: ./images/179b.pdf  used on input line 6978.
 
 [169]
 
-LaTeX Warning: Hyper reference `chap:IX' on page 170 undefined on input line 70
-73.
-
-
-LaTeX Warning: Reference `chap:IX' on page 170 undefined on input line 7073.
-
-
-
 [170]
 
 [171]
 
-LaTeX Warning: Hyper reference `ExNo1' on page 172 undefined on input line 7206
-.
-
-
-LaTeX Warning: Reference `ExNo1' on page 172 undefined on input line 7206.
-
-
-LaTeX Warning: Hyper reference `ExNo1' on page 172 undefined on input line 7206
-.
-
-
-LaTeX Warning: Reference `ExNo1' on page 172 undefined on input line 7206.
-
-
-
 [172]
 
-LaTeX Warning: Hyper reference `AnsEx:XIV' on page 173 undefined on input line 
-7216.
-
-
-LaTeX Warning: Reference `AnsEx:XIV' on page 173 undefined on input line 7216.
-
-
-
 [173]
-
-LaTeX Warning: Hyper reference `XIII:4' on page 174 undefined on input line 724
-9.
-
-
-LaTeX Warning: Reference `XIII:4' on page 174 undefined on input line 7249.
-
-
 
 [174]
 
@@ -2026,25 +1506,9 @@ LaTeX Warning: Reference `XIII:4' on page 174 undefined on input line 7249.
 
 [177]
 
-LaTeX Warning: Hyper reference `Ex9No4' on page 178 undefined on input line 741
-9.
-
-
-LaTeX Warning: Reference `Ex9No4' on page 178 undefined on input line 7419.
-
-
-
 [178]
 
 [179]
-
-LaTeX Warning: Hyper reference `AnsEx:XV' on page 180 undefined on input line 7
-496.
-
-
-LaTeX Warning: Reference `AnsEx:XV' on page 180 undefined on input line 7496.
-
-
 
 [180]
 
@@ -2056,7 +1520,7 @@ LaTeX Warning: Reference `AnsEx:XV' on page 180 undefined on input line 7496.
 
 
 ]
-<./images/195a.pdf, id=1792, 272.01625pt x 62.2325pt>
+<./images/195a.pdf, id=2155, 272.01625pt x 62.2325pt>
 File: ./images/195a.pdf Graphic file (type pdf)
 <use ./images/195a.pdf>
 Package pdftex.def Info: ./images/195a.pdf  used on input line 7611.
@@ -2064,19 +1528,12 @@ Package pdftex.def Info: ./images/195a.pdf  used on input line 7611.
 
 
 [184 <./images/195a.pdf>]
-
-LaTeX Warning: Hyper reference `Case2' on page 185 undefined on input line 7652
-.
-
-
-LaTeX Warning: Reference `Case2' on page 185 undefined on input line 7652.
-
-<./images/197a.pdf, id=1807, 188.705pt x 195.73125pt>
+<./images/197a.pdf, id=2172, 188.705pt x 195.73125pt>
 File: ./images/197a.pdf Graphic file (type pdf)
 <use ./images/197a.pdf>
 Package pdftex.def Info: ./images/197a.pdf  used on input line 7657.
 (pdftex.def)             Requested size: 180.67499pt x 187.40108pt.
-<./images/197b.pdf, id=1808, 47.17625pt x 30.1125pt>
+<./images/197b.pdf, id=2173, 47.17625pt x 30.1125pt>
 File: ./images/197b.pdf Graphic file (type pdf)
 <use ./images/197b.pdf>
 Package pdftex.def Info: ./images/197b.pdf  used on input line 7662.
@@ -2084,52 +1541,47 @@ Package pdftex.def Info: ./images/197b.pdf  used on input line 7662.
 
 
 [185]
-<./images/198a.pdf, id=1818, 287.0725pt x 16.06pt>
+<./images/198a.pdf, id=2182, 287.0725pt x 16.06pt>
 File: ./images/198a.pdf Graphic file (type pdf)
 <use ./images/198a.pdf>
 Package pdftex.def Info: ./images/198a.pdf  used on input line 7669.
 (pdftex.def)             Requested size: 287.0718pt x 16.05995pt.
-<./images/198b.pdf, id=1819, 275.0275pt x 286.06876pt>
+<./images/198b.pdf, id=2183, 275.0275pt x 286.06876pt>
 File: ./images/198b.pdf Graphic file (type pdf)
 <use ./images/198b.pdf>
 Package pdftex.def Info: ./images/198b.pdf  used on input line 7678.
 (pdftex.def)             Requested size: 234.87749pt x 244.31633pt.
 
 
-LaTeX Warning: Hyper reference `fig:48' on page 186 undefined on input line 768
-0.
-
-
-
 [186 <./images/197a.pdf> <./images/197b.pdf> <./images/198a.pdf>]
 
 [187 <./images/198b.pdf>]
-<./images/200a1.pdf, id=1851, 36.135pt x 2.0075pt>
+<./images/200a1.pdf, id=2216, 36.135pt x 2.0075pt>
 File: ./images/200a1.pdf Graphic file (type pdf)
 <use ./images/200a1.pdf>
 Package pdftex.def Info: ./images/200a1.pdf  used on input line 7728.
 (pdftex.def)             Requested size: 36.13489pt x 2.00749pt.
-<./images/200a2.pdf, id=1852, 38.1425pt x 9.03375pt>
+<./images/200a2.pdf, id=2217, 38.1425pt x 9.03375pt>
 File: ./images/200a2.pdf Graphic file (type pdf)
 <use ./images/200a2.pdf>
 Package pdftex.def Info: ./images/200a2.pdf  used on input line 7728.
 (pdftex.def)             Requested size: 38.1424pt x 9.0337pt.
-<./images/200a3.pdf, id=1853, 39.14626pt x 17.06375pt>
+<./images/200a3.pdf, id=2218, 39.14626pt x 17.06375pt>
 File: ./images/200a3.pdf Graphic file (type pdf)
 <use ./images/200a3.pdf>
 Package pdftex.def Info: ./images/200a3.pdf  used on input line 7728.
 (pdftex.def)             Requested size: 39.14615pt x 17.06369pt.
-<./images/200a4.pdf, id=1854, 39.14626pt x 24.09pt>
+<./images/200a4.pdf, id=2219, 39.14626pt x 24.09pt>
 File: ./images/200a4.pdf Graphic file (type pdf)
 <use ./images/200a4.pdf>
 Package pdftex.def Info: ./images/200a4.pdf  used on input line 7728.
 (pdftex.def)             Requested size: 39.14615pt x 24.08992pt.
-<./images/200a5.pdf, id=1855, 39.14626pt x 31.11626pt>
+<./images/200a5.pdf, id=2220, 39.14626pt x 31.11626pt>
 File: ./images/200a5.pdf Graphic file (type pdf)
 <use ./images/200a5.pdf>
 Package pdftex.def Info: ./images/200a5.pdf  used on input line 7728.
 (pdftex.def)             Requested size: 39.14615pt x 31.11617pt.
-<./images/200a6.pdf, id=1856, 38.1425pt x 39.14626pt>
+<./images/200a6.pdf, id=2221, 38.1425pt x 39.14626pt>
 File: ./images/200a6.pdf Graphic file (type pdf)
 <use ./images/200a6.pdf>
 Package pdftex.def Info: ./images/200a6.pdf  used on input line 7728.
@@ -2158,25 +1610,16 @@ File: ./images/200a6.pdf Graphic file (type pdf)
 <use ./images/200a6.pdf>
 Package pdftex.def Info: ./images/200a6.pdf  used on input line 7728.
 (pdftex.def)             Requested size: 38.1424pt x 39.14615pt.
-
-
-LaTeX Warning: Hyper reference `fig:49' on page 188 undefined on input line 773
-3.
-
-<./images/200b.pdf, id=1857, 237.88875pt x 159.59625pt>
+<./images/200b.pdf, id=2223, 237.88875pt x 159.59625pt>
 File: ./images/200b.pdf Graphic file (type pdf)
 <use ./images/200b.pdf>
 Package pdftex.def Info: ./images/200b.pdf  used on input line 7734.
 (pdftex.def)             Requested size: 216.81pt x 145.4617pt.
 
-LaTeX Warning: Hyper reference `fig:50' on page 188 undefined on input line 773
-7.
-
-
 
 [188 <./images/200a1.pdf> <./images/200a2.pdf> <./images/200a3.pdf> <./images/2
 00a4.pdf> <./images/200a5.pdf> <./images/200a6.pdf>]
-<./images/201a.pdf, id=1875, 231.86626pt x 162.6075pt>
+<./images/201a.pdf, id=2244, 231.86626pt x 162.6075pt>
 File: ./images/201a.pdf Graphic file (type pdf)
 <use ./images/201a.pdf>
 Package pdftex.def Info: ./images/201a.pdf  used on input line 7743.
@@ -2184,22 +1627,11 @@ Package pdftex.def Info: ./images/201a.pdf  used on input line 7743.
 
 
 [189 <./images/200b.pdf> <./images/201a.pdf>]
-
-LaTeX Warning: Hyper reference `fig:51' on page 190 undefined on input line 776
-3.
-
-<./images/202a.pdf, id=1900, 188.705pt x 195.73125pt>
+<./images/202a.pdf, id=2268, 188.705pt x 195.73125pt>
 File: ./images/202a.pdf Graphic file (type pdf)
 <use ./images/202a.pdf>
 Package pdftex.def Info: ./images/202a.pdf  used on input line 7767.
 (pdftex.def)             Requested size: 162.6075pt x 168.66307pt.
-
-LaTeX Warning: Hyper reference `AnsEx:XVI' on page 190 undefined on input line 
-7770.
-
-
-LaTeX Warning: Reference `AnsEx:XVI' on page 190 undefined on input line 7770.
-
 
 
 [190 <./images/202a.pdf>]
@@ -2213,14 +1645,6 @@ LaTeX Warning: Reference `AnsEx:XVI' on page 190 undefined on input line 7770.
 
 [193]
 
-LaTeX Warning: Hyper reference `revdif' on page 194 undefined on input line 791
-9.
-
-
-LaTeX Warning: Reference `revdif' on page 194 undefined on input line 7919.
-
-
-
 [194]
 
 [195]
@@ -2231,152 +1655,17 @@ LaTeX Warning: Reference `revdif' on page 194 undefined on input line 7919.
 
 [198]
 
-LaTeX Warning: Hyper reference `differlog' on page 199 undefined on input line 
-8100.
-
-
-LaTeX Warning: Reference `differlog' on page 199 undefined on input line 8100.
-
-
-
 [199]
 
 [200]
 
-LaTeX Warning: Hyper reference `differlog' on page 201 undefined on input line 
-8208.
-
-
-LaTeX Warning: Reference `differlog' on page 201 undefined on input line 8208.
-
-
-LaTeX Warning: Hyper reference `differ2' on page 201 undefined on input line 82
-08.
-
-
-LaTeX Warning: Reference `differ2' on page 201 undefined on input line 8208.
-
-
-LaTeX Warning: Hyper reference `unchanged' on page 201 undefined on input line 
-8208.
-
-
-LaTeX Warning: Reference `unchanged' on page 201 undefined on input line 8208.
-
-
-LaTeX Warning: Hyper reference `differcos' on page 201 undefined on input line 
-8208.
-
-
-LaTeX Warning: Reference `differcos' on page 201 undefined on input line 8208.
-
-
-LaTeX Warning: Hyper reference `differsin' on page 201 undefined on input line 
-8208.
-
-
-LaTeX Warning: Reference `differsin' on page 201 undefined on input line 8208.
-
-
-LaTeX Warning: Hyper reference `diffexp' on page 201 undefined on input line 82
-08.
-
-
-LaTeX Warning: Reference `diffexp' on page 201 undefined on input line 8208.
-
-
-LaTeX Warning: Hyper reference `differlog' on page 201 undefined on input line 
-8208.
-
-
-LaTeX Warning: Reference `differlog' on page 201 undefined on input line 8208.
-
-
-LaTeX Warning: Hyper reference `differ2' on page 201 undefined on input line 82
-08.
-
-
-LaTeX Warning: Reference `differ2' on page 201 undefined on input line 8208.
-
-
-LaTeX Warning: Hyper reference `unchanged' on page 201 undefined on input line 
-8208.
-
-
-LaTeX Warning: Reference `unchanged' on page 201 undefined on input line 8208.
-
-
-LaTeX Warning: Hyper reference `differcos' on page 201 undefined on input line 
-8208.
-
-
-LaTeX Warning: Reference `differcos' on page 201 undefined on input line 8208.
-
-
-LaTeX Warning: Hyper reference `differsin' on page 201 undefined on input line 
-8208.
-
-
-LaTeX Warning: Reference `differsin' on page 201 undefined on input line 8208.
-
-
-LaTeX Warning: Hyper reference `diffexp' on page 201 undefined on input line 82
-08.
-
-
-LaTeX Warning: Reference `diffexp' on page 201 undefined on input line 8208.
-
-
-
 [201]
-
-LaTeX Warning: Hyper reference `moreexamples' on page 202 undefined on input li
-ne 8223.
-
-
-LaTeX Warning: Reference `moreexamples' on page 202 undefined on input line 822
-3.
-
-
-LaTeX Warning: Hyper reference `moreexamples' on page 202 undefined on input li
-ne 8223.
-
-
-LaTeX Warning: Reference `moreexamples' on page 202 undefined on input line 822
-3.
-
-
 
 [202]
 
-LaTeX Warning: Hyper reference `stdforms1' on page 203 undefined on input line 
-8226.
-
-
-LaTeX Warning: Reference `stdforms1' on page 203 undefined on input line 8226.
-
-
-
 [203]
 
-LaTeX Warning: Hyper reference `limits' on page 204 undefined on input line 828
-3.
-
-
-LaTeX Warning: Reference `limits' on page 204 undefined on input line 8283.
-
-
-
 [204]
-
-LaTeX Warning: Hyper reference `AnsEx:XVII' on page 205 undefined on input line
- 8304.
-
-
-LaTeX Warning: Reference `AnsEx:XVII' on page 205 undefined on input line 8304.
-
-
-
 
 
 
@@ -2417,23 +1706,18 @@ LaTeX Warning: Reference `AnsEx:XVII' on page 205 undefined on input line 8304.
 
 
 [206]
-<./images/218a.pdf, id=2029, 158.5925pt x 201.75375pt>
+<./images/218a.pdf, id=2522, 158.5925pt x 201.75375pt>
 File: ./images/218a.pdf Graphic file (type pdf)
 <use ./images/218a.pdf>
 Package pdftex.def Info: ./images/218a.pdf  used on input line 8354.
 (pdftex.def)             Requested size: 180.67499pt x 229.8662pt.
 
 
-LaTeX Warning: Hyper reference `fig:52' on page 207 undefined on input line 835
-6.
-
-
-
 [207
 
 
  <./images/218a.pdf>]
-<./images/219a.pdf, id=2048, 24.09pt x 116.435pt>
+<./images/219a.pdf, id=2539, 24.09pt x 116.435pt>
 File: ./images/219a.pdf Graphic file (type pdf)
 <use ./images/219a.pdf>
 Package pdftex.def Info: ./images/219a.pdf  used on input line 8382.
@@ -2444,65 +1728,26 @@ Package pdftex.def Info: ./images/219a.pdf  used on input line 8382.
 
 [209]
 
-LaTeX Warning: Hyper reference `fig:52' on page 210 undefined on input line 845
-3.
-
-
-LaTeX Warning: Hyper reference `fig:52' on page 210 undefined on input line 845
-3.
-
-
-LaTeX Warning: Reference `fig:52' on page 210 undefined on input line 8453.
-
-
-LaTeX Warning: Hyper reference `fig:52' on page 210 undefined on input line 847
-2.
-
-
-LaTeX Warning: Hyper reference `section:9' on page 210 undefined on input line 
-8479.
-
-
-LaTeX Warning: Reference `section:9' on page 210 undefined on input line 8479.
-
-
-
 [210]
 
 [211]
-
-LaTeX Warning: Hyper reference `fig:53' on page 212 undefined on input line 853
-4.
-
-<./images/223a.pdf, id=2073, 151.56625pt x 106.3975pt>
+<./images/223a.pdf, id=2570, 151.56625pt x 106.3975pt>
 File: ./images/223a.pdf Graphic file (type pdf)
 <use ./images/223a.pdf>
 Package pdftex.def Info: ./images/223a.pdf  used on input line 8539.
 (pdftex.def)             Requested size: 162.6075pt x 114.1494pt.
 
-LaTeX Warning: Hyper reference `diffrule' on page 212 undefined on input line 8
-552.
-
-
-LaTeX Warning: Reference `diffrule' on page 212 undefined on input line 8552.
-
-
 
 [212 <./images/223a.pdf>]
-<./images/224a.pdf, id=2088, 235.88126pt x 149.55875pt>
+<./images/224a.pdf, id=2588, 235.88126pt x 149.55875pt>
 File: ./images/224a.pdf Graphic file (type pdf)
 <use ./images/224a.pdf>
 Package pdftex.def Info: ./images/224a.pdf  used on input line 8567.
 (pdftex.def)             Requested size: 198.7425pt x 126.01416pt.
 
 
-LaTeX Warning: Hyper reference `fig:54' on page 213 undefined on input line 858
-8.
-
-
-
 [213 <./images/224a.pdf>]
-<./images/225a.pdf, id=2103, 213.79875pt x 187.70125pt>
+<./images/225a.pdf, id=2603, 213.79875pt x 187.70125pt>
 File: ./images/225a.pdf Graphic file (type pdf)
 <use ./images/225a.pdf>
 Package pdftex.def Info: ./images/225a.pdf  used on input line 8604.
@@ -2510,80 +1755,36 @@ Package pdftex.def Info: ./images/225a.pdf  used on input line 8604.
 
 
 [214 <./images/225a.pdf>]
-<./images/226a.pdf, id=2117, 110.4125pt x 129.48375pt>
+<./images/226a.pdf, id=2617, 110.4125pt x 129.48375pt>
 File: ./images/226a.pdf Graphic file (type pdf)
 <use ./images/226a.pdf>
 Package pdftex.def Info: ./images/226a.pdf  used on input line 8623.
 (pdftex.def)             Requested size: 108.405pt x 127.1362pt.
 
 
-LaTeX Warning: Hyper reference `fig:56' on page 215 undefined on input line 862
-4.
-
-
-LaTeX Warning: Hyper reference `section:5' on page 215 undefined on input line 
-8637.
-
-
-LaTeX Warning: Reference `section:5' on page 215 undefined on input line 8637.
-
-
-LaTeX Warning: Hyper reference `fig:57' on page 215 undefined on input line 863
-8.
-
-
-LaTeX Warning: Hyper reference `differ3' on page 215 undefined on input line 86
-47.
-
-
-LaTeX Warning: Reference `differ3' on page 215 undefined on input line 8647.
-
-
-LaTeX Warning: Hyper reference `differ3' on page 215 undefined on input line 86
-47.
-
-
-LaTeX Warning: Reference `differ3' on page 215 undefined on input line 8647.
-
-
-
 [215 <./images/226a.pdf>]
-<./images/227a.pdf, id=2132, 182.6825pt x 141.52875pt>
+<./images/227a.pdf, id=2641, 182.6825pt x 141.52875pt>
 File: ./images/227a.pdf Graphic file (type pdf)
 <use ./images/227a.pdf>
 Package pdftex.def Info: ./images/227a.pdf  used on input line 8649.
 (pdftex.def)             Requested size: 162.6075pt x 125.98178pt.
-<./images/227b.pdf, id=2133, 179.67125pt x 158.5925pt>
+<./images/227b.pdf, id=2642, 179.67125pt x 158.5925pt>
 File: ./images/227b.pdf Graphic file (type pdf)
 <use ./images/227b.pdf>
 Package pdftex.def Info: ./images/227b.pdf  used on input line 8649.
 (pdftex.def)             Requested size: 162.6075pt x 143.54016pt.
 
 
-LaTeX Warning: Hyper reference `fig:58' on page 216 undefined on input line 865
-4.
-
-
-
 [216 <./images/227a.pdf> <./images/227b.pdf>]
-<./images/228a.pdf, id=2154, 168.63pt x 165.61874pt>
+<./images/228a.pdf, id=2663, 168.63pt x 165.61874pt>
 File: ./images/228a.pdf Graphic file (type pdf)
 <use ./images/228a.pdf>
 Package pdftex.def Info: ./images/228a.pdf  used on input line 8675.
 (pdftex.def)             Requested size: 162.6075pt x 159.70735pt.
 
 
-LaTeX Warning: Hyper reference `fig:59' on page 217 undefined on input line 867
-8.
-
-
-
 [217 <./images/228a.pdf>]
-
-LaTeX Warning: Hyper reference `fig:60' on page 218 undefined on input line 871
-5.
-
-<./images/229a.pdf, id=2167, 242.9075pt x 102.3825pt>
+<./images/229a.pdf, id=2678, 242.9075pt x 102.3825pt>
 File: ./images/229a.pdf Graphic file (type pdf)
 <use ./images/229a.pdf>
 Package pdftex.def Info: ./images/229a.pdf  used on input line 8716.
@@ -2591,11 +1792,7 @@ Package pdftex.def Info: ./images/229a.pdf  used on input line 8716.
 
 
 [218 <./images/229a.pdf>]
-
-LaTeX Warning: Hyper reference `fig:61' on page 219 undefined on input line 877
-8.
-
-<./images/231a.pdf, id=2182, 186.6975pt x 134.5025pt>
+<./images/231a.pdf, id=2695, 186.6975pt x 134.5025pt>
 File: ./images/231a.pdf Graphic file (type pdf)
 <use ./images/231a.pdf>
 Package pdftex.def Info: ./images/231a.pdf  used on input line 8779.
@@ -2606,37 +1803,16 @@ Package pdftex.def Info: ./images/231a.pdf  used on input line 8779.
 
 [220 <./images/231a.pdf>]
 
-LaTeX Warning: Hyper reference `fig:59' on page 221 undefined on input line 884
-2.
-
-
-LaTeX Warning: Hyper reference `fig:59' on page 221 undefined on input line 884
-2.
-
-
-LaTeX Warning: Reference `fig:59' on page 221 undefined on input line 8842.
-
-
-
 [221]
-<./images/233a.pdf, id=2214, 158.5925pt x 173.64874pt>
+<./images/233a.pdf, id=2727, 158.5925pt x 173.64874pt>
 File: ./images/233a.pdf Graphic file (type pdf)
 <use ./images/233a.pdf>
 Package pdftex.def Info: ./images/233a.pdf  used on input line 8851.
 (pdftex.def)             Requested size: 144.54pt x 158.27496pt.
 
 
-LaTeX Warning: Hyper reference `fig:62' on page 222 undefined on input line 885
-5.
-
-
-
 [222 <./images/233a.pdf>]
-
-LaTeX Warning: Hyper reference `fig:63' on page 223 undefined on input line 890
-2.
-
-<./images/235a.pdf, id=2227, 201.75375pt x 129.48375pt>
+<./images/235a.pdf, id=2742, 201.75375pt x 129.48375pt>
 File: ./images/235a.pdf Graphic file (type pdf)
 <use ./images/235a.pdf>
 Package pdftex.def Info: ./images/235a.pdf  used on input line 8907.
@@ -2645,28 +1821,7 @@ Package pdftex.def Info: ./images/235a.pdf  used on input line 8907.
 
 [223]
 
-LaTeX Warning: Hyper reference `AnsEx:XVIII' on page 224 undefined on input lin
-e 8939.
-
-
-LaTeX Warning: Reference `AnsEx:XVIII' on page 224 undefined on input line 8939
-.
-
-
-
 [224 <./images/235a.pdf>]
-
-LaTeX Warning: Hyper reference `fig:30' on page 225 undefined on input line 895
-8.
-
-
-LaTeX Warning: Hyper reference `fig:30' on page 225 undefined on input line 895
-8.
-
-
-LaTeX Warning: Reference `fig:30' on page 225 undefined on input line 8958.
-
-
 
 [225]
 
@@ -2679,37 +1834,7 @@ LaTeX Warning: Reference `fig:30' on page 225 undefined on input line 8958.
 
 [228]
 
-LaTeX Warning: Hyper reference `chap:IX' on page 229 undefined on input line 91
-19.
-
-
-LaTeX Warning: Reference `chap:IX' on page 229 undefined on input line 9119.
-
-
-LaTeX Warning: Hyper reference `chap:IX' on page 229 undefined on input line 91
-19.
-
-
-LaTeX Warning: Reference `chap:IX' on page 229 undefined on input line 9119.
-
-
-
 [229]
-
-LaTeX Warning: Hyper reference `intex3' on page 230 undefined on input line 914
-0.
-
-
-LaTeX Warning: Reference `intex3' on page 230 undefined on input line 9140.
-
-
-LaTeX Warning: Hyper reference `chap:IX' on page 230 undefined on input line 91
-50.
-
-
-LaTeX Warning: Reference `chap:IX' on page 230 undefined on input line 9150.
-
-
 Overfull \hbox (36.70195pt too wide) detected at line 9172
 []
  []
@@ -2718,45 +1843,11 @@ Overfull \hbox (36.70195pt too wide) detected at line 9172
 
 [230]
 
-LaTeX Warning: Hyper reference `partfracs2' on page 231 undefined on input line
- 9203.
-
-
-LaTeX Warning: Reference `partfracs2' on page 231 undefined on input line 9203.
-
-
-
-LaTeX Warning: Hyper reference `partfracs3' on page 231 undefined on input line
- 9206.
-
-
-LaTeX Warning: Reference `partfracs3' on page 231 undefined on input line 9206.
-
-
-
-
 [231]
-
-LaTeX Warning: Hyper reference `chap:XVIII' on page 232 undefined on input line
- 9225.
-
-
-LaTeX Warning: Reference `chap:XVIII' on page 232 undefined on input line 9225.
-
-
-
 
 [232]
 
 [233]
-
-LaTeX Warning: Hyper reference `AnsEx:XIX' on page 234 undefined on input line 
-9292.
-
-
-LaTeX Warning: Reference `AnsEx:XIX' on page 234 undefined on input line 9292.
-
-
 
 
 
@@ -2802,73 +1893,18 @@ LaTeX Warning: Reference `AnsEx:XIX' on page 234 undefined on input line 9292.
 
 [234]
 
-LaTeX Warning: Hyper reference `section:5' on page 235 undefined on input line 
-9364.
-
-
-LaTeX Warning: Reference `section:5' on page 235 undefined on input line 9364.
-
-
-
 [235
 
 
 ]
 
-LaTeX Warning: Hyper reference `expolo' on page 236 undefined on input line 938
-0.
-
-
-LaTeX Warning: Reference `expolo' on page 236 undefined on input line 9380.
-
-
-
 [236]
 
-LaTeX Warning: Hyper reference `fig:48' on page 237 undefined on input line 941
-4.
-
-
-LaTeX Warning: Hyper reference `constant' on page 237 undefined on input line 9
-414.
-
-
-LaTeX Warning: Reference `constant' on page 237 undefined on input line 9414.
-
-
-LaTeX Warning: Hyper reference `fig:51' on page 237 undefined on input line 941
-4.
-
-
-LaTeX Warning: Hyper reference `fig:51' on page 237 undefined on input line 941
-4.
-
-
-LaTeX Warning: Reference `fig:51' on page 237 undefined on input line 9414.
-
-
-
 [237]
-
-LaTeX Warning: Hyper reference `differlog' on page 238 undefined on input line 
-9448.
-
-
-LaTeX Warning: Reference `differlog' on page 238 undefined on input line 9448.
-
-
 
 [238]
 
 [239]
-
-LaTeX Warning: Hyper reference `intparts' on page 240 undefined on input line 9
-527.
-
-
-LaTeX Warning: Reference `intparts' on page 240 undefined on input line 9527.
-
-
 
 [240]
 
@@ -2876,33 +1912,9 @@ LaTeX Warning: Reference `intparts' on page 240 undefined on input line 9527.
 
 [242]
 
-LaTeX Warning: Hyper reference `partialdiff' on page 243 undefined on input lin
-e 9646.
-
-
-LaTeX Warning: Reference `partialdiff' on page 243 undefined on input line 9646
-.
-
-
-
 [243]
 
 [244]
-
-LaTeX Warning: Hyper reference `intex3' on page 245 undefined on input line 973
-8.
-
-
-LaTeX Warning: Reference `intex3' on page 245 undefined on input line 9738.
-
-
-LaTeX Warning: Hyper reference `unchanged' on page 245 undefined on input line 
-9762.
-
-
-LaTeX Warning: Reference `unchanged' on page 245 undefined on input line 9762.
-
-
 
 [245]
 
@@ -2910,23 +1922,7 @@ LaTeX Warning: Reference `unchanged' on page 245 undefined on input line 9762.
 
 [247]
 
-LaTeX Warning: Hyper reference `Example4' on page 248 undefined on input line 9
-844.
-
-
-LaTeX Warning: Reference `Example4' on page 248 undefined on input line 9844.
-
-
-
 [248]
-
-LaTeX Warning: Hyper reference `stdforms1' on page 249 undefined on input line 
-9896.
-
-
-LaTeX Warning: Reference `stdforms1' on page 249 undefined on input line 9896.
-
-
 
 [249]
 
@@ -3042,13 +2038,6 @@ OML/cmm/m/it/12 bt\OT1/cmr/m/n/12 )$, $\OML/cmm/m/it/12 R[] []$\OT1/cmr/m/n/12
 
 
 
-LaTeX Warning: Hyper reference `Ex:VI' on page 258 undefined on input line 1027
-0.
-
-
-LaTeX Warning: Reference `Ex:VI' on page 258 undefined on input line 10270.
-
-
 
 
 
@@ -3077,28 +2066,9 @@ LaTeX Warning: Reference `Ex:VI' on page 258 undefined on input line 10270.
 
 
 
-LaTeX Warning: Hyper reference `Ex:VII' on page 259 undefined on input line 102
-90.
-
-
-LaTeX Warning: Reference `Ex:VII' on page 259 undefined on input line 10290.
-
-
-LaTeX Warning: Hyper reference `Ex:VIII' on page 259 undefined on input line 10
-300.
-
-
-LaTeX Warning: Reference `Ex:VIII' on page 259 undefined on input line 10300.
-
-
 
 [259]
 
-LaTeX Warning: Hyper reference `Ex:IX' on page 260 undefined on input line 1032
-2.
-
-
-LaTeX Warning: Reference `Ex:IX' on page 260 undefined on input line 10322.
 
 
 
@@ -3108,16 +2078,6 @@ LaTeX Warning: Reference `Ex:IX' on page 260 undefined on input line 10322.
 
 
 
-
-
-
-
-
-LaTeX Warning: Hyper reference `Ex:X' on page 260 undefined on input line 10350
-.
-
-
-LaTeX Warning: Reference `Ex:X' on page 260 undefined on input line 10350.
 
 
 
@@ -3134,22 +2094,9 @@ LaTeX Warning: Reference `Ex:X' on page 260 undefined on input line 10350.
 
 
 
-LaTeX Warning: Hyper reference `Example10' on page 261 undefined on input line 
-10382.
-
-
-LaTeX Warning: Reference `Example10' on page 261 undefined on input line 10382.
-
-
-
 
 [261]
 
-LaTeX Warning: Hyper reference `Ex:XI' on page 262 undefined on input line 1038
-8.
-
-
-LaTeX Warning: Reference `Ex:XI' on page 262 undefined on input line 10388.
 
 
 
@@ -3173,16 +2120,6 @@ LaTeX Warning: Reference `Ex:XI' on page 262 undefined on input line 10388.
 
 
 
-
-
-
-
-
-LaTeX Warning: Hyper reference `Ex:XII' on page 262 undefined on input line 104
-34.
-
-
-LaTeX Warning: Reference `Ex:XII' on page 262 undefined on input line 10434.
 
 
 
@@ -3221,29 +2158,6 @@ LaTeX Warning: Reference `Ex:XII' on page 262 undefined on input line 10434.
 
 
 
-LaTeX Warning: Hyper reference `Ex:XIII' on page 263 undefined on input line 10
-471.
-
-
-LaTeX Warning: Reference `Ex:XIII' on page 263 undefined on input line 10471.
-
-
-LaTeX Warning: Hyper reference `littletable' on page 263 undefined on input lin
-e 10473.
-
-
-LaTeX Warning: Reference `littletable' on page 263 undefined on input line 1047
-3.
-
-
-LaTeX Warning: Hyper reference `littletable' on page 263 undefined on input lin
-e 10477.
-
-
-LaTeX Warning: Reference `littletable' on page 263 undefined on input line 1047
-7.
-
-
 
 [263]
 
@@ -3256,13 +2170,6 @@ LaTeX Warning: Reference `littletable' on page 263 undefined on input line 1047
 
 
 
-
-
-LaTeX Warning: Hyper reference `Ex:XIV' on page 264 undefined on input line 105
-06.
-
-
-LaTeX Warning: Reference `Ex:XIV' on page 264 undefined on input line 10506.
 
 
 
@@ -3280,38 +2187,10 @@ LaTeX Warning: Reference `Ex:XIV' on page 264 undefined on input line 10506.
 
 [264]
 
-LaTeX Warning: Hyper reference `Ex:XV' on page 265 undefined on input line 1056
-5.
-
-
-LaTeX Warning: Reference `Ex:XV' on page 265 undefined on input line 10565.
-
-
-
 [265]
 
 [266]
 
-LaTeX Warning: Hyper reference `Ex:XVI' on page 267 undefined on input line 105
-98.
-
-
-LaTeX Warning: Reference `Ex:XVI' on page 267 undefined on input line 10598.
-
-
-
-
-
-
-
-
-
-
-LaTeX Warning: Hyper reference `Ex:XVII' on page 267 undefined on input line 10
-615.
-
-
-LaTeX Warning: Reference `Ex:XVII' on page 267 undefined on input line 10615.
 
 
 
@@ -3334,10 +2213,9 @@ LaTeX Warning: Reference `Ex:XVII' on page 267 undefined on input line 10615.
 
 
 
-LaTeX Warning: Reference `intex1' on page 267 undefined on input line 10636.
 
 
-LaTeX Warning: Reference `intex2' on page 267 undefined on input line 10636.
+
 
 
 
@@ -3372,13 +2250,6 @@ LaTeX Warning: Reference `intex2' on page 267 undefined on input line 10636.
 
 
 
-LaTeX Warning: Hyper reference `Ex:XVIII' on page 268 undefined on input line 1
-0665.
-
-
-LaTeX Warning: Reference `Ex:XVIII' on page 268 undefined on input line 10665.
-
-
 
 
 
@@ -3393,21 +2264,6 @@ LaTeX Warning: Reference `Ex:XVIII' on page 268 undefined on input line 10665.
 
 
 [268]
-
-LaTeX Warning: Hyper reference `cosax' on page 269 undefined on input line 1071
-4.
-
-
-LaTeX Warning: Reference `cosax' on page 269 undefined on input line 10714.
-
-
-LaTeX Warning: Hyper reference `Ex:XIX' on page 269 undefined on input line 107
-32.
-
-
-LaTeX Warning: Reference `Ex:XIX' on page 269 undefined on input line 10732.
-
-
 
 
 
@@ -3456,36 +2312,6 @@ Underfull \hbox (badness 1975) in paragraph at lines 10831--10832
 [272]
 
 [273]
-
-LaTeX Warning: Hyper reference `erratum0' on page 274 undefined on input line 1
-0890.
-
-
-LaTeX Warning: Reference `erratum0' on page 274 undefined on input line 10890.
-
-
-LaTeX Warning: Hyper reference `erratum0a' on page 274 undefined on input line 
-10890.
-
-
-LaTeX Warning: Reference `erratum0a' on page 274 undefined on input line 10890.
-
-
-
-LaTeX Warning: Hyper reference `erratum1' on page 274 undefined on input line 1
-0890.
-
-
-LaTeX Warning: Reference `erratum1' on page 274 undefined on input line 10890.
-
-
-LaTeX Warning: Hyper reference `erratum2' on page 274 undefined on input line 1
-0890.
-
-
-LaTeX Warning: Reference `erratum2' on page 274 undefined on input line 10890.
-
-
 
 [274
 
@@ -3668,29 +2494,17 @@ mathcolor.ltx
 ./images/235a.pdf
  ***********
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `33283-t.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `33283-t.out':
-(rerunfilecheck)             Before: 59C6CF54B4EE8519ECC355DEC980F218;2518
-(rerunfilecheck)             After:  85F9FC56F739B72451D94A99A5881EDA;10633.
+Package rerunfilecheck Info: File `33283-t.out' has not changed.
+(rerunfilecheck)             Checksum: 85F9FC56F739B72451D94A99A5881EDA;10633.
  ) 
 Here is how much of TeX's memory you used:
- 13682 strings out of 468133
- 209426 string characters out of 5430228
- 626713 words of memory out of 5000000
- 41198 multiletter control sequences out of 15000+600000
- 644870 words of font info for 105 fonts, out of 8000000 for 9000
+ 13723 strings out of 468133
+ 210420 string characters out of 5430228
+ 650812 words of memory out of 5000000
+ 41240 multiletter control sequences out of 15000+600000
+ 644251 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,19n,79p,281b,657s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 74i,19n,79p,533b,657s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Jerson\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcr
 m0700.pk> <C:\Users\Jerson\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi
 600\tcrm0800.pk> <C:\Users\Jerson\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen
@@ -3723,9 +2537,9 @@ son/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:
 /Users/Jerson/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt
 9.pfb><C:/Users/Jerson/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/symbols/msam10.pfb>
-Output written on 33283-t.pdf (294 pages, 1834382 bytes).
+Output written on 33283-t.pdf (295 pages, 1913651 bytes).
 PDF statistics:
- 2929 PDF objects out of 2984 (max. 8388607)
- 930 named destinations out of 1000 (max. 500000)
- 531 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3507 PDF objects out of 3580 (max. 8388607)
+ 931 named destinations out of 1000 (max. 500000)
+ 915 words of extra memory for PDF output out of 10000 (max. 10000000)
 
